@@ -24,3 +24,12 @@ significant performance improvements, so try to use them. One of the project com
 which includes a kernel with these additions. Further, this kernel is also a project component, so in case you want to build
 your own kernel, you could base that work on this component.
 
+Currently, the only sound generating program is Fluidsynth, but more may come or you can add your own.
+
+With the current standard setup you can have Fluidsynth play 8 different high quality instruments simultaneously.
+
+With the unison component you could clone the MIDI notes from your attached keyboard, and have Fluidsynth play the same notes
+on 8 different instruments simultaneously. 
+
+Fluidsynth works with soundfonts and the project provides links to high quality soundfont files - your sound library may
+become unlimited.
