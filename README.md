@@ -9,6 +9,7 @@ Meta repository for the soundqube project - a music studio in an Raspberry PI bo
 - unison - sends incoming MIDI note events to mutiple MIDI channels
 - http2midi - generate MIDI events using an HTTP interface
 - systemd services - various systemd service files
+- soundfont links
 
 # Overview
 The soundqube project aims at creating and using software for a music production studio.
