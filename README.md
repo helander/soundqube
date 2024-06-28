@@ -1,7 +1,7 @@
 # soundqube
 Meta repository for the soundqube project - a music studio in an Raspberry PI box
 
-# referenced repositories
+# referenced repositories and other components
 - Raspberry Pi image - contains a fully working setup
 - Linux kernel with Realtime additions
 - Fluidweb - a web interface to control Fluidsynth
@@ -10,6 +10,7 @@ Meta repository for the soundqube project - a music studio in an Raspberry PI bo
 - http2midi - generate MIDI events using an HTTP interface
 - systemd services - various systemd service files
 - soundfont links
+- Fluidsynth
 
 # Overview
 The soundqube project aims at creating and using software for a music production studio.
