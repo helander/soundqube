@@ -1,0 +1,6 @@
+set midi.autoconnect 0
+load /usr/share/sounds/sf2/FluidR3_GM.sf2
+load /usr/share/sounds/sf2/TimGM6mb.sf2
+load /usr/share/sounds/sf3/default-GM.sf3
+
+

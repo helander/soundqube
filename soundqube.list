@@ -1,2 +1,4 @@
 deb [trusted=yes] https://raw.githubusercontent.com/helander/fluidweb/main/repo ./
 deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/jack/repo ./
+deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/main/repo ./
+deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/fluidsynth/repo ./

@@ -1,0 +1,17 @@
+[Unit]
+Description=Fluidsynth 0
+After=soundqube-jack.service
+BindsTo=soundqube-jack.service
+
+[Service]
+LimitRTPRIO=95
+LimitMEMLOCK=infinity
+Environment=JACK_PROMISCUOUS_SERVER=jack
+ExecStart=/usr/bin/fluidsynth -p "fluid0" --server --no-shell -r48000  -a jack --connect-jack-outputs -m alsa_seq -f /etc/soundqube/fluidsynth/init
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
+

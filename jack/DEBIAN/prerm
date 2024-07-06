@@ -1,0 +1,6 @@
+#!/bin/bash
+ 
+if [ "$1" = remove ] ; then
+        systemctl stop soundqube-jack
+        systemctl disable soundqube-jack
+fi
