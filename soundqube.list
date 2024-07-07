@@ -3,3 +3,4 @@ deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/jack
 deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/main/repo ./
 deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/fluidsynth/repo ./
 deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/unison/repo ./
+deb [trusted=yes] https://raw.githubusercontent.com/helander/soundqube/main/autoconnect/repo ./
