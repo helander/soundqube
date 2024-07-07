@@ -1,0 +1,12 @@
+[Unit]
+Description=Unison (clone MIDI notes on multiple channels)
+After=sound.target
+
+[Service]
+ExecStart=/usr/bin/unison/unison unison
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
+
