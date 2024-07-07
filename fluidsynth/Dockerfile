@@ -11,7 +11,7 @@ RUN sed -i s/VERSION/${VERSION}/g package/DEBIAN/control
 
 RUN mkdir -p package/etc/systemd/system
 ADD soundqube-fluidsynth.service package/etc/systemd/system
-ADD init.fluidsynth package/etc/soundqube/fluidsynth/init
+ADD init.fluidsynth package/usr/share/soundqube/fluidsynth/init
 RUN dpkg-deb --build --root-owner-group package
 RUN mv package.deb soundqube-fluidsynth_${VERSION}-1_${ARCH}.deb
 
