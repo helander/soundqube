@@ -3,7 +3,7 @@ Description=Unison (clone MIDI notes on multiple channels)
 After=sound.target
 
 [Service]
-ExecStart=/usr/bin/unison/unison unison
+ExecStart=/usr/bin/unison unison
 Restart=always
 RestartSec=1
 
