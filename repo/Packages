@@ -28,11 +28,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: xfce4, xfce4-goodies, tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1508
-MD5sum: 2246853920fc986c1be55b629bab4986
-SHA1: 934094b41a4a49c329f41f892eeca665ea04aaa1
-SHA256: 639eb21266dc94ad865a4d2e2c1ae0b4526760d06b5ef1202f4f454c8cb9b70c
-SHA512: 98bed9726cb212c7a230387a2e5dd77f9eeb9ba34cd0292d0a6c4745bac136c7d7d1bc48efb9deeb2b1674e3dd608143c42aceeaa85f48919cbdc002742fbdc8
+Size: 1528
+MD5sum: 6df56e536e4dde767933e09dbaddf864
+SHA1: 89e719bc92d13ae43beb9e67ca9026e4ecfa0eb6
+SHA256: 5857d0569494efaec0dc0655476eef5f99d3d553e62d2be03c8c2cc224939947
+SHA512: f923993e25851f1316a49f810def99f5899f41ed97bab91f9094d16d48ec229d10ba0f67a58274e65de791aa4731a081a83407e2b7b688efcce6f6eeef21974b
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
@@ -116,11 +116,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: xfce4, xfce4-goodies, tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1508
-MD5sum: 2246853920fc986c1be55b629bab4986
-SHA1: 934094b41a4a49c329f41f892eeca665ea04aaa1
-SHA256: 639eb21266dc94ad865a4d2e2c1ae0b4526760d06b5ef1202f4f454c8cb9b70c
-SHA512: 98bed9726cb212c7a230387a2e5dd77f9eeb9ba34cd0292d0a6c4745bac136c7d7d1bc48efb9deeb2b1674e3dd608143c42aceeaa85f48919cbdc002742fbdc8
+Size: 1528
+MD5sum: 6df56e536e4dde767933e09dbaddf864
+SHA1: 89e719bc92d13ae43beb9e67ca9026e4ecfa0eb6
+SHA256: 5857d0569494efaec0dc0655476eef5f99d3d553e62d2be03c8c2cc224939947
+SHA512: f923993e25851f1316a49f810def99f5899f41ed97bab91f9094d16d48ec229d10ba0f67a58274e65de791aa4731a081a83407e2b7b688efcce6f6eeef21974b
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
