@@ -1,9 +1,10 @@
 #!/bin/sh
 
 $(cd autoconnect;./build.sh;)
-$(cd jack;./build.sh;)
+$(cd desktop;./build.sh;)
 $(cd fluidsynth;./build.sh;)
 $(cd fluidweb;./build.sh;)
+$(cd jack;./build.sh;)
 $(cd main;./build.sh;)
 $(cd unison;./build.sh;)
 
