@@ -26,13 +26,22 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xfce4, xfce4-goodies, tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
+Depends: libxfce4ui-utils,
+         thunar,
+         xfce4-appfinder,
+         xfce4-panel,
+         xfce4-session,
+         xfce4-settings,
+         xfconf,
+         xfdesktop4,
+         xfwm4,
+         tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1528
-MD5sum: 6df56e536e4dde767933e09dbaddf864
-SHA1: 89e719bc92d13ae43beb9e67ca9026e4ecfa0eb6
-SHA256: 5857d0569494efaec0dc0655476eef5f99d3d553e62d2be03c8c2cc224939947
-SHA512: f923993e25851f1316a49f810def99f5899f41ed97bab91f9094d16d48ec229d10ba0f67a58274e65de791aa4731a081a83407e2b7b688efcce6f6eeef21974b
+Size: 1576
+MD5sum: af94a5e00509f38972edab9da9d1e7b8
+SHA1: dc2b4f8f758fc67243ab626f4f59ebafc608fd81
+SHA256: 7be0483982be153691c5f35b2434c50c4f8e3b2a9ff4fdb300e4483cd1ec2605
+SHA512: 787fb0354da3099d843c70b91b42f72d030b1b195c3b7e19aa5098b94daf93958cc467e0577ba754ed2820cd8db38d4a84905dc057130ac2d8abd76398aac91a
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
@@ -114,13 +123,22 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xfce4, xfce4-goodies, tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
+Depends: libxfce4ui-utils,
+         thunar,
+         xfce4-appfinder,
+         xfce4-panel,
+         xfce4-session,
+         xfce4-settings,
+         xfconf,
+         xfdesktop4,
+         xfwm4,
+         tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1528
-MD5sum: 6df56e536e4dde767933e09dbaddf864
-SHA1: 89e719bc92d13ae43beb9e67ca9026e4ecfa0eb6
-SHA256: 5857d0569494efaec0dc0655476eef5f99d3d553e62d2be03c8c2cc224939947
-SHA512: f923993e25851f1316a49f810def99f5899f41ed97bab91f9094d16d48ec229d10ba0f67a58274e65de791aa4731a081a83407e2b7b688efcce6f6eeef21974b
+Size: 1576
+MD5sum: af94a5e00509f38972edab9da9d1e7b8
+SHA1: dc2b4f8f758fc67243ab626f4f59ebafc608fd81
+SHA256: 7be0483982be153691c5f35b2434c50c4f8e3b2a9ff4fdb300e4483cd1ec2605
+SHA512: 787fb0354da3099d843c70b91b42f72d030b1b195c3b7e19aa5098b94daf93958cc467e0577ba754ed2820cd8db38d4a84905dc057130ac2d8abd76398aac91a
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
