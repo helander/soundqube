@@ -1,0 +1,6 @@
+#!/bin/bash
+ 
+if [ "$1" = remove ] ; then
+        systemctl stop fluidweb
+        systemctl disable fluidweb
+fi

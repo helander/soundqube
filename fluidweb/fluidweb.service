@@ -1,0 +1,12 @@
+[Unit]
+Description=fluidweb UI server
+After=sound.target
+
+[Service]
+ExecStart=/opt/bin/fluidweb
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,6 @@
+
+Package: fluidweb
+Version: VERSION
+Architecture: ARCH
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Description: A web based user interface for Fluidsynth.
