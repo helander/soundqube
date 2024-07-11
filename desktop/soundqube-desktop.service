@@ -4,7 +4,7 @@ Description=Desktop
 [Service]
 Environment=USER=root
 Environment=RESOLUTION=1920x1080
-ExecStart=/opt/bin/soundqube-desktop.sh
+ExecStart=/usr/bin/soundqube-desktop.sh
 Restart=always
 RestartSec=10
 

@@ -35,3 +35,11 @@ on 8 different instruments simultaneously.
 
 Fluidsynth works with soundfonts and the project provides links to high quality soundfont files - your sound library may
 become unlimited.
+
+
+# builds
+
+To enable cross building using docker build --platform=...
+
+do this:
+* docker run --privileged --rm tonistiigi/binfmt --install all

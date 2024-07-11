@@ -6,6 +6,7 @@ $(cd fluidsynth;./build.sh;)
 $(cd fluidweb;./build.sh;)
 $(cd jack;./build.sh;)
 $(cd main;./build.sh;)
+$(cd surge;./build.sh;)
 $(cd unison;./build.sh;)
 
 $(cd repo;apt-ftparchive --arch arm64 packages arm64 > Packages)

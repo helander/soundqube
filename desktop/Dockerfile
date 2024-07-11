@@ -11,7 +11,8 @@ RUN sed -i s/VERSION/${VERSION}/g package/DEBIAN/control
 
 RUN mkdir -p package/etc/systemd/system
 ADD soundqube-desktop.service package/etc/systemd/system
-ADD soundqube-desktop.sh package/opt/bin
+RUN mkdir -p package/usr/bin
+ADD soundqube-desktop.sh package/usr/bin
 RUN dpkg-deb --build --root-owner-group package
 RUN mv package.deb soundqube-desktop_${VERSION}-1_${ARCH}.deb
 

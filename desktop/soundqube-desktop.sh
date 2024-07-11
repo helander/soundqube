@@ -4,13 +4,13 @@
 ##HOSTNAME=$(hostname)
 ##echo "127.0.1.1\t$HOSTNAME" >> /etc/hosts
 
+export HOME=/root
 
+mkdir -p $HOME/.vnc 
+echo "soundqube" | vncpasswd -f > $HOME/.vnc/passwd 
+chmod 600 $HOME/.vnc/passwd
 
-mkdir /root/.vnc 
-echo "soundqube" | vncpasswd -f > /root/.vnc/passwd 
-chmod 600 /root/.vnc/passwd
-
-touch /root/.Xauthority
+touch $HOME/.Xauthority
 
 echo "Starting VNC server at $RESOLUTION..."
 vncserver -kill :1 || true

@@ -4,4 +4,13 @@ Version: VERSION
 Architecture: ARCH
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Description: Desktop via VNC
-Depends: xfce4, xfce4-goodies, tightvncserver, dbus-x11, xfonts-base, tightvncpasswd 
+Depends: libxfce4ui-utils,
+         thunar,
+         xfce4-appfinder,
+         xfce4-panel,
+         xfce4-session,
+         xfce4-settings,
+         xfconf,
+         xfdesktop4,
+         xfwm4,
+         tightvncserver, dbus-x11, xfonts-base, tightvncpasswd 
