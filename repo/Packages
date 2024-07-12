@@ -26,13 +26,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xvfb, x11vnc, blackbox
+Depends: xvfb, x11vnc, blackbox, menu
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1240
-MD5sum: 8777886e7ca115b080e5854136d1bdea
-SHA1: 8e7e45108f56a9f570ea369a6c7b0f22fdf9e0a1
-SHA256: b198f1b3f0e668c56f73b13dd110493b9945e193f45a2c0bb5998af41816c441
-SHA512: ee0bc404be0c395662e27d23103511f1079adc1348972005de3bee123a37adce9835e91e9ca2353af05ad925bf01c4632a3890e6905f0adba562883ee626ce23
+Size: 1244
+MD5sum: cd5bce8e78ac2659200148092e5bc34c
+SHA1: 41b1823b9151b1a56c8753123d0dd357f308ab13
+SHA256: 1c1e3d235efaa71a8a0c0a12cb759fded34be3ba74bd8c325690c2ebc59e465b
+SHA512: 6c2a780e23ac3db7bbdd64c2f1dd45c09b0981598f4ef28836074584aa0172aeca234cb9aec5646aa0444e462a0c796dba2f879adac3028ef9d315ba60d5ec5e
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
@@ -114,13 +114,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xvfb, x11vnc, blackbox
+Depends: xvfb, x11vnc, blackbox, menu
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1240
-MD5sum: 8777886e7ca115b080e5854136d1bdea
-SHA1: 8e7e45108f56a9f570ea369a6c7b0f22fdf9e0a1
-SHA256: b198f1b3f0e668c56f73b13dd110493b9945e193f45a2c0bb5998af41816c441
-SHA512: ee0bc404be0c395662e27d23103511f1079adc1348972005de3bee123a37adce9835e91e9ca2353af05ad925bf01c4632a3890e6905f0adba562883ee626ce23
+Size: 1244
+MD5sum: cd5bce8e78ac2659200148092e5bc34c
+SHA1: 41b1823b9151b1a56c8753123d0dd357f308ab13
+SHA256: 1c1e3d235efaa71a8a0c0a12cb759fded34be3ba74bd8c325690c2ebc59e465b
+SHA512: 6c2a780e23ac3db7bbdd64c2f1dd45c09b0981598f4ef28836074584aa0172aeca234cb9aec5646aa0444e462a0c796dba2f879adac3028ef9d315ba60d5ec5e
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
