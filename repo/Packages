@@ -26,22 +26,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: libxfce4ui-utils,
-         thunar,
-         xfce4-appfinder,
-         xfce4-panel,
-         xfce4-session,
-         xfce4-settings,
-         xfconf,
-         xfdesktop4,
-         xfwm4,
-         tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
+Depends: xvfb, x11vnc, blackbox
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1576
-MD5sum: af94a5e00509f38972edab9da9d1e7b8
-SHA1: dc2b4f8f758fc67243ab626f4f59ebafc608fd81
-SHA256: 7be0483982be153691c5f35b2434c50c4f8e3b2a9ff4fdb300e4483cd1ec2605
-SHA512: 787fb0354da3099d843c70b91b42f72d030b1b195c3b7e19aa5098b94daf93958cc467e0577ba754ed2820cd8db38d4a84905dc057130ac2d8abd76398aac91a
+Size: 1240
+MD5sum: 8777886e7ca115b080e5854136d1bdea
+SHA1: 8e7e45108f56a9f570ea369a6c7b0f22fdf9e0a1
+SHA256: b198f1b3f0e668c56f73b13dd110493b9945e193f45a2c0bb5998af41816c441
+SHA512: ee0bc404be0c395662e27d23103511f1079adc1348972005de3bee123a37adce9835e91e9ca2353af05ad925bf01c4632a3890e6905f0adba562883ee626ce23
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
@@ -70,16 +61,28 @@ SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
 SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
 Description: Jack server lifecycle control
 
+Package: soundqube-surge
+Architecture: arm64
+Version: 1.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-surge_1.0-1_arm64.deb
+Size: 1080
+MD5sum: 8b93361fcc93bfc23417988ae49442a1
+SHA1: dd8ddc97a069d633232d1c8fdf046379ba714416
+SHA256: a789115b4e403956f95e68fc96f2544273616a3adb93b3b336c5f778f7c8945d
+SHA512: b3bdfd17f8fc338e7e351670f93c50dee60f0f29a48041c5f16dafcf6c90c2ffbb389b24da6afe39eb09dfc1f5083eebf9ea23db3f843fd5de41250153555a44
+Description: Surge synthesizer
+
 Package: soundqube-unison
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-unison_1.0-1_arm64.deb
-Size: 7400
-MD5sum: 222e2e695d9f37f27bd9c14e7a0d710d
-SHA1: 35bbfa940b6d0d57061fee336a73aaf6bf147016
-SHA256: 9a795e4b06811663b2481143f7b353e7c8881aa69d1a45aa360a1c5c531eb72b
-SHA512: c69af3e196749c8b8a99bd821c3bdb07eaecd978af95d635b644d3ae0a4a7aa036e11f56636688c08d670f1a6db3e4f1d125c26508287ddf19531e1d3c37a9e8
+Size: 7396
+MD5sum: 04e695a94eb53acdf7787372fb97d2a3
+SHA1: 1d653241cbaf316d69abddb0fdc13a6a8e9c4f9b
+SHA256: f6199238dbd8b6b70ffea1bdb6eff05cecaf5dac49112348f3e10c3958f7add5
+SHA512: 33f9f4a656e7a93231a904324afaabd642ea232671eb00819cc49dc987cba531e005d8359ef7545b55730e753b59811c63bfcda89c02041a093a8f29732d1472
 Description: MIDI notes cloning over several channels
 
 Package: soundqube
@@ -123,22 +126,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: libxfce4ui-utils,
-         thunar,
-         xfce4-appfinder,
-         xfce4-panel,
-         xfce4-session,
-         xfce4-settings,
-         xfconf,
-         xfdesktop4,
-         xfwm4,
-         tightvncserver, dbus-x11, xfonts-base, tightvncpasswd
+Depends: xvfb, x11vnc, blackbox
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1576
-MD5sum: af94a5e00509f38972edab9da9d1e7b8
-SHA1: dc2b4f8f758fc67243ab626f4f59ebafc608fd81
-SHA256: 7be0483982be153691c5f35b2434c50c4f8e3b2a9ff4fdb300e4483cd1ec2605
-SHA512: 787fb0354da3099d843c70b91b42f72d030b1b195c3b7e19aa5098b94daf93958cc467e0577ba754ed2820cd8db38d4a84905dc057130ac2d8abd76398aac91a
+Size: 1240
+MD5sum: 8777886e7ca115b080e5854136d1bdea
+SHA1: 8e7e45108f56a9f570ea369a6c7b0f22fdf9e0a1
+SHA256: b198f1b3f0e668c56f73b13dd110493b9945e193f45a2c0bb5998af41816c441
+SHA512: ee0bc404be0c395662e27d23103511f1079adc1348972005de3bee123a37adce9835e91e9ca2353af05ad925bf01c4632a3890e6905f0adba562883ee626ce23
 Description: Desktop via VNC
 
 Package: soundqube-fluidsynth
@@ -167,16 +161,28 @@ SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
 SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
 Description: Jack server lifecycle control
 
+Package: soundqube-surge
+Architecture: arm64
+Version: 1.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-surge_1.0-1_arm64.deb
+Size: 1080
+MD5sum: 8b93361fcc93bfc23417988ae49442a1
+SHA1: dd8ddc97a069d633232d1c8fdf046379ba714416
+SHA256: a789115b4e403956f95e68fc96f2544273616a3adb93b3b336c5f778f7c8945d
+SHA512: b3bdfd17f8fc338e7e351670f93c50dee60f0f29a48041c5f16dafcf6c90c2ffbb389b24da6afe39eb09dfc1f5083eebf9ea23db3f843fd5de41250153555a44
+Description: Surge synthesizer
+
 Package: soundqube-unison
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-unison_1.0-1_arm64.deb
-Size: 7400
-MD5sum: 222e2e695d9f37f27bd9c14e7a0d710d
-SHA1: 35bbfa940b6d0d57061fee336a73aaf6bf147016
-SHA256: 9a795e4b06811663b2481143f7b353e7c8881aa69d1a45aa360a1c5c531eb72b
-SHA512: c69af3e196749c8b8a99bd821c3bdb07eaecd978af95d635b644d3ae0a4a7aa036e11f56636688c08d670f1a6db3e4f1d125c26508287ddf19531e1d3c37a9e8
+Size: 7396
+MD5sum: 04e695a94eb53acdf7787372fb97d2a3
+SHA1: 1d653241cbaf316d69abddb0fdc13a6a8e9c4f9b
+SHA256: f6199238dbd8b6b70ffea1bdb6eff05cecaf5dac49112348f3e10c3958f7add5
+SHA512: 33f9f4a656e7a93231a904324afaabd642ea232671eb00819cc49dc987cba531e005d8359ef7545b55730e753b59811c63bfcda89c02041a093a8f29732d1472
 Description: MIDI notes cloning over several channels
 
 Package: soundqube
