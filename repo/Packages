@@ -61,18 +61,6 @@ SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
 SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
 Description: Jack server lifecycle control
 
-Package: soundqube-surge
-Architecture: arm64
-Version: 1.0
-Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Filename: arm64/soundqube-surge_1.0-1_arm64.deb
-Size: 1080
-MD5sum: 8b93361fcc93bfc23417988ae49442a1
-SHA1: dd8ddc97a069d633232d1c8fdf046379ba714416
-SHA256: a789115b4e403956f95e68fc96f2544273616a3adb93b3b336c5f778f7c8945d
-SHA512: b3bdfd17f8fc338e7e351670f93c50dee60f0f29a48041c5f16dafcf6c90c2ffbb389b24da6afe39eb09dfc1f5083eebf9ea23db3f843fd5de41250153555a44
-Description: Surge synthesizer
-
 Package: soundqube-unison
 Architecture: arm64
 Version: 1.0
@@ -160,18 +148,6 @@ SHA1: 07fba14c777f7b965299b49cd7a99645dd68c946
 SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
 SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
 Description: Jack server lifecycle control
-
-Package: soundqube-surge
-Architecture: arm64
-Version: 1.0
-Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Filename: arm64/soundqube-surge_1.0-1_arm64.deb
-Size: 1080
-MD5sum: 8b93361fcc93bfc23417988ae49442a1
-SHA1: dd8ddc97a069d633232d1c8fdf046379ba714416
-SHA256: a789115b4e403956f95e68fc96f2544273616a3adb93b3b336c5f778f7c8945d
-SHA512: b3bdfd17f8fc338e7e351670f93c50dee60f0f29a48041c5f16dafcf6c90c2ffbb389b24da6afe39eb09dfc1f5083eebf9ea23db3f843fd5de41250153555a44
-Description: Surge synthesizer
 
 Package: soundqube-unison
 Architecture: arm64
