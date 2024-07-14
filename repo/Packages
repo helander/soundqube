@@ -48,6 +48,18 @@ SHA256: 824f848aa80652a44dfa9dd00074aa031edef1b942606a683879ebcf08a63655
 SHA512: 9c2100fef0234f37332304cd776903d911b15f2975cfad171c17a4fc7286fbc42f832f9c2a379772d709565ccce7fa45f95b9d798c776388060548529c4f206e
 Description: Desktop via VNC
 
+Package: soundqube-fluida
+Architecture: arm64
+Version: 1.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-fluida_1.0-1_arm64.deb
+Size: 369472
+MD5sum: 4edb4b71d26304eca4583b23d174c63b
+SHA1: bae3d9a7a07e424f30d887ad523ad769bb9d1c9b
+SHA256: ce9f256fed0bbffdf5b9da3d6044cf4cf82e4378b2fea2e7e0b0134def5ec31c
+SHA512: 7bab9ae558bb1d18bf6404d87a9f52e92018edb7441da9aafed70fbdc655e300181496c2d5acd52a313b0c8d2e68468981297e38c11f25b0d9f6c9f1a2f68a65
+Description: Fluidsynth LV2 plugin
+
 Package: soundqube-fluidsynth
 Architecture: arm64
 Version: 1.0
@@ -148,6 +160,18 @@ SHA1: 62a422de6a213f607cdc43e7d61885c180ea8c26
 SHA256: 824f848aa80652a44dfa9dd00074aa031edef1b942606a683879ebcf08a63655
 SHA512: 9c2100fef0234f37332304cd776903d911b15f2975cfad171c17a4fc7286fbc42f832f9c2a379772d709565ccce7fa45f95b9d798c776388060548529c4f206e
 Description: Desktop via VNC
+
+Package: soundqube-fluida
+Architecture: arm64
+Version: 1.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-fluida_1.0-1_arm64.deb
+Size: 369472
+MD5sum: 4edb4b71d26304eca4583b23d174c63b
+SHA1: bae3d9a7a07e424f30d887ad523ad769bb9d1c9b
+SHA256: ce9f256fed0bbffdf5b9da3d6044cf4cf82e4378b2fea2e7e0b0134def5ec31c
+SHA512: 7bab9ae558bb1d18bf6404d87a9f52e92018edb7441da9aafed70fbdc655e300181496c2d5acd52a313b0c8d2e68468981297e38c11f25b0d9f6c9f1a2f68a65
+Description: Fluidsynth LV2 plugin
 
 Package: soundqube-fluidsynth
 Architecture: arm64
