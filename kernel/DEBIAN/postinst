@@ -1,0 +1,5 @@
+#!/bin/bash
+ 
+if [ "$1" = configure ]; then
+   cp -a /usr/share/soundqube-kernel/boot/* /boot/firmware
+fi
