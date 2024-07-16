@@ -1,6 +1,6 @@
 #!/bin/bash
  
 if [ "$1" = remove ] ; then
-        systemctl stop soundqube-fluidsynth
-        systemctl disable soundqube-fluidsynth
+        systemctl stop soundqube-desktop
+        systemctl disable soundqube-desktop
 fi

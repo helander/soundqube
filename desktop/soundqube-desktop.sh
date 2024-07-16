@@ -1,22 +1,13 @@
 #!/bin/bash
 
-##echo 'Updating /etc/hosts file...'
-##HOSTNAME=$(hostname)
-##echo "127.0.1.1\t$HOSTNAME" >> /etc/hosts
+#export DISPLAY=:56
 
-export HOME=/root
+Xvfb $DISPLAY &
 
-mkdir -p $HOME/.vnc 
-echo "soundqube" | vncpasswd -f > $HOME/.vnc/passwd 
-chmod 600 $HOME/.vnc/passwd
+x11vnc -N -forever & 
 
-touch $HOME/.Xauthority
+sleep 5
 
-echo "Starting VNC server at $RESOLUTION..."
-vncserver -kill :1 || true
-vncserver -geometry $RESOLUTION &
+blackbox &
 
-echo "VNC server started at $RESOLUTION! ^-^"
-
-echo "Starting tail -f /dev/null..."
-tail -f /dev/null
+sleep infinity

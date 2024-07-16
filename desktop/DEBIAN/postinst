@@ -1,12 +1,7 @@
 #!/bin/bash
  
 if [ "$1" = configure ]; then
-   if [ ! -f /etc/soundqube/fluidsynth/init  ]; then
-      mkdir -p /etc/soundqube/fluidsynth
-      cp /usr/share/soundqube/fluidsynth/init /etc/soundqube/fluidsynth
-   fi
-   killall fluidsynth
-   systemctl enable soundqube-fluidsynth
+   systemctl enable soundqube-desktop
    systemctl daemon-reload
-   systemctl start soundqube-fluidsynth
+   systemctl start soundqube-desktop
 fi
