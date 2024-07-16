@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <style>
+
+            .sliderticks {
+              display: flex;
+              justify-content: space-between;
+            }
+
+            .sliderticks span {
+              display: flex;
+              justify-content: center;
+              width: 2px;
+              height: 15px;
+              background: #d3d3d3;
+            }
+
+
+
+            .vertical-slider {
+              transform: rotate(-90deg) translate(-200px, 0);
+            }
+
+            input[type="range"]:hover {
+              opacity: 1;
+            }
+
+            input[type="range"] {
+              -webkit-appearance: none;
+              padding-bottom: 10px;
+              width: 400px;
+              height: 60px
+              cursor: pointer;
+              outline: none;
+            }
+
+            input[type="range"]::-webkit-slider-runnable-track {
+              height: 15px;
+              background: #ccc;
+              border-radius: 16px;
+            }
+
+            input[type="range"]::-webkit-slider-thumb {
+              -webkit-appearance: none;
+              width: 50px;
+              height: 30px;
+              background-image: url('thumb.svg');
+              background-size: cover;
+              margin-top: -7px;
+            }
+
+            .channel-container {
+              display: flex;
+              flex-flow: column;
+              justify-content: space-around;
+              height: 100%;
+            }
+
+            .volume-container {
+              display: flex;
+              flex-flow: column;
+              flex-grow: 100;
+              align-items: center;
+            }
+
+
+            .fonts {
+              font-size: 11px;
+              flex-grow: 0;
+              color: black;
+            }
+
+            .instruments {
+              font-size: 11px;
+              flex-grow: 0;
+              color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="channel-container">
+            <!--div class="volume-container">
+                <div class="vertical-slider">
+                    <input id="slider.channel.volume" type="range" min="0" max="127" value="0" ">
+                    <div class="sliderticks">
+                        <span></span> <span></span> <span></span> <span></span> <span></span>
+                        <span></span> <span></span> <span></span> <span></span> <span></span>
+                        <span></span> <span></span> <span></span> <span></span> <span></span>
+                        <span></span> <span></span> <span></span> <span></span> <span></span>
+                    </div>
+                </div>
+            </div-->
+
+            <select name="instruments" id="instruments" class="instruments"></select>
+        </div>
+
+        <script type="module">
+            async function fluidsynthSend(port, command) {
+                const response = await fetch("/command/" + command + "?fsport=" + port);
+                return await response.text();
+            }
+
+            async function getChannelInstrument() {
+                let result = {};
+                const response = await fluidsynthSend(sFsport, "GET program");
+                const list = response.split("\n");
+                const row = list[2].split("|");
+                result.name = row[1];
+                result.preset = Number(row[0]);
+                //console.log('channelInstrument',result);
+                return result;
+            }
+
+            async function instruments() {
+                const instrument = await getChannelInstrument();
+                const instruments = await fluidsynthSend(sFsport, "GET%20programs");
+                const list = instruments.split("\n");
+                const instrumentSelector = document.getElementById("instruments");
+                instrumentSelector.length = 0;
+                for (let i = 2; i < list.length - 1; i++) {
+                    const option = document.createElement("option");
+                    const row = list[i].split('|');
+                    option.text = row[1];
+                    //const name = list[i];
+                    const preset = Number(row[0]);
+                    option.value = row[0];
+                    if (preset == instrument.preset) {
+                        //console.log('selected instr',instrument.channel,instrument.name,name);
+                        //console.log('bank/preset',instrument.bank,instrument.preset,bank,preset);
+                        option.selected = true;
+                    }
+                    instrumentSelector.add(option);
+                }
+
+                instrumentSelector.addEventListener("change", async (event) => {
+                    //console.log('INSTRUMENT selected',event.target.value);
+                    const preset = event.target.value;
+                    //const instrument = await getChannelInstrument(Number(sChannel));
+                    await fluidsynthSend(sFsport, "GET%20" + "program/" + preset);
+                });
+            }
+
+            /* Input parameters */
+            var fsport = 2729;
+
+            const url = new URL(window.location.href);
+            if (url.searchParams.get("fsport") != null) {
+                fsport = Number(url.searchParams.get("fsport"));
+            }
+            const sFsport = fsport.toString();
+
+            /* Define volume slider for channel */
+            //const sliderElement = document.getElementById("slider.channel.volume");
+            //sliderElement.oninput = async function () {
+            //    await fluidsynthSend(sFsport, "cc%20" + sChannel + "%20" + "7" + "%20" + Number(this.value));
+            //};
+
+            /* Define instrument selector for channel */
+            await instruments();
+        </script>
+    </body>
+</html>
+
