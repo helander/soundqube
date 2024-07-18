@@ -79,11 +79,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.0-1_arm64.deb
-Size: 1232
-MD5sum: afc7eef9c125e93654a91309f847a622
-SHA1: 07fba14c777f7b965299b49cd7a99645dd68c946
-SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
-SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
+Size: 1240
+MD5sum: f31b247a452215fd01c942a7929dde57
+SHA1: fe3d84a7c97f0b43f0f3b62702a671005be73560
+SHA256: f414884dc36341bbcb238deb4db8fd78da26c6c920d08ef5ee685e17689d6eb8
+SHA512: 878c4870a2a27b83efd9309f09c89f9d8b979525643c3f1e7c25703b32f21eb8aa1fe5a96d7e8c9de2550e46fb0ca963c8d696b840d0723ef85ceace04f05edf
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
@@ -104,11 +104,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.0-1_arm64.deb
-Size: 101020
-MD5sum: 58bf0d3bc105a85c7a6b61add849eb23
-SHA1: 4331d3777abfd4bc4ef7092ba346e688fe6338c9
-SHA256: 1da5de0156ca748176166b9b70d0f3cdb09e6e9ae66be7bb0ceda62213582e91
-SHA512: bc5807c0bb883d820081b913684aaf9aec0fe88e2cc557beeaf0bb12965c450c6cfc5e77915589e2bd86e5ee724053b0b3f9542d0af965ab8668e1fa2069013d
+Size: 100984
+MD5sum: 41635a5bbc13b183b054d6f97dad075b
+SHA1: ef47e5cfd4a482516536aa6c9664e84c482816dc
+SHA256: 356180ba72a1557977a80806cdfa0ddbe30e982cce43285482a67f0346cb288f
+SHA512: a536e976c633f18d0665004aa3c30c2e1ba7953cd552ee038157b25a06f4f292bbbdb5e7fd9d5b06991e4884ee191f54f16618392c274c8eb4bea12253bc8e2d
 Description: setBfree tonewheel organ
 
 Package: soundqube-unison
@@ -217,11 +217,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.0-1_arm64.deb
-Size: 1232
-MD5sum: afc7eef9c125e93654a91309f847a622
-SHA1: 07fba14c777f7b965299b49cd7a99645dd68c946
-SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
-SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
+Size: 1240
+MD5sum: f31b247a452215fd01c942a7929dde57
+SHA1: fe3d84a7c97f0b43f0f3b62702a671005be73560
+SHA256: f414884dc36341bbcb238deb4db8fd78da26c6c920d08ef5ee685e17689d6eb8
+SHA512: 878c4870a2a27b83efd9309f09c89f9d8b979525643c3f1e7c25703b32f21eb8aa1fe5a96d7e8c9de2550e46fb0ca963c8d696b840d0723ef85ceace04f05edf
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
@@ -242,11 +242,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.0-1_arm64.deb
-Size: 101020
-MD5sum: 58bf0d3bc105a85c7a6b61add849eb23
-SHA1: 4331d3777abfd4bc4ef7092ba346e688fe6338c9
-SHA256: 1da5de0156ca748176166b9b70d0f3cdb09e6e9ae66be7bb0ceda62213582e91
-SHA512: bc5807c0bb883d820081b913684aaf9aec0fe88e2cc557beeaf0bb12965c450c6cfc5e77915589e2bd86e5ee724053b0b3f9542d0af965ab8668e1fa2069013d
+Size: 100984
+MD5sum: 41635a5bbc13b183b054d6f97dad075b
+SHA1: ef47e5cfd4a482516536aa6c9664e84c482816dc
+SHA256: 356180ba72a1557977a80806cdfa0ddbe30e982cce43285482a67f0346cb288f
+SHA512: a536e976c633f18d0665004aa3c30c2e1ba7953cd552ee038157b25a06f4f292bbbdb5e7fd9d5b06991e4884ee191f54f16618392c274c8eb4bea12253bc8e2d
 Description: setBfree tonewheel organ
 
 Package: soundqube-unison
