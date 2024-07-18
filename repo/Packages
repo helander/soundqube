@@ -64,13 +64,13 @@ Package: soundqube-fluidsynth
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: fluidsynth
+Depends: fluidsynth, soundqube-jack
 Filename: arm64/soundqube-fluidsynth_1.0-1_arm64.deb
-Size: 1448
-MD5sum: 449fef246bb3d62e815c525669b7f7c9
-SHA1: 7697e32bb0c80c86848d5d3ec87c4709d69703af
-SHA256: 707247018e23993cef10febf653679b55b455d70dd3791b9090d06ad0d5c1d03
-SHA512: 759a750b6a48f65ec8b4e4c5d82738771dc142e15a61d068481d5365a96ce51f4e0e020c6d18aa3f14154b09ace587da99a1b4addaad7ad0a58041c87057fad3
+Size: 1464
+MD5sum: 27f792b44dd26fa28d44ec62918723f2
+SHA1: 0ace245e87a74b3c477fadfddb16512c8e7c2730
+SHA256: 245b7dc517dc1abf07e7a80dcdc59e3f067d084c95a878536d216c255fe146b6
+SHA512: 2ae18ff374d710cebe31d11359edc71f4738b72f85925bff1b7aa822998aa2bd648c6c7b7dc66131e784d0953a8bc4531fb074bf7dc7bea0040d8f43af76ae7d
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-jack
@@ -102,12 +102,13 @@ Package: soundqube-setbfree
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.0-1_arm64.deb
-Size: 109860
-MD5sum: 5ed0c3047c5a463ccc858ee10215755a
-SHA1: c9f796871169b20cbdbe5ae666e502a57b88850e
-SHA256: a53eee96e6698430de2c04c2d8c2bde22e1fc4d7ff6aa86276e208cbc2a57447
-SHA512: df0f9cdf108f1e0cda68ca9cf7443548353423eaf23e1d6155a971c5eae6b3c7f12adb3e76b4cf2142bcbd86c49aa08fbf52c127f5e0107f90101e898dee7e36
+Size: 109880
+MD5sum: 031fec20485e77a4edb4240869845fbf
+SHA1: 701ef7c659ffa543292cb9b30594724856ffb97b
+SHA256: 9893b1ef02ed52ac1541e9433613b4b8b0b57a611c5481785e4cabff7057b21e
+SHA512: adcf2d8a44d0ff0e6607a1a6f91113a91eacd95342fe14054b343127325865c39d161a8e9933355b13aea1178c29c61a9c61d95f901264cde444ddb020a59361
 Description: setBfree tonewheel organ
 
 Package: soundqube-unison
@@ -201,13 +202,13 @@ Package: soundqube-fluidsynth
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: fluidsynth
+Depends: fluidsynth, soundqube-jack
 Filename: arm64/soundqube-fluidsynth_1.0-1_arm64.deb
-Size: 1448
-MD5sum: 449fef246bb3d62e815c525669b7f7c9
-SHA1: 7697e32bb0c80c86848d5d3ec87c4709d69703af
-SHA256: 707247018e23993cef10febf653679b55b455d70dd3791b9090d06ad0d5c1d03
-SHA512: 759a750b6a48f65ec8b4e4c5d82738771dc142e15a61d068481d5365a96ce51f4e0e020c6d18aa3f14154b09ace587da99a1b4addaad7ad0a58041c87057fad3
+Size: 1464
+MD5sum: 27f792b44dd26fa28d44ec62918723f2
+SHA1: 0ace245e87a74b3c477fadfddb16512c8e7c2730
+SHA256: 245b7dc517dc1abf07e7a80dcdc59e3f067d084c95a878536d216c255fe146b6
+SHA512: 2ae18ff374d710cebe31d11359edc71f4738b72f85925bff1b7aa822998aa2bd648c6c7b7dc66131e784d0953a8bc4531fb074bf7dc7bea0040d8f43af76ae7d
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-jack
@@ -239,12 +240,13 @@ Package: soundqube-setbfree
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.0-1_arm64.deb
-Size: 109860
-MD5sum: 5ed0c3047c5a463ccc858ee10215755a
-SHA1: c9f796871169b20cbdbe5ae666e502a57b88850e
-SHA256: a53eee96e6698430de2c04c2d8c2bde22e1fc4d7ff6aa86276e208cbc2a57447
-SHA512: df0f9cdf108f1e0cda68ca9cf7443548353423eaf23e1d6155a971c5eae6b3c7f12adb3e76b4cf2142bcbd86c49aa08fbf52c127f5e0107f90101e898dee7e36
+Size: 109880
+MD5sum: 031fec20485e77a4edb4240869845fbf
+SHA1: 701ef7c659ffa543292cb9b30594724856ffb97b
+SHA256: 9893b1ef02ed52ac1541e9433613b4b8b0b57a611c5481785e4cabff7057b21e
+SHA512: adcf2d8a44d0ff0e6607a1a6f91113a91eacd95342fe14054b343127325865c39d161a8e9933355b13aea1178c29c61a9c61d95f901264cde444ddb020a59361
 Description: setBfree tonewheel organ
 
 Package: soundqube-unison
