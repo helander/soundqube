@@ -79,11 +79,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.0-1_arm64.deb
-Size: 1240
-MD5sum: f31b247a452215fd01c942a7929dde57
-SHA1: fe3d84a7c97f0b43f0f3b62702a671005be73560
-SHA256: f414884dc36341bbcb238deb4db8fd78da26c6c920d08ef5ee685e17689d6eb8
-SHA512: 878c4870a2a27b83efd9309f09c89f9d8b979525643c3f1e7c25703b32f21eb8aa1fe5a96d7e8c9de2550e46fb0ca963c8d696b840d0723ef85ceace04f05edf
+Size: 1236
+MD5sum: 9e9c0534e0fd461ead19b77dceb47f45
+SHA1: 1fbbef04bd5c7ed6c49254429e2a96e5ae09353e
+SHA256: cdc3f92f01b436451f9536919a183a8b2a4bf0e3b6b5cd348f2d7582029499e0
+SHA512: a8607b417f917c9d43ae7b4f2337f94f4a98d960376d6de374f36cb35420cbcafe637589c569aa1a6e79ee2cf608f473c57d916e6d773d36f22d8c6724d0871f
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
@@ -217,11 +217,11 @@ Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.0-1_arm64.deb
-Size: 1240
-MD5sum: f31b247a452215fd01c942a7929dde57
-SHA1: fe3d84a7c97f0b43f0f3b62702a671005be73560
-SHA256: f414884dc36341bbcb238deb4db8fd78da26c6c920d08ef5ee685e17689d6eb8
-SHA512: 878c4870a2a27b83efd9309f09c89f9d8b979525643c3f1e7c25703b32f21eb8aa1fe5a96d7e8c9de2550e46fb0ca963c8d696b840d0723ef85ceace04f05edf
+Size: 1236
+MD5sum: 9e9c0534e0fd461ead19b77dceb47f45
+SHA1: 1fbbef04bd5c7ed6c49254429e2a96e5ae09353e
+SHA256: cdc3f92f01b436451f9536919a183a8b2a4bf0e3b6b5cd348f2d7582029499e0
+SHA512: a8607b417f917c9d43ae7b4f2337f94f4a98d960376d6de374f36cb35420cbcafe637589c569aa1a6e79ee2cf608f473c57d916e6d773d36f22d8c6724d0871f
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
