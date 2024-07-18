@@ -3,11 +3,11 @@ Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/fluidweb_1.0-1_arm64.deb
-Size: 3005348
-MD5sum: b31240aaafc5e761ec293b0e5cd41ff4
-SHA1: 6033013168b78a928c4e499b58ec2302545ad18e
-SHA256: 4b72e00cc39154bfb4ea51265b4643163315e1a67563b1c7014479695b7a282c
-SHA512: 147905aa47fa625133050af26e3eff5bef424610c5d4e2c693a5f123556c2323e6d34132b7e66a7cf7a450c66445bdf606e924f94a318ac34511dd6337b5920c
+Size: 3005688
+MD5sum: d5d69e3ab2b8c0913f3a5641231317c8
+SHA1: feb7e40bef0f079ea19e982a7dc1e204f951c223
+SHA256: 04aa1215cc139b25e96f4427e57bb3220044c9aee36df48e1637419bb226c7bd
+SHA512: 190831e07cd535d8d274a8b112377d8c7fbdec67b338a4c1ae5e87710bb95685c24ac85903909514cdc6159436365fe6ea466e3a04c43c79ae7016276f5db6a8
 Description: A web based user interface for Fluidsynth.
 
 Package: soundqube-autoconnect
@@ -85,6 +85,18 @@ SHA1: 07fba14c777f7b965299b49cd7a99645dd68c946
 SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
 SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
 Description: Jack server lifecycle control
+
+Package: soundqube-kernel
+Architecture: arm64
+Version: 1.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-kernel_1.0-1_arm64.deb
+Size: 26382252
+MD5sum: ea63d82238f51ebc8ec195dd0826a332
+SHA1: a15c45f866fb1a6feca15de55ef65f489daf2280
+SHA256: 819e378bb094c276fbd4dc1a05f47863f81d469b8b1377bd5d4d1951ee640068
+SHA512: 29f4ae68ea5455f352b08e57abc2f4e841c2c16e357eda0c623dc45c31ea9afb5cf7781bc7a856c748ae87adcc2fbde67e3e1800a80b78aa993472fd5d8c7a88
+Description: Linux RealTime kernel
 
 Package: soundqube-unison
 Architecture: arm64
@@ -116,11 +128,11 @@ Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/fluidweb_1.0-1_arm64.deb
-Size: 3005348
-MD5sum: b31240aaafc5e761ec293b0e5cd41ff4
-SHA1: 6033013168b78a928c4e499b58ec2302545ad18e
-SHA256: 4b72e00cc39154bfb4ea51265b4643163315e1a67563b1c7014479695b7a282c
-SHA512: 147905aa47fa625133050af26e3eff5bef424610c5d4e2c693a5f123556c2323e6d34132b7e66a7cf7a450c66445bdf606e924f94a318ac34511dd6337b5920c
+Size: 3005688
+MD5sum: d5d69e3ab2b8c0913f3a5641231317c8
+SHA1: feb7e40bef0f079ea19e982a7dc1e204f951c223
+SHA256: 04aa1215cc139b25e96f4427e57bb3220044c9aee36df48e1637419bb226c7bd
+SHA512: 190831e07cd535d8d274a8b112377d8c7fbdec67b338a4c1ae5e87710bb95685c24ac85903909514cdc6159436365fe6ea466e3a04c43c79ae7016276f5db6a8
 Description: A web based user interface for Fluidsynth.
 
 Package: soundqube-autoconnect
@@ -198,6 +210,18 @@ SHA1: 07fba14c777f7b965299b49cd7a99645dd68c946
 SHA256: 3fd9a0f51798086c7c4c35bc2f59e968b6587a3f07415064a7ca1a5424519dc7
 SHA512: cda11d3e2736d04b9574c0040fea85cb380065bd2a205bc23b52563de2235044b391cd5bfb322b7f959ac7e3e8dd2ee173b904223e4e7227c77c00675b6f42c6
 Description: Jack server lifecycle control
+
+Package: soundqube-kernel
+Architecture: arm64
+Version: 1.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-kernel_1.0-1_arm64.deb
+Size: 26382252
+MD5sum: ea63d82238f51ebc8ec195dd0826a332
+SHA1: a15c45f866fb1a6feca15de55ef65f489daf2280
+SHA256: 819e378bb094c276fbd4dc1a05f47863f81d469b8b1377bd5d4d1951ee640068
+SHA512: 29f4ae68ea5455f352b08e57abc2f4e841c2c16e357eda0c623dc45c31ea9afb5cf7781bc7a856c748ae87adcc2fbde67e3e1800a80b78aa993472fd5d8c7a88
+Description: Linux RealTime kernel
 
 Package: soundqube-unison
 Architecture: arm64
