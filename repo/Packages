@@ -26,13 +26,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xvfb, x11vnc, xterm, blackbox, menu, wmsystemtray, wmdrawer, wmbutton
+Depends: xvfb, x11vnc, xterm, blackbox, menu, wmdrawer
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1284
-MD5sum: 5420bcd5a414845cbc809b7d897eb82e
-SHA1: df685e071d1948a81ddf2c8b55df8bcdcba3d4ef
-SHA256: d3ae2be7fd87ffc5aaf608f9f260b4b8ac5be09c8d9c5b81327c56b69eb81d31
-SHA512: 8e80eb19040cf6a989722ec5dfff3ef0c3a28ccab1e03d3f555507ece52f1c8bc63568d3a514317649914620637cae6aa9df31554c4466de234cc30f6477aeb8
+Size: 1264
+MD5sum: 8461031849d3f0b23ee10ee76a132539
+SHA1: 6a9d913e5982af598a239499091b3926b13f83f0
+SHA256: 7f0ea3acc3e68d79529d3a958bbdd5b79d7a0810173d50c9e51eb3d46886d8ab
+SHA512: 5ca4b65beeb0a077c102367f69f2a55174f2b52acb0feb84728b7469b747f656760fc9b172299def1a5a16cc47a12f27dce164e2facd0105aa4d952dc2ffb224
 Description: Desktop via VNC
 
 Package: soundqube-desktop
@@ -80,10 +80,10 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.0-1_arm64.deb
 Size: 1236
-MD5sum: 9e9c0534e0fd461ead19b77dceb47f45
-SHA1: 1fbbef04bd5c7ed6c49254429e2a96e5ae09353e
-SHA256: cdc3f92f01b436451f9536919a183a8b2a4bf0e3b6b5cd348f2d7582029499e0
-SHA512: a8607b417f917c9d43ae7b4f2337f94f4a98d960376d6de374f36cb35420cbcafe637589c569aa1a6e79ee2cf608f473c57d916e6d773d36f22d8c6724d0871f
+MD5sum: 757269096b9a52ec9956da1199f4b809
+SHA1: ce027d727ed24b51248f1236c03cd0b43f728c64
+SHA256: 6a8902d49ba9e602e5c018dd9f35df862d3d1715c15743ea7d644b63aa749211
+SHA512: d47be0afe8a4bb605ac6da9b32b497c7e22ed00a6fb945291e87ee0718df39f789015e37627756a1404d7ecf9ba01daaa016c5398182ecb47e9287906c473721
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
@@ -270,13 +270,13 @@ Package: soundqube
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, jalv
+Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree
 Filename: arm64/soundqube_1.0-1_arm64.deb
 Size: 760
-MD5sum: 66646e032dbdc90df1138d497081db1d
-SHA1: 7d88fba3eb2ee248ffec5354021cc1061442eff8
-SHA256: 711533bf7197dd788823e2c51f5b645f3348ab314e8dbf1ad1ebd4e794462f98
-SHA512: 6c2f38684458b2d52ba86f0a0c5a83258068d28c6a46313eff58079b9057888c6f9a4ce46a6a695a02388a850c11cb6871cf5a69e93f32699e222e13e72dd40d
+MD5sum: 1ebd87ea8a83e4299138d64c578d587f
+SHA1: 9c06cfdd04ca145ec1c6ff801fc8087aa4e19a23
+SHA256: ae0313f2a4e0b61a95ab2a29568fb523e69252d0614784b77f0d885b6e7285e1
+SHA512: 6bf5d2c66a91e2ac9c883181c40ed9758f0c627f52c2c31ef42e8ea004a7534c88e3605c0f357cfb4a0ea84e5fc20e8182a4796e67f12c8ddd421e3fe9613234
 Description: Meta package for installation of all soundqube packages
 
 Package: fluidweb
@@ -307,13 +307,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xvfb, x11vnc, xterm, blackbox, menu, wmsystemtray, wmdrawer, wmbutton
+Depends: xvfb, x11vnc, xterm, blackbox, menu, wmdrawer
 Filename: arm64/soundqube-desktop_1.0-1_arm64.deb
-Size: 1284
-MD5sum: 5420bcd5a414845cbc809b7d897eb82e
-SHA1: df685e071d1948a81ddf2c8b55df8bcdcba3d4ef
-SHA256: d3ae2be7fd87ffc5aaf608f9f260b4b8ac5be09c8d9c5b81327c56b69eb81d31
-SHA512: 8e80eb19040cf6a989722ec5dfff3ef0c3a28ccab1e03d3f555507ece52f1c8bc63568d3a514317649914620637cae6aa9df31554c4466de234cc30f6477aeb8
+Size: 1264
+MD5sum: 8461031849d3f0b23ee10ee76a132539
+SHA1: 6a9d913e5982af598a239499091b3926b13f83f0
+SHA256: 7f0ea3acc3e68d79529d3a958bbdd5b79d7a0810173d50c9e51eb3d46886d8ab
+SHA512: 5ca4b65beeb0a077c102367f69f2a55174f2b52acb0feb84728b7469b747f656760fc9b172299def1a5a16cc47a12f27dce164e2facd0105aa4d952dc2ffb224
 Description: Desktop via VNC
 
 Package: soundqube-desktop
@@ -361,10 +361,10 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.0-1_arm64.deb
 Size: 1236
-MD5sum: 9e9c0534e0fd461ead19b77dceb47f45
-SHA1: 1fbbef04bd5c7ed6c49254429e2a96e5ae09353e
-SHA256: cdc3f92f01b436451f9536919a183a8b2a4bf0e3b6b5cd348f2d7582029499e0
-SHA512: a8607b417f917c9d43ae7b4f2337f94f4a98d960376d6de374f36cb35420cbcafe637589c569aa1a6e79ee2cf608f473c57d916e6d773d36f22d8c6724d0871f
+MD5sum: 757269096b9a52ec9956da1199f4b809
+SHA1: ce027d727ed24b51248f1236c03cd0b43f728c64
+SHA256: 6a8902d49ba9e602e5c018dd9f35df862d3d1715c15743ea7d644b63aa749211
+SHA512: d47be0afe8a4bb605ac6da9b32b497c7e22ed00a6fb945291e87ee0718df39f789015e37627756a1404d7ecf9ba01daaa016c5398182ecb47e9287906c473721
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
@@ -551,12 +551,12 @@ Package: soundqube
 Architecture: arm64
 Version: 1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, jalv
+Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree
 Filename: arm64/soundqube_1.0-1_arm64.deb
 Size: 760
-MD5sum: 66646e032dbdc90df1138d497081db1d
-SHA1: 7d88fba3eb2ee248ffec5354021cc1061442eff8
-SHA256: 711533bf7197dd788823e2c51f5b645f3348ab314e8dbf1ad1ebd4e794462f98
-SHA512: 6c2f38684458b2d52ba86f0a0c5a83258068d28c6a46313eff58079b9057888c6f9a4ce46a6a695a02388a850c11cb6871cf5a69e93f32699e222e13e72dd40d
+MD5sum: 1ebd87ea8a83e4299138d64c578d587f
+SHA1: 9c06cfdd04ca145ec1c6ff801fc8087aa4e19a23
+SHA256: ae0313f2a4e0b61a95ab2a29568fb523e69252d0614784b77f0d885b6e7285e1
+SHA512: 6bf5d2c66a91e2ac9c883181c40ed9758f0c627f52c2c31ef42e8ea004a7534c88e3605c0f357cfb4a0ea84e5fc20e8182a4796e67f12c8ddd421e3fe9613234
 Description: Meta package for installation of all soundqube packages
 
