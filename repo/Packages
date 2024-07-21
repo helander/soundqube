@@ -15,12 +15,25 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/fluidweb_1.0.1-1_arm64.deb
-Size: 3030780
-MD5sum: c27f06551291e38e8768330fdd2b1364
-SHA1: 6e3cc709f8be39791a0361767a446afb6b37bbce
-SHA256: bba1b71e478bf346a74fb398cf4e15d1b73df5b4b3bfeca27b3cca0d8c5a7977
-SHA512: e6a2788b23d28feeb370d483d1946b2aa0fc8191515191036659404adfe39013e01cc9efbb7ec2e2b3f3aed8bda1b5b39acfaef9721ba9c5dd46033c653dcac1
+Size: 3031300
+MD5sum: 267871be675075496f4cbd3cbe222afa
+SHA1: 56f227630107c2c7ee029b9c146b1989fa33c83a
+SHA256: 7f86bb711f0dcfedb38312327c23051340d342dfbdcd2a9dd1d06f3b40bdcb35
+SHA512: a416a82f67eca245f80e42ae114f278c91dd4e11cff34b633663860a8b377311604c051fbe416f5f99f319eb2bc85227a44b420c08a2505e9f70a89988394c96
 Description: A web based user interface for Fluidsynth.
+
+Package: soundqube-aeolus
+Architecture: arm64
+Version: 1.0.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack
+Filename: arm64/soundqube-aeolus_1.0.0-1_arm64.deb
+Size: 109088
+MD5sum: 98e833d8612ba3f218205b0c9dd706c8
+SHA1: 945057cc9d44448dd5e7618aff296f7a0fb88815
+SHA256: 746feae5192a44028ce0b6aee65ecd6853bd28be519d53002c7a37551c70519a
+SHA512: 7631dbdbea3d7b5479aa00ebd0868b6c27d47223fc75a48d19e618071b23beb36947e5a89f41b575bd019a73f7d3225a499086687132fedd7ae848dc581d9577
+Description: Pipe organ
 
 Package: soundqube-autoconnect
 Architecture: arm64
@@ -423,12 +436,25 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/fluidweb_1.0.1-1_arm64.deb
-Size: 3030780
-MD5sum: c27f06551291e38e8768330fdd2b1364
-SHA1: 6e3cc709f8be39791a0361767a446afb6b37bbce
-SHA256: bba1b71e478bf346a74fb398cf4e15d1b73df5b4b3bfeca27b3cca0d8c5a7977
-SHA512: e6a2788b23d28feeb370d483d1946b2aa0fc8191515191036659404adfe39013e01cc9efbb7ec2e2b3f3aed8bda1b5b39acfaef9721ba9c5dd46033c653dcac1
+Size: 3031300
+MD5sum: 267871be675075496f4cbd3cbe222afa
+SHA1: 56f227630107c2c7ee029b9c146b1989fa33c83a
+SHA256: 7f86bb711f0dcfedb38312327c23051340d342dfbdcd2a9dd1d06f3b40bdcb35
+SHA512: a416a82f67eca245f80e42ae114f278c91dd4e11cff34b633663860a8b377311604c051fbe416f5f99f319eb2bc85227a44b420c08a2505e9f70a89988394c96
 Description: A web based user interface for Fluidsynth.
+
+Package: soundqube-aeolus
+Architecture: arm64
+Version: 1.0.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack
+Filename: arm64/soundqube-aeolus_1.0.0-1_arm64.deb
+Size: 109088
+MD5sum: 98e833d8612ba3f218205b0c9dd706c8
+SHA1: 945057cc9d44448dd5e7618aff296f7a0fb88815
+SHA256: 746feae5192a44028ce0b6aee65ecd6853bd28be519d53002c7a37551c70519a
+SHA512: 7631dbdbea3d7b5479aa00ebd0868b6c27d47223fc75a48d19e618071b23beb36947e5a89f41b575bd019a73f7d3225a499086687132fedd7ae848dc581d9577
+Description: Pipe organ
 
 Package: soundqube-autoconnect
 Architecture: arm64
