@@ -14,6 +14,7 @@
 
 #include "global_inst.h"
 #include "program.h"
+#include "tonegen.h"
 
 #define SIZE 1024  // buffer size
 #define PORT 2729  // port number
@@ -67,7 +68,7 @@ static void NoCommandResponse() {
 }
 
 
-http_server_run(b_instance* inst)
+int http_server_run(b_instance* inst)
 {
 
   signal(SIGINT, handleSignal);
@@ -143,6 +144,30 @@ http_server_run(b_instance* inst)
            } else {
 	   	printf("\nGet program\n");
 		ProgramResponse(inst);
+           }
+      } else if (strcmp(token,"swell") == 0) {
+           char *sLevel =NULL;
+           token = strtok(NULL, "/");
+           if (token != NULL) { sLevel = token;  token = strtok(NULL, "/");}
+           if (sLevel != NULL) {
+   		inst->synth->swellPedalGain = atof(sLevel);
+	        OkResponse();
+           } else {
+	        char response[40];
+      		sprintf(response, "HTTP/1.1 200 OK\r\n\n%f", inst->synth->swellPedalGain);
+      		send(clientSocket, response, strlen(response), 0);
+           }
+      } else if (strcmp(token,"volume") == 0) {
+           char *sLevel =NULL;
+           token = strtok(NULL, "/");
+           if (token != NULL) { sLevel = token;  token = strtok(NULL, "/");}
+           if (sLevel != NULL) {
+   		inst->synth->outputLevelTrim = atof(sLevel);
+	        OkResponse();
+           } else {
+	        char response[40];
+      		sprintf(response, "HTTP/1.1 200 OK\r\n\n%f", inst->synth->outputLevelTrim);
+      		send(clientSocket, response, strlen(response), 0);
            }
       } else if (strcmp(token,"programs") == 0) {
 		ProgramsResponse(inst);

@@ -1,6 +1,5 @@
 FROM debian AS base
 ARG ARCH
-ARG VERSION
 
 RUN apt update -y
 
@@ -14,6 +13,8 @@ RUN GOOS=linux GOARCH=${ARCH} go build
 RUN mv fluidweb package/opt/bin
 ADD www package/opt/lib/fluidweb/www
 
+ENV VERSION 1.0.1
+
 ADD DEBIAN package/DEBIAN
 RUN sed -i s/ARCH/${ARCH}/g package/DEBIAN/control
 RUN sed -i s/VERSION/${VERSION}/g package/DEBIAN/control
@@ -25,6 +26,6 @@ RUN mv package.deb fluidweb_${VERSION}-1_${ARCH}.deb
 
 FROM scratch AS package
 ARG ARCH
-ARG VERSION
+ENV VERSION 1.0.1
 
 COPY --from=base /fluidweb_${VERSION}-1_${ARCH}.deb /

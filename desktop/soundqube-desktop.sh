@@ -10,4 +10,6 @@ sleep 5
 
 blackbox &
 
+wmdrawer &
+
 sleep infinity

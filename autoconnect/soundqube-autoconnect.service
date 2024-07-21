@@ -3,7 +3,7 @@ Description=Autoconnect MIDI ports
 After=sound.target
 
 [Service]
-ExecStart=/usr/bin/autoconnect C520 unison:0 unison:1 fluid0
+ExecStart=/usr/bin/autoconnect C520 unison:0 unison:1 fluid0 C520 setBfree
 Restart=always
 RestartSec=1
 

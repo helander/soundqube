@@ -1,0 +1,17 @@
+[Unit]
+Description=setBfree
+After=soundqube-jack.service
+BindsTo=soundqube-jack.service
+
+[Service]
+LimitRTPRIO=95
+LimitMEMLOCK=infinity
+#Environment=JACK_PROMISCUOUS_SERVER=jack
+ExecStart=/usr/bin/setBfree -p /usr/share/setBfree/pgm/default.pgm
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
+

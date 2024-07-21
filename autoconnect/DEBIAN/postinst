@@ -3,5 +3,6 @@
 if [ "$1" = configure ]; then
    systemctl enable soundqube-autoconnect
    systemctl daemon-reload
+   systemctl stop soundqube-autoconnect
    systemctl start soundqube-autoconnect
 fi

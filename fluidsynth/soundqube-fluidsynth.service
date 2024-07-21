@@ -6,8 +6,7 @@ BindsTo=soundqube-jack.service
 [Service]
 LimitRTPRIO=95
 LimitMEMLOCK=infinity
-Environment=JACK_PROMISCUOUS_SERVER=jack
-ExecStart=/usr/bin/fluidsynth -p "fluid0" --server --no-shell -r48000  -a jack --connect-jack-outputs -m alsa_seq -f /etc/soundqube/fluidsynth/init
+ExecStart=/usr/bin/fluidsynth -p "fluid0" --server --no-shell -r48000  -a jack --connect-jack-outputs -m alsa_seq -o synth.default-soundfont="" -f /etc/soundqube/fluidsynth/init
 Restart=always
 RestartSec=10
 

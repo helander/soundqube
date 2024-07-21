@@ -15,8 +15,6 @@
               background: #d3d3d3;
             }
 
-
-
             .vertical-slider {
               transform: rotate(-90deg) translate(-200px, 0);
             }
@@ -44,7 +42,7 @@
               -webkit-appearance: none;
               width: 50px;
               height: 30px;
-              background-image: url('thumb.svg');
+              background-image: url('/img/thumb.svg');
               background-size: cover;
               margin-top: -7px;
             }
@@ -64,7 +62,7 @@
             }
 
 
-            .fonts {
+            .setbfree {
               font-size: 11px;
               flex-grow: 0;
               color: black;
@@ -79,9 +77,9 @@
     </head>
     <body>
         <div class="channel-container">
-            <!--div class="volume-container">
+            <div class="volume-container">
                 <div class="vertical-slider">
-                    <input id="slider.channel.volume" type="range" min="0" max="127" value="0" ">
+                    <input id="slider.swell" type="range" min="0" max="500" ">
                     <div class="sliderticks">
                         <span></span> <span></span> <span></span> <span></span> <span></span>
                         <span></span> <span></span> <span></span> <span></span> <span></span>
@@ -89,14 +87,17 @@
                         <span></span> <span></span> <span></span> <span></span> <span></span>
                     </div>
                 </div>
-            </div-->
+            </div>
 
+            <select name="setbfree" id="setbfree" class="setbfree">
+              <option selected>Hammond B3</option>
+            </select>
             <select name="instruments" id="instruments" class="instruments"></select>
         </div>
 
         <script type="module">
             async function fluidsynthSend(port, command) {
-                const response = await fetch("/command/" + command + "?fsport=" + port);
+                          const response = await fetch("/command/" + command + "?fsport=" + port);
                 return await response.text();
             }
 
@@ -121,12 +122,9 @@
                     const option = document.createElement("option");
                     const row = list[i].split('|');
                     option.text = row[1];
-                    //const name = list[i];
                     const preset = Number(row[0]);
                     option.value = row[0];
                     if (preset == instrument.preset) {
-                        //console.log('selected instr',instrument.channel,instrument.name,name);
-                        //console.log('bank/preset',instrument.bank,instrument.preset,bank,preset);
                         option.selected = true;
                     }
                     instrumentSelector.add(option);
@@ -150,10 +148,14 @@
             const sFsport = fsport.toString();
 
             /* Define volume slider for channel */
-            //const sliderElement = document.getElementById("slider.channel.volume");
-            //sliderElement.oninput = async function () {
-            //    await fluidsynthSend(sFsport, "cc%20" + sChannel + "%20" + "7" + "%20" + Number(this.value));
-            //};
+            const sliderElement = document.getElementById("slider.swell");
+            const response = await fluidsynthSend(sFsport, "GET%20swell");
+            const list = response.split("\n");
+            const swell = Number(list[2])*1000.0;
+            sliderElement.value = Math.round((swell)).toString();
+            sliderElement.oninput = async function () {
+                await fluidsynthSend(sFsport, "GET%20swell/" + Number(this.value)/1000.0);
+            };
 
             /* Define instrument selector for channel */
             await instruments();

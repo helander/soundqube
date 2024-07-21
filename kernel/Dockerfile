@@ -1,6 +1,5 @@
 FROM debian AS base
 ARG ARCH
-ARG VERSION
 
 RUN apt update -y
 
@@ -46,6 +45,9 @@ RUN cp /rpi-kernel/linux/arch/arm64/boot/Image /package/usr/share/soundqube-kern
 ADD config.txt /package/usr/share/soundqube-kernel/boot
 
 WORKDIR /
+
+ENV VERSION 1.0.1
+
 ADD DEBIAN package/DEBIAN
 RUN sed -i s/ARCH/${ARCH}/g package/DEBIAN/control
 RUN sed -i s/VERSION/${VERSION}/g package/DEBIAN/control
@@ -55,6 +57,6 @@ RUN mv package.deb soundqube-kernel_${VERSION}-1_${ARCH}.deb
 
 FROM scratch AS package
 ARG ARCH
-ARG VERSION
+ENV VERSION 1.0.1
 
 COPY --from=base /soundqube-kernel_${VERSION}-1_${ARCH}.deb /

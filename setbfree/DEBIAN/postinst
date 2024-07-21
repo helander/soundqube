@@ -1,0 +1,8 @@
+#!/bin/bash
+ 
+if [ "$1" = configure ]; then
+   systemctl enable soundqube-setbfree
+   systemctl daemon-reload
+   systemctl stop soundqube-setbfree
+   systemctl start soundqube-setbfree
+fi

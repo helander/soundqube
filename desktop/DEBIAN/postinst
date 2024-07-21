@@ -3,5 +3,6 @@
 if [ "$1" = configure ]; then
    systemctl enable soundqube-desktop
    systemctl daemon-reload
+   systemctl stop soundqube-desktop
    systemctl start soundqube-desktop
 fi

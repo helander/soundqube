@@ -3,5 +3,6 @@
 if [ "$1" = configure ]; then
    systemctl enable soundqube-unison
    systemctl daemon-reload
+   systemctl stop soundqube-unison
    systemctl start soundqube-unison
 fi

@@ -1,9 +1,8 @@
 # TODO include this only once and export variables
 
 PREFIX ?= /usr/local
-#OPTIMIZATIONS ?= -msse -msse2 -mfpmath=sse -ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only
 #OPTIMIZATIONS ?=  -ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only
-OPTIMIZATIONS ?= -mcpu=cortex-a72  -mtune=cortex-a72  -ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only
+OPTIMIZATIONS ?=  -ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only -mcpu=cortex-a72 -march=armv8-a+fp+simd
 ENABLE_CONVOLUTION ?= no
 INSTALL_EXTRA_LV2 ?= no
 FONTFILE?=/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf
@@ -98,7 +97,7 @@ else
   endif
   EXTENDED_RE=-r
 endif
-CC=gcc
+
 GLUICFLAGS+=`pkg-config --cflags cairo pango $(PKG_GL_LIBS)`
 GLUILIBS+=`pkg-config $(PKG_UI_FLAGS) --libs cairo pango pangocairo $(PKG_GL_LIBS)`
 

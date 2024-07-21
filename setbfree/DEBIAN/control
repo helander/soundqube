@@ -1,0 +1,7 @@
+
+Package: soundqube-setbfree
+Version: VERSION
+Architecture: ARCH
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Description: setBfree tonewheel organ
+Depends: soundqube-jack

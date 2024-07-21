@@ -3,5 +3,6 @@
 if [ "$1" = configure ]; then
    systemctl enable soundqube-jack
    systemctl daemon-reload
+   systemctl stop soundqube-jack
    systemctl start soundqube-jack
 fi
