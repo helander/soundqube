@@ -1,6 +1,0 @@
-#!/bin/bash
- 
-if [ "$1" = remove ] ; then
-        systemctl stop soundqube-surge
-        systemctl disable soundqube-surge
-fi
