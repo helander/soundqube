@@ -1,0 +1,16 @@
+[Unit]
+Description=setBfree
+After=soundqube-jack.service
+BindsTo=soundqube-jack.service
+
+[Service]
+LimitRTPRIO=95
+LimitMEMLOCK=infinity
+ExecStart=/usr/bin/aeolus
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
+

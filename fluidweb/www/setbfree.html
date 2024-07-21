@@ -79,7 +79,7 @@
         <div class="channel-container">
             <div class="volume-container">
                 <div class="vertical-slider">
-                    <input id="slider.swell" type="range" min="0" max="500" ">
+                    <input id="slider.swell" type="range" min="0" max="100" >
                     <div class="sliderticks">
                         <span></span> <span></span> <span></span> <span></span> <span></span>
                         <span></span> <span></span> <span></span> <span></span> <span></span>
@@ -151,10 +151,10 @@
             const sliderElement = document.getElementById("slider.swell");
             const response = await fluidsynthSend(sFsport, "GET%20swell");
             const list = response.split("\n");
-            const swell = Number(list[2])*1000.0;
-            sliderElement.value = Math.round((swell)).toString();
+            const swell = Number(list[2]);
+            sliderElement.value = Math.round((100.0*swell/0.015)).toString();
             sliderElement.oninput = async function () {
-                await fluidsynthSend(sFsport, "GET%20swell/" + Number(this.value)/1000.0);
+                await fluidsynthSend(sFsport, "GET%20swell/" + 0.015*Number(this.value)/100.0);
             };
 
             /* Define instrument selector for channel */

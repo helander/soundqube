@@ -3,6 +3,7 @@
 docker run --privileged --rm tonistiigi/binfmt --install all
 
 $(cd autoconnect;../pkgbuild.sh;)
+$(cd aeolus;../pkgbuild.sh;)
 $(cd desktop;../pkgbuild.sh;)
 $(cd fluidsynth;../pkgbuild.sh;)
 $(cd fluidweb;../pkgbuild.sh;)
