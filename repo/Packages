@@ -380,6 +380,19 @@ SHA256: 854ef65674829620c16249c57b9a1d92dc744319fea706d15757cc7fd75bd355
 SHA512: da0b5300e5891381e4b438aaeeb8c7f0c67e6cc12e1839fe052c0afa08482d8b5d69fdb81387a06da4171a8441cbe3129c162a729a211edafdcf0f37f4efa509
 Description: Meta package for installation of all soundqube packages
 
+Package: soundqube
+Architecture: arm64
+Version: 1.0.2
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, netcat-traditional
+Filename: arm64/soundqube_1.0.2-1_arm64.deb
+Size: 780
+MD5sum: cf14abb275903e3fa5b7028601cdf37a
+SHA1: 0ecd35a73810abc7c228aeec5809725d9a3437b4
+SHA256: 5f53bbe5fa6a863c043261093c802d202d2b09c21ce5e095e858adbd4ad7223a
+SHA512: aabf3f1f547ca4121f556ce8fec422f65011e19720dd5f9e335ab333efd5b379198cf48acc8ca92de8af65becbd8ee536d0f887662bf4f3df661ac15e937a91e
+Description: Meta package for installation of all soundqube packages
+
 Package: fluidweb
 Architecture: arm64
 Version: 1.0
@@ -760,5 +773,18 @@ MD5sum: c32aa1d2b06ee7cd0a51f5cacf5a1606
 SHA1: 1bbc2b5d330b4e6da030af9f957c98e0f50f30d4
 SHA256: 854ef65674829620c16249c57b9a1d92dc744319fea706d15757cc7fd75bd355
 SHA512: da0b5300e5891381e4b438aaeeb8c7f0c67e6cc12e1839fe052c0afa08482d8b5d69fdb81387a06da4171a8441cbe3129c162a729a211edafdcf0f37f4efa509
+Description: Meta package for installation of all soundqube packages
+
+Package: soundqube
+Architecture: arm64
+Version: 1.0.2
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, netcat-traditional
+Filename: arm64/soundqube_1.0.2-1_arm64.deb
+Size: 780
+MD5sum: cf14abb275903e3fa5b7028601cdf37a
+SHA1: 0ecd35a73810abc7c228aeec5809725d9a3437b4
+SHA256: 5f53bbe5fa6a863c043261093c802d202d2b09c21ce5e095e858adbd4ad7223a
+SHA512: aabf3f1f547ca4121f556ce8fec422f65011e19720dd5f9e335ab333efd5b379198cf48acc8ca92de8af65becbd8ee536d0f887662bf4f3df661ac15e937a91e
 Description: Meta package for installation of all soundqube packages
 
