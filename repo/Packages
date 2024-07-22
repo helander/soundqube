@@ -15,11 +15,11 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/fluidweb_1.0.1-1_arm64.deb
-Size: 3031300
-MD5sum: 267871be675075496f4cbd3cbe222afa
-SHA1: 56f227630107c2c7ee029b9c146b1989fa33c83a
-SHA256: 7f86bb711f0dcfedb38312327c23051340d342dfbdcd2a9dd1d06f3b40bdcb35
-SHA512: a416a82f67eca245f80e42ae114f278c91dd4e11cff34b633663860a8b377311604c051fbe416f5f99f319eb2bc85227a44b420c08a2505e9f70a89988394c96
+Size: 3030724
+MD5sum: f3a62237fa504fadeb3f11991d2e1479
+SHA1: 8837fcebfd8c8c68c1a4c1ab2ed253e62a0c1a87
+SHA256: 8083ee5a557cfcea25695ed294658639c8b9e33da1d75fbbc6e33196bf994daa
+SHA512: 9758b5466347847ef1d4a0370c18eff0b47413a3501d9e06a5edcefa8331082045a5ed68ec051734706944f03d0b06b5de72e0ef234a58066cb046b013f5ef31
 Description: A web based user interface for Fluidsynth.
 
 Package: soundqube-aeolus
@@ -106,11 +106,11 @@ Version: 1.0.6
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-aeolus_1.0.6-1_arm64.deb
-Size: 40936992
-MD5sum: 728e87ba98e9873750e5b535c14fd13a
-SHA1: b17bca6511dcb3e612a4c2bca2afede0e016d6c9
-SHA256: ec336d3ab120d648a02641bb99d4d78926a9d1f03352f8e021f60ac0929765e1
-SHA512: fa8786dca1fc8335e8c573c4dc3eb4471f1124938339312691f705bc38e86c72921e97460fd7c86d1b5293aef9118ecc502f2915a2d27037e9ddb6076712e717
+Size: 40894288
+MD5sum: 1099a6159b52cafbf94d4d764594c1b9
+SHA1: cc03e78b2b4ea627e0e65c06d953116e7b8d0bf7
+SHA256: d0634d056aa2a42e413eb3ce961f7671d85c4b621dd19cfe9fe0ec49d50c8fe1
+SHA512: 09447e2cdf8cdc68c374ffcbf652e4859553d11c437075a8b47f8ff0dcbf2d8cf18aa1c0c25116ed26722b1b210e94ba7fe67c795d0d4f224687382c5d387aa7
 Description: Pipe organ
 
 Package: soundqube-autoconnect
@@ -130,11 +130,11 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-autoconnect_1.0.1-1_arm64.deb
-Size: 12556
-MD5sum: 2168b83a494796c52f30662040ed3fa5
-SHA1: dafedf1ed6005b5e41692c2407c5905a412a5935
-SHA256: 48ad5bedca1424d24b7bb86d4c6f0b59e347fb7f0cf52bbd5300fa75e18fa263
-SHA512: 3c83a48e8e456dc0d36817b8b150d4634b3372139056bf483a3113cd3f4390a006fd5e4d444e8c79167e84c75208b3411edad763bade347fdd076ebe6ee252d6
+Size: 12564
+MD5sum: 28a8c37b1013c596392a9cf5f9aeb9b5
+SHA1: 2ecb80278be8496f19a4811835d1023250387527
+SHA256: 62d28359e3c7e9d88217f592cd080c476bab78e356e4f1b9f8829363f60acedc
+SHA512: c9271723487e029c7dd079abf54a1a7601e9af53503669b347d2feab7e6e9c2af289ac265dc7d5fc07cb10525ba75f0254c902b24e524cc9979eadf5719ba09d
 Description: Autoconnect MIDI ports
 
 Package: soundqube-desktop
@@ -169,11 +169,11 @@ Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: xvfb, x11vnc, xterm, blackbox, menu, wmdrawer
 Filename: arm64/soundqube-desktop_1.0.1-1_arm64.deb
-Size: 1272
-MD5sum: cf2268a7ec697d2448daf67fbe2d85e0
-SHA1: 57509ec01da8ed570621bbda211b8a57449adce8
-SHA256: 77793a69b9858a7c51c1d08211454a2dbd5d8b3d8cd2e57b9522af8d00904d89
-SHA512: 9a80cfe65c9c3323e61e379c5acd4e6980d3108491c3d36e968ca41f5713f2ae87e696172752ae0fe1ae7e3966b25431dec58fc5a791ca44fa7da2c05a511301
+Size: 1276
+MD5sum: e5aefa6746e123bc4ea096af41aea33e
+SHA1: 8a4554fd3a34281c0102a686f8571b65ae5b233c
+SHA256: 08632459505a70eb1fa57ebb19ae21ac99378ed0852aea378697b4dec3eedd68
+SHA512: b674e8e9c8c0b5d8599cf239e6418d78e6df88d2d81a66b05c426249c0e65c8d19585bb04a39d03fe14fa6f22e00dbb33740520941423ba528a1fb0b5971764b
 Description: Desktop via VNC
 
 Package: soundqube-fluida
@@ -234,10 +234,10 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: fluidsynth, soundqube-jack
 Filename: arm64/soundqube-fluidsynth_1.0.3-1_arm64.deb
 Size: 1468
-MD5sum: a12b7f9b5d043cf1c7003f49bb44f085
-SHA1: be2198b397dd1ef41ecabe1d04bee02a523ed6d7
-SHA256: c6501bd9a32756d52c35a24eaa18f9c15e0fd74528aad467517bdba3cef667db
-SHA512: c4998ddb78df9046def6ef1b82f38ffef54663cc13ce59def3fc87d2cd00dd959573bbde7baaca862ca91cf8ddb29ed13c9de17cbbffeafe2a16347e86d9fbb2
+MD5sum: 411d8be1758ccdd19bdda55f95cd3437
+SHA1: 361663d2c6f259fc2425fe86cdb96ed65aa6b888
+SHA256: 61463776cd878625c1bdd680c686333a504ec99fb69c5d2bd5eb31ece36dff9c
+SHA512: 89c870e96dae09e198fdc476148b7de7aeda11330a9dbbb9141ee1e34609bce5e1ff27ac2aed51366cf953e510f58f9621542fa034ce54025c402e041f94b72e
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-jack
@@ -259,11 +259,11 @@ Version: 1.1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.1.0-1_arm64.deb
-Size: 1216
-MD5sum: 5e32a15c459f86d48e9b994a6a32a90d
-SHA1: 0525d345c2d4fdc5e94698ef2494715d7180e21e
-SHA256: 5271fbb95b8112bef926ebd224b3e98899ef0d49f4899c0204056760f4a8624d
-SHA512: 09aa5441624ddaf0d847896b2982baccc563db76ca66a44c164e1944cea85e77ef51bb488dfc996b5da53ffa698145f6ca7ea1872d6e38500b65d8c5d8d0d6eb
+Size: 1220
+MD5sum: 3a47f97ae4f909134b30656a39c7ad08
+SHA1: 35fa50ce0a7b7de59f14bca1a6eb833f777560c2
+SHA256: 792ce6a02bfa2aa1c90c7029bf497ee93c3080e46a2993aff6fca95562382410
+SHA512: 06895aa7d811a7c475b68f93832be7c38e134294704237725280b17fc6f47d859e3d968a3f9d6810857a459fad664a0f5e8e6612e6bb206e4d40368d877d8e27
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
@@ -440,11 +440,11 @@ Version: 1.3.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.3.9-1_arm64.deb
-Size: 93856
-MD5sum: de9a6f49e0f46fa48cf389e9fd3556d9
-SHA1: a86bed6e1637956ac01300297c6dbd9575abafe3
-SHA256: a8acfaccbd0f2123c67421e668ab3d0e053d5ebdf76f27b2d0716cbfa4f04688
-SHA512: 909274c0e3a036f74612c7551ca1e50536337fee2f647b407595b24cdf0a14ba6225071998b15f4ec8851c37844701dddbea5f90360563694d447ec0e44f2092
+Size: 94004
+MD5sum: c618173b563bf29f88932f4f8152d0af
+SHA1: 731e583254b46d6d869f52ab77fcc2199b59f908
+SHA256: 5ce0dd80fc1335789617fc5c6210e3e9907109297d919b9cc60dfe54bee352f5
+SHA512: 7448a7237d5f4ea88ac955a717a5db8fa2d5344d771bf404655d13756a922b947d0dff9d4b4602cd2af867cefdbbe95699850d802dc08f364d790dfbff2aa558
 Description: setBfree tonewheel organ
 
 Package: soundqube-unison
@@ -464,11 +464,11 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-unison_1.0.1-1_arm64.deb
-Size: 7392
-MD5sum: 0b8bc6fabef36bf8ab4f568e63580544
-SHA1: bc01379ba554c31a51c1df61e8fd869eda7ae8c4
-SHA256: 62e8d2bda0061f7a8b3ef427b9d3336728304a36ffc66f7cf07fc85fb93c0ec7
-SHA512: 4f0ebc0e6979863cbf16036557e29e80b20061ff2b3bb6a15443b6f3acf5c004905ead7c6d8c3bd4e7f6a1344cfe05d43ef2e617dada7aa9fae20e6d4f3e1654
+Size: 7396
+MD5sum: c35c085f9d6bd2927fa1e178b1ac93c8
+SHA1: 3fe4ff9e33645fd54d1078df36f32f9f4ea8aaf5
+SHA256: 638f824dfbbb154759efdd17f431bcba98a516fe99bd6c535f2ba13589fff4aa
+SHA512: f6e0a4487c1079cec6893f42a8550d7c348674a521d6d695e905ab895ec04bf48cbb849c5eee4920fdece9b7a923997302d318082602e0c26ba154b28a863d77
 Description: MIDI notes cloning over several channels
 
 Package: soundqube
@@ -504,10 +504,10 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, netcat-traditional
 Filename: arm64/soundqube_1.0.2-1_arm64.deb
 Size: 780
-MD5sum: cf14abb275903e3fa5b7028601cdf37a
-SHA1: 0ecd35a73810abc7c228aeec5809725d9a3437b4
-SHA256: 5f53bbe5fa6a863c043261093c802d202d2b09c21ce5e095e858adbd4ad7223a
-SHA512: aabf3f1f547ca4121f556ce8fec422f65011e19720dd5f9e335ab333efd5b379198cf48acc8ca92de8af65becbd8ee536d0f887662bf4f3df661ac15e937a91e
+MD5sum: 460a9c8fed6ee432b10bbcd3c852375d
+SHA1: 8362e31cea85a6b2b163161b8adb05dbdc32e278
+SHA256: ee1eebec3450dce47256cb4f7bd60f5746d2dcb86f8dd77672df7fba99229a0c
+SHA512: c98d3a539b185918f9722a1f706037b0ea8319e17013495f833c5b7c57eba3c03dab23063afec49dbd9a8b9b76acf699ef42eebd28c53691084ad87088f52384
 Description: Meta package for installation of all soundqube packages
 
 Package: fluidweb
@@ -527,11 +527,11 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/fluidweb_1.0.1-1_arm64.deb
-Size: 3031300
-MD5sum: 267871be675075496f4cbd3cbe222afa
-SHA1: 56f227630107c2c7ee029b9c146b1989fa33c83a
-SHA256: 7f86bb711f0dcfedb38312327c23051340d342dfbdcd2a9dd1d06f3b40bdcb35
-SHA512: a416a82f67eca245f80e42ae114f278c91dd4e11cff34b633663860a8b377311604c051fbe416f5f99f319eb2bc85227a44b420c08a2505e9f70a89988394c96
+Size: 3030724
+MD5sum: f3a62237fa504fadeb3f11991d2e1479
+SHA1: 8837fcebfd8c8c68c1a4c1ab2ed253e62a0c1a87
+SHA256: 8083ee5a557cfcea25695ed294658639c8b9e33da1d75fbbc6e33196bf994daa
+SHA512: 9758b5466347847ef1d4a0370c18eff0b47413a3501d9e06a5edcefa8331082045a5ed68ec051734706944f03d0b06b5de72e0ef234a58066cb046b013f5ef31
 Description: A web based user interface for Fluidsynth.
 
 Package: soundqube-aeolus
@@ -618,11 +618,11 @@ Version: 1.0.6
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-aeolus_1.0.6-1_arm64.deb
-Size: 40936992
-MD5sum: 728e87ba98e9873750e5b535c14fd13a
-SHA1: b17bca6511dcb3e612a4c2bca2afede0e016d6c9
-SHA256: ec336d3ab120d648a02641bb99d4d78926a9d1f03352f8e021f60ac0929765e1
-SHA512: fa8786dca1fc8335e8c573c4dc3eb4471f1124938339312691f705bc38e86c72921e97460fd7c86d1b5293aef9118ecc502f2915a2d27037e9ddb6076712e717
+Size: 40894288
+MD5sum: 1099a6159b52cafbf94d4d764594c1b9
+SHA1: cc03e78b2b4ea627e0e65c06d953116e7b8d0bf7
+SHA256: d0634d056aa2a42e413eb3ce961f7671d85c4b621dd19cfe9fe0ec49d50c8fe1
+SHA512: 09447e2cdf8cdc68c374ffcbf652e4859553d11c437075a8b47f8ff0dcbf2d8cf18aa1c0c25116ed26722b1b210e94ba7fe67c795d0d4f224687382c5d387aa7
 Description: Pipe organ
 
 Package: soundqube-autoconnect
@@ -642,11 +642,11 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-autoconnect_1.0.1-1_arm64.deb
-Size: 12556
-MD5sum: 2168b83a494796c52f30662040ed3fa5
-SHA1: dafedf1ed6005b5e41692c2407c5905a412a5935
-SHA256: 48ad5bedca1424d24b7bb86d4c6f0b59e347fb7f0cf52bbd5300fa75e18fa263
-SHA512: 3c83a48e8e456dc0d36817b8b150d4634b3372139056bf483a3113cd3f4390a006fd5e4d444e8c79167e84c75208b3411edad763bade347fdd076ebe6ee252d6
+Size: 12564
+MD5sum: 28a8c37b1013c596392a9cf5f9aeb9b5
+SHA1: 2ecb80278be8496f19a4811835d1023250387527
+SHA256: 62d28359e3c7e9d88217f592cd080c476bab78e356e4f1b9f8829363f60acedc
+SHA512: c9271723487e029c7dd079abf54a1a7601e9af53503669b347d2feab7e6e9c2af289ac265dc7d5fc07cb10525ba75f0254c902b24e524cc9979eadf5719ba09d
 Description: Autoconnect MIDI ports
 
 Package: soundqube-desktop
@@ -681,11 +681,11 @@ Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: xvfb, x11vnc, xterm, blackbox, menu, wmdrawer
 Filename: arm64/soundqube-desktop_1.0.1-1_arm64.deb
-Size: 1272
-MD5sum: cf2268a7ec697d2448daf67fbe2d85e0
-SHA1: 57509ec01da8ed570621bbda211b8a57449adce8
-SHA256: 77793a69b9858a7c51c1d08211454a2dbd5d8b3d8cd2e57b9522af8d00904d89
-SHA512: 9a80cfe65c9c3323e61e379c5acd4e6980d3108491c3d36e968ca41f5713f2ae87e696172752ae0fe1ae7e3966b25431dec58fc5a791ca44fa7da2c05a511301
+Size: 1276
+MD5sum: e5aefa6746e123bc4ea096af41aea33e
+SHA1: 8a4554fd3a34281c0102a686f8571b65ae5b233c
+SHA256: 08632459505a70eb1fa57ebb19ae21ac99378ed0852aea378697b4dec3eedd68
+SHA512: b674e8e9c8c0b5d8599cf239e6418d78e6df88d2d81a66b05c426249c0e65c8d19585bb04a39d03fe14fa6f22e00dbb33740520941423ba528a1fb0b5971764b
 Description: Desktop via VNC
 
 Package: soundqube-fluida
@@ -746,10 +746,10 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: fluidsynth, soundqube-jack
 Filename: arm64/soundqube-fluidsynth_1.0.3-1_arm64.deb
 Size: 1468
-MD5sum: a12b7f9b5d043cf1c7003f49bb44f085
-SHA1: be2198b397dd1ef41ecabe1d04bee02a523ed6d7
-SHA256: c6501bd9a32756d52c35a24eaa18f9c15e0fd74528aad467517bdba3cef667db
-SHA512: c4998ddb78df9046def6ef1b82f38ffef54663cc13ce59def3fc87d2cd00dd959573bbde7baaca862ca91cf8ddb29ed13c9de17cbbffeafe2a16347e86d9fbb2
+MD5sum: 411d8be1758ccdd19bdda55f95cd3437
+SHA1: 361663d2c6f259fc2425fe86cdb96ed65aa6b888
+SHA256: 61463776cd878625c1bdd680c686333a504ec99fb69c5d2bd5eb31ece36dff9c
+SHA512: 89c870e96dae09e198fdc476148b7de7aeda11330a9dbbb9141ee1e34609bce5e1ff27ac2aed51366cf953e510f58f9621542fa034ce54025c402e041f94b72e
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-jack
@@ -771,11 +771,11 @@ Version: 1.1.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: jackd2
 Filename: arm64/soundqube-jack_1.1.0-1_arm64.deb
-Size: 1216
-MD5sum: 5e32a15c459f86d48e9b994a6a32a90d
-SHA1: 0525d345c2d4fdc5e94698ef2494715d7180e21e
-SHA256: 5271fbb95b8112bef926ebd224b3e98899ef0d49f4899c0204056760f4a8624d
-SHA512: 09aa5441624ddaf0d847896b2982baccc563db76ca66a44c164e1944cea85e77ef51bb488dfc996b5da53ffa698145f6ca7ea1872d6e38500b65d8c5d8d0d6eb
+Size: 1220
+MD5sum: 3a47f97ae4f909134b30656a39c7ad08
+SHA1: 35fa50ce0a7b7de59f14bca1a6eb833f777560c2
+SHA256: 792ce6a02bfa2aa1c90c7029bf497ee93c3080e46a2993aff6fca95562382410
+SHA512: 06895aa7d811a7c475b68f93832be7c38e134294704237725280b17fc6f47d859e3d968a3f9d6810857a459fad664a0f5e8e6612e6bb206e4d40368d877d8e27
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
@@ -952,11 +952,11 @@ Version: 1.3.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.3.9-1_arm64.deb
-Size: 93856
-MD5sum: de9a6f49e0f46fa48cf389e9fd3556d9
-SHA1: a86bed6e1637956ac01300297c6dbd9575abafe3
-SHA256: a8acfaccbd0f2123c67421e668ab3d0e053d5ebdf76f27b2d0716cbfa4f04688
-SHA512: 909274c0e3a036f74612c7551ca1e50536337fee2f647b407595b24cdf0a14ba6225071998b15f4ec8851c37844701dddbea5f90360563694d447ec0e44f2092
+Size: 94004
+MD5sum: c618173b563bf29f88932f4f8152d0af
+SHA1: 731e583254b46d6d869f52ab77fcc2199b59f908
+SHA256: 5ce0dd80fc1335789617fc5c6210e3e9907109297d919b9cc60dfe54bee352f5
+SHA512: 7448a7237d5f4ea88ac955a717a5db8fa2d5344d771bf404655d13756a922b947d0dff9d4b4602cd2af867cefdbbe95699850d802dc08f364d790dfbff2aa558
 Description: setBfree tonewheel organ
 
 Package: soundqube-unison
@@ -976,11 +976,11 @@ Architecture: arm64
 Version: 1.0.1
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-unison_1.0.1-1_arm64.deb
-Size: 7392
-MD5sum: 0b8bc6fabef36bf8ab4f568e63580544
-SHA1: bc01379ba554c31a51c1df61e8fd869eda7ae8c4
-SHA256: 62e8d2bda0061f7a8b3ef427b9d3336728304a36ffc66f7cf07fc85fb93c0ec7
-SHA512: 4f0ebc0e6979863cbf16036557e29e80b20061ff2b3bb6a15443b6f3acf5c004905ead7c6d8c3bd4e7f6a1344cfe05d43ef2e617dada7aa9fae20e6d4f3e1654
+Size: 7396
+MD5sum: c35c085f9d6bd2927fa1e178b1ac93c8
+SHA1: 3fe4ff9e33645fd54d1078df36f32f9f4ea8aaf5
+SHA256: 638f824dfbbb154759efdd17f431bcba98a516fe99bd6c535f2ba13589fff4aa
+SHA512: f6e0a4487c1079cec6893f42a8550d7c348674a521d6d695e905ab895ec04bf48cbb849c5eee4920fdece9b7a923997302d318082602e0c26ba154b28a863d77
 Description: MIDI notes cloning over several channels
 
 Package: soundqube
@@ -1016,9 +1016,9 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, netcat-traditional
 Filename: arm64/soundqube_1.0.2-1_arm64.deb
 Size: 780
-MD5sum: cf14abb275903e3fa5b7028601cdf37a
-SHA1: 0ecd35a73810abc7c228aeec5809725d9a3437b4
-SHA256: 5f53bbe5fa6a863c043261093c802d202d2b09c21ce5e095e858adbd4ad7223a
-SHA512: aabf3f1f547ca4121f556ce8fec422f65011e19720dd5f9e335ab333efd5b379198cf48acc8ca92de8af65becbd8ee536d0f887662bf4f3df661ac15e937a91e
+MD5sum: 460a9c8fed6ee432b10bbcd3c852375d
+SHA1: 8362e31cea85a6b2b163161b8adb05dbdc32e278
+SHA256: ee1eebec3450dce47256cb4f7bd60f5746d2dcb86f8dd77672df7fba99229a0c
+SHA512: c98d3a539b185918f9722a1f706037b0ea8319e17013495f833c5b7c57eba3c03dab23063afec49dbd9a8b9b76acf699ef42eebd28c53691084ad87088f52384
 Description: Meta package for installation of all soundqube packages
 
