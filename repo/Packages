@@ -87,6 +87,19 @@ SHA256: c1411145a8f61fa1d479861251b6bbe3b32cf820d664bbf13d2d2ba4ac9873f1
 SHA512: dde55af82b954257abc3bcf6e7139fa3bff74c92c888b9c27ca5e19acbe7270a7cf7a25fa88dd1f7493cf78e436678c29134f8ee7ead3d6814b4ed7773d1fefc
 Description: Pipe organ
 
+Package: soundqube-aeolus
+Architecture: arm64
+Version: 1.0.5
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack
+Filename: arm64/soundqube-aeolus_1.0.5-1_arm64.deb
+Size: 109272
+MD5sum: 0c0e69baa6355099d95b52a801119274
+SHA1: 67415bc20a45417ca79899c57b152ee35ad25ff1
+SHA256: 5709a78bf9f3ae864fe828cbeae25a65a062024df7e8635eebc9edb17d7be14e
+SHA512: 19ceb4842f1625bfcc43640a0a4c27fc33707c41fc9321ebbf725c7145dcb34b87e372314e91bb17869eb4800f36e8714927c2617586582e6f7795de85483ac9
+Description: Pipe organ
+
 Package: soundqube-autoconnect
 Architecture: arm64
 Version: 1.0
@@ -558,6 +571,19 @@ MD5sum: f136ffb9b6bd64995297f1774030f140
 SHA1: fbce75fbc10c01b8b2c3c5f28f0b42a5f910635c
 SHA256: c1411145a8f61fa1d479861251b6bbe3b32cf820d664bbf13d2d2ba4ac9873f1
 SHA512: dde55af82b954257abc3bcf6e7139fa3bff74c92c888b9c27ca5e19acbe7270a7cf7a25fa88dd1f7493cf78e436678c29134f8ee7ead3d6814b4ed7773d1fefc
+Description: Pipe organ
+
+Package: soundqube-aeolus
+Architecture: arm64
+Version: 1.0.5
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-jack
+Filename: arm64/soundqube-aeolus_1.0.5-1_arm64.deb
+Size: 109272
+MD5sum: 0c0e69baa6355099d95b52a801119274
+SHA1: 67415bc20a45417ca79899c57b152ee35ad25ff1
+SHA256: 5709a78bf9f3ae864fe828cbeae25a65a062024df7e8635eebc9edb17d7be14e
+SHA512: 19ceb4842f1625bfcc43640a0a4c27fc33707c41fc9321ebbf725c7145dcb34b87e372314e91bb17869eb4800f36e8714927c2617586582e6f7795de85483ac9
 Description: Pipe organ
 
 Package: soundqube-autoconnect
