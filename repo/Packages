@@ -513,13 +513,13 @@ Package: soundqube
 Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-kernel, soundqube-system, soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, soundqube-aeoulus, netcat-traditional
+Depends: soundqube-kernel, soundqube-system, soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, soundqube-aeolus, netcat-traditional
 Filename: arm64/soundqube_1.0.2-1_arm64.deb
 Size: 796
-MD5sum: 9b59630e304f841e6be242cecc20390b
-SHA1: f9f5982f88235aea9492164da60d99a613a59ea8
-SHA256: 5b6ca2af32ad519801d0c8b033e4c44b1de525bd0fb0713282b043f954cb0e2e
-SHA512: 0734f31395e5e4d9527f91ca825118a11624938ddeb4e2760eb9ddb3973bc731f55573632a022583c4e0a130a10a31dfce464aef0d2548475074e71cd586f13e
+MD5sum: e4f3ee2555adca7b9d9403bf9db18351
+SHA1: ef32a3da0ce2800589da46f0fb97ed64eae57fd7
+SHA256: 9676302819ce3058b997c887df1adc6df0e540d6675bdd795178642c3d4565a7
+SHA512: 692f05e794e6cb0c2eb49dc0dd396ce978571a84a67caa8cbe21d7da15803e7ade79c1083ac765e4b5872bb7f9c482b49d52e7374523f414ca827f734853a392
 Description: Meta package for installation of all soundqube packages
 
 Package: fluidweb
@@ -1037,12 +1037,12 @@ Package: soundqube
 Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-kernel, soundqube-system, soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, soundqube-aeoulus, netcat-traditional
+Depends: soundqube-kernel, soundqube-system, soundqube-jack, soundqube-fluidsynth, fluidweb, soundqube-unison, soundqube-autoconnect, soundqube-desktop, qjackctl, soundqube-setbfree, soundqube-aeolus, netcat-traditional
 Filename: arm64/soundqube_1.0.2-1_arm64.deb
 Size: 796
-MD5sum: 9b59630e304f841e6be242cecc20390b
-SHA1: f9f5982f88235aea9492164da60d99a613a59ea8
-SHA256: 5b6ca2af32ad519801d0c8b033e4c44b1de525bd0fb0713282b043f954cb0e2e
-SHA512: 0734f31395e5e4d9527f91ca825118a11624938ddeb4e2760eb9ddb3973bc731f55573632a022583c4e0a130a10a31dfce464aef0d2548475074e71cd586f13e
+MD5sum: e4f3ee2555adca7b9d9403bf9db18351
+SHA1: ef32a3da0ce2800589da46f0fb97ed64eae57fd7
+SHA256: 9676302819ce3058b997c887df1adc6df0e540d6675bdd795178642c3d4565a7
+SHA512: 692f05e794e6cb0c2eb49dc0dd396ce978571a84a67caa8cbe21d7da15803e7ade79c1083ac765e4b5872bb7f9c482b49d52e7374523f414ca827f734853a392
 Description: Meta package for installation of all soundqube packages
 
