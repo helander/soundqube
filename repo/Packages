@@ -202,6 +202,19 @@ SHA256: 5cca7ce062ed5749c433401ae280b5576691e513df89531f474cec6388a066a5
 SHA512: 9a27630586bb306d255ee10078f570bc8f283c267f20fc08387002aee25b0df3b099375b1b04fff1f6acbc1467b5358a2cd7bd2fe29ed28682c45d69d0ec299a
 Description: Desktop via VNC
 
+Package: soundqube-desktop
+Architecture: arm64
+Version: 1.0.2
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: xvfb, x11vnc, xterm, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Filename: arm64/soundqube-desktop_1.0.2-1_arm64.deb
+Size: 1340
+MD5sum: 9e1eac62f3722b0c25f268b5f167a289
+SHA1: 22a1483c47caff3e49b4ff578fd7f23e3edf2f59
+SHA256: 8d89c6efd5b7b78e47df3b54a4f7d58c73443bc388a10afe3de1f3b6483a21c3
+SHA512: 5b5dafdf63e03d69e5bbd5edb73406b60bc687d3fcc1dbdabcea747ad658dd25e26236223627cf37f374181c40b7f16166ad1254726547ac4dcb4dcd1fa6cc9c
+Description: Desktop via VNC
+
 Package: soundqube-fluida
 Architecture: arm64
 Version: 1.0
@@ -750,6 +763,19 @@ MD5sum: f2eec7d431a11d1ac8a35f721a92d5e2
 SHA1: 6740ec05b387ee18e3eacb8906839d35e6a73885
 SHA256: 5cca7ce062ed5749c433401ae280b5576691e513df89531f474cec6388a066a5
 SHA512: 9a27630586bb306d255ee10078f570bc8f283c267f20fc08387002aee25b0df3b099375b1b04fff1f6acbc1467b5358a2cd7bd2fe29ed28682c45d69d0ec299a
+Description: Desktop via VNC
+
+Package: soundqube-desktop
+Architecture: arm64
+Version: 1.0.2
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: xvfb, x11vnc, xterm, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Filename: arm64/soundqube-desktop_1.0.2-1_arm64.deb
+Size: 1340
+MD5sum: 9e1eac62f3722b0c25f268b5f167a289
+SHA1: 22a1483c47caff3e49b4ff578fd7f23e3edf2f59
+SHA256: 8d89c6efd5b7b78e47df3b54a4f7d58c73443bc388a10afe3de1f3b6483a21c3
+SHA512: 5b5dafdf63e03d69e5bbd5edb73406b60bc687d3fcc1dbdabcea747ad658dd25e26236223627cf37f374181c40b7f16166ad1254726547ac4dcb4dcd1fa6cc9c
 Description: Desktop via VNC
 
 Package: soundqube-fluida
