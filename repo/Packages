@@ -132,11 +132,11 @@ Version: 1.0.8
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack, libclthreads2, libclxclient3
 Filename: arm64/soundqube-aeolus_1.0.8-1_arm64.deb
-Size: 40916628
-MD5sum: 28fc8c7de62d66e8dceb6bf3da45754e
-SHA1: 2b84114f7dd83f32d4c13ef70e4429a0929d93fb
-SHA256: ac946382c76306ccbf75c930340bd4e1747bc19867cc8ed77364ce538e1d903f
-SHA512: 2d10e2f8fbe3e77b5440517d195d97392e2e1bb6da353ddb87f8c684a466a8895bef00cbd1b93938f0ff5fe707257c3fb2adafd4a130e18899617386d92c6554
+Size: 40950068
+MD5sum: 6b2f864fc0f7acac94688485c7b799f6
+SHA1: fa3a456363d23b2e2cfa2336cc5b80a05dcd9147
+SHA256: dc6b02e2aa06bcb4a12d944e8b1f010811537533b3b98b967039336d675dde85
+SHA512: 1f1805d2a41f5c6d96bbad96a5db16d99bf1224ba3281ab474b713202c17135d220f2f5bd1b7ecf26148773adb7e67cf1846a67801c7dec3383e29c2ee99f4eb
 Description: Pipe organ
 
 Package: soundqube-autoconnect
@@ -285,11 +285,11 @@ Version: 1.0.3
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-system, fluidsynth, soundqube-jack
 Filename: arm64/soundqube-fluidsynth_1.0.3-1_arm64.deb
-Size: 1484
-MD5sum: 0df7c8d6fbcf015c299749741197257e
-SHA1: 003defcdc71264999946c9969719c848a65e6dd5
-SHA256: e2a7340700514b919b09e4eed8dd56653f1d93177abd2a032a315be50703e72a
-SHA512: 14c921d8e75e999d2d881bf370f328da66eb9b69d2ef133077f22a2e2ff6ac9ca6aa16fd303373a398f806f96cdb2df14201690da01acadfd3bae87784561c7e
+Size: 1508
+MD5sum: fdd394c020d0ecf32064e49b97fb35f7
+SHA1: 58d01237b23d1dc48961b97606bbbd0b14a442f3
+SHA256: aa886ab94b467f8fd1f7e59de599b673d4f2bebf316880f63cdab67d8bc7098b
+SHA512: 4dc61678f5cb877a722e1763a93400542fec0933e5a10073677b427908de5a8947074a1bce27d35957e44c652cfd1311f50c7df3745a6e3c72f444448554b235
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-jack
@@ -505,11 +505,11 @@ Version: 1.3.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.3.9-1_arm64.deb
-Size: 93740
-MD5sum: a75426245b941c1f4c26ac280315c7ef
-SHA1: fe2165ce927412a36e6d08a6923bb076c661f155
-SHA256: ad415a08b35ed85308d5971080199544ceddbe1af0a7e35e195d62bedf321b1d
-SHA512: ed440c903b8631e3cc12a8b0bfddbe28cbdbab904f2b968e2c1d5c0ca6e61ecd63bae96650c13801a822806624628e0ca5999342f1d9616f1a9fe247697810ec
+Size: 93860
+MD5sum: 7566b68158e81a21193a3942fe677915
+SHA1: 075afcc0ad0304fa2e393c7b3806a037c43609c0
+SHA256: ce969ccff3546bb8d76dc6accaa9368a0a1023c8c9b75ddf78c331c849b40938
+SHA512: 26f6dd774296bbdcbaf8da5bc0cf66995a2e407ccca59f2b90f93e28abf332dd264775322acd52f4b3f31e98ed1db5504af64cb17573e411fbf79f33f54db12c
 Description: setBfree tonewheel organ
 
 Package: soundqube-system
@@ -721,11 +721,11 @@ Version: 1.0.8
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack, libclthreads2, libclxclient3
 Filename: arm64/soundqube-aeolus_1.0.8-1_arm64.deb
-Size: 40916628
-MD5sum: 28fc8c7de62d66e8dceb6bf3da45754e
-SHA1: 2b84114f7dd83f32d4c13ef70e4429a0929d93fb
-SHA256: ac946382c76306ccbf75c930340bd4e1747bc19867cc8ed77364ce538e1d903f
-SHA512: 2d10e2f8fbe3e77b5440517d195d97392e2e1bb6da353ddb87f8c684a466a8895bef00cbd1b93938f0ff5fe707257c3fb2adafd4a130e18899617386d92c6554
+Size: 40950068
+MD5sum: 6b2f864fc0f7acac94688485c7b799f6
+SHA1: fa3a456363d23b2e2cfa2336cc5b80a05dcd9147
+SHA256: dc6b02e2aa06bcb4a12d944e8b1f010811537533b3b98b967039336d675dde85
+SHA512: 1f1805d2a41f5c6d96bbad96a5db16d99bf1224ba3281ab474b713202c17135d220f2f5bd1b7ecf26148773adb7e67cf1846a67801c7dec3383e29c2ee99f4eb
 Description: Pipe organ
 
 Package: soundqube-autoconnect
@@ -874,11 +874,11 @@ Version: 1.0.3
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-system, fluidsynth, soundqube-jack
 Filename: arm64/soundqube-fluidsynth_1.0.3-1_arm64.deb
-Size: 1484
-MD5sum: 0df7c8d6fbcf015c299749741197257e
-SHA1: 003defcdc71264999946c9969719c848a65e6dd5
-SHA256: e2a7340700514b919b09e4eed8dd56653f1d93177abd2a032a315be50703e72a
-SHA512: 14c921d8e75e999d2d881bf370f328da66eb9b69d2ef133077f22a2e2ff6ac9ca6aa16fd303373a398f806f96cdb2df14201690da01acadfd3bae87784561c7e
+Size: 1508
+MD5sum: fdd394c020d0ecf32064e49b97fb35f7
+SHA1: 58d01237b23d1dc48961b97606bbbd0b14a442f3
+SHA256: aa886ab94b467f8fd1f7e59de599b673d4f2bebf316880f63cdab67d8bc7098b
+SHA512: 4dc61678f5cb877a722e1763a93400542fec0933e5a10073677b427908de5a8947074a1bce27d35957e44c652cfd1311f50c7df3745a6e3c72f444448554b235
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-jack
@@ -1094,11 +1094,11 @@ Version: 1.3.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.3.9-1_arm64.deb
-Size: 93740
-MD5sum: a75426245b941c1f4c26ac280315c7ef
-SHA1: fe2165ce927412a36e6d08a6923bb076c661f155
-SHA256: ad415a08b35ed85308d5971080199544ceddbe1af0a7e35e195d62bedf321b1d
-SHA512: ed440c903b8631e3cc12a8b0bfddbe28cbdbab904f2b968e2c1d5c0ca6e61ecd63bae96650c13801a822806624628e0ca5999342f1d9616f1a9fe247697810ec
+Size: 93860
+MD5sum: 7566b68158e81a21193a3942fe677915
+SHA1: 075afcc0ad0304fa2e393c7b3806a037c43609c0
+SHA256: ce969ccff3546bb8d76dc6accaa9368a0a1023c8c9b75ddf78c331c849b40938
+SHA512: 26f6dd774296bbdcbaf8da5bc0cf66995a2e407ccca59f2b90f93e28abf332dd264775322acd52f4b3f31e98ed1db5504af64cb17573e411fbf79f33f54db12c
 Description: setBfree tonewheel organ
 
 Package: soundqube-system
