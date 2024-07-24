@@ -215,6 +215,19 @@ SHA256: e6cea9a7068976ce31b4af5b52b6384598b8c4e8421fa28cb2068f7787c978be
 SHA512: 3476e66d27ea0c8e2df3a8d3934368e9de89ef0af4af4f09295433f117c50734d4dbecae57de121454cd29959d8cde0f62dccbf7e2d0a5b95b28b72f659b714c
 Description: Desktop via VNC
 
+Package: soundqube-desktop
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Filename: arm64/soundqube-desktop_1.0.3-1_arm64.deb
+Size: 1344
+MD5sum: 9956e204ef33afd4d7ffaad42fa89bee
+SHA1: bbb036fa4c961e14f741dbc61d39b2cb3c0b2094
+SHA256: 3c902e5eb53afc0626ef83ab28e35b99b3ff1ad438d75136175d997bef020897
+SHA512: e495e7fee71e6dad8fdb304da43846187844a650e9b7acb38526e1ee08e6cff7bddc096517ead5cff56a23e6f5ea21a406e5607ec1fd87617280e1301292cf9c
+Description: Desktop via VNC
+
 Package: soundqube-fluida
 Architecture: arm64
 Version: 1.0
@@ -776,6 +789,19 @@ MD5sum: 57eceb536c0a163bb97e1e6317ce18dd
 SHA1: 69ef083683bdf42c768e4dfb21757693469e53c9
 SHA256: e6cea9a7068976ce31b4af5b52b6384598b8c4e8421fa28cb2068f7787c978be
 SHA512: 3476e66d27ea0c8e2df3a8d3934368e9de89ef0af4af4f09295433f117c50734d4dbecae57de121454cd29959d8cde0f62dccbf7e2d0a5b95b28b72f659b714c
+Description: Desktop via VNC
+
+Package: soundqube-desktop
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Filename: arm64/soundqube-desktop_1.0.3-1_arm64.deb
+Size: 1344
+MD5sum: 9956e204ef33afd4d7ffaad42fa89bee
+SHA1: bbb036fa4c961e14f741dbc61d39b2cb3c0b2094
+SHA256: 3c902e5eb53afc0626ef83ab28e35b99b3ff1ad438d75136175d997bef020897
+SHA512: e495e7fee71e6dad8fdb304da43846187844a650e9b7acb38526e1ee08e6cff7bddc096517ead5cff56a23e6f5ea21a406e5607ec1fd87617280e1301292cf9c
 Description: Desktop via VNC
 
 Package: soundqube-fluida
