@@ -318,6 +318,19 @@ SHA256: 75136604597e8bf310e007d94b44290009724cd9e91e4301e7ff96241c7311aa
 SHA512: a821b7dcd2871163b5dc34fd39a48f90fc7624563672788916762ac616f9be6056d66d2e58df3c1a5d81344ef730ed7583c19df8315f965e396ae21802248a27
 Description: Jack server lifecycle control
 
+Package: soundqube-jack
+Architecture: arm64
+Version: 1.1.1
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: jackd2
+Filename: arm64/soundqube-jack_1.1.1-1_arm64.deb
+Size: 1368
+MD5sum: 572d0d21a0891a59d51218c90a13da5a
+SHA1: 1dcc6c1ce76d189e78eafb2a115e94c4ea0a088d
+SHA256: 2d766f773c1e8cfcd955af969e2ba178f39492ce147498721fe30d764378d3a8
+SHA512: ce67eb53c7d4ba8bf71e02546a12347413f0516770d2829e75568be9721b90f1725fb9d4af4a5aa21c0e91f3b71008de21e8d74f3dbc44ca067a71da0a7a8a0d
+Description: Jack server lifecycle control
+
 Package: soundqube-kernel
 Architecture: arm64
 Version: 1.0
@@ -892,6 +905,19 @@ MD5sum: c2e7049716db2f912e5cdb7612c1884e
 SHA1: 74b4690e4dbdaaa61c3dae2317ff0517dc6a67da
 SHA256: 75136604597e8bf310e007d94b44290009724cd9e91e4301e7ff96241c7311aa
 SHA512: a821b7dcd2871163b5dc34fd39a48f90fc7624563672788916762ac616f9be6056d66d2e58df3c1a5d81344ef730ed7583c19df8315f965e396ae21802248a27
+Description: Jack server lifecycle control
+
+Package: soundqube-jack
+Architecture: arm64
+Version: 1.1.1
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: jackd2
+Filename: arm64/soundqube-jack_1.1.1-1_arm64.deb
+Size: 1368
+MD5sum: 572d0d21a0891a59d51218c90a13da5a
+SHA1: 1dcc6c1ce76d189e78eafb2a115e94c4ea0a088d
+SHA256: 2d766f773c1e8cfcd955af969e2ba178f39492ce147498721fe30d764378d3a8
+SHA512: ce67eb53c7d4ba8bf71e02546a12347413f0516770d2829e75568be9721b90f1725fb9d4af4a5aa21c0e91f3b71008de21e8d74f3dbc44ca067a71da0a7a8a0d
 Description: Jack server lifecycle control
 
 Package: soundqube-kernel
