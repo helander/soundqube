@@ -206,13 +206,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xvfb, x11vnc, xterm, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
 Filename: arm64/soundqube-desktop_1.0.2-1_arm64.deb
-Size: 1340
-MD5sum: 9e1eac62f3722b0c25f268b5f167a289
-SHA1: 22a1483c47caff3e49b4ff578fd7f23e3edf2f59
-SHA256: 8d89c6efd5b7b78e47df3b54a4f7d58c73443bc388a10afe3de1f3b6483a21c3
-SHA512: 5b5dafdf63e03d69e5bbd5edb73406b60bc687d3fcc1dbdabcea747ad658dd25e26236223627cf37f374181c40b7f16166ad1254726547ac4dcb4dcd1fa6cc9c
+Size: 1348
+MD5sum: 57eceb536c0a163bb97e1e6317ce18dd
+SHA1: 69ef083683bdf42c768e4dfb21757693469e53c9
+SHA256: e6cea9a7068976ce31b4af5b52b6384598b8c4e8421fa28cb2068f7787c978be
+SHA512: 3476e66d27ea0c8e2df3a8d3934368e9de89ef0af4af4f09295433f117c50734d4dbecae57de121454cd29959d8cde0f62dccbf7e2d0a5b95b28b72f659b714c
 Description: Desktop via VNC
 
 Package: soundqube-fluida
@@ -769,13 +769,13 @@ Package: soundqube-desktop
 Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: xvfb, x11vnc, xterm, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
 Filename: arm64/soundqube-desktop_1.0.2-1_arm64.deb
-Size: 1340
-MD5sum: 9e1eac62f3722b0c25f268b5f167a289
-SHA1: 22a1483c47caff3e49b4ff578fd7f23e3edf2f59
-SHA256: 8d89c6efd5b7b78e47df3b54a4f7d58c73443bc388a10afe3de1f3b6483a21c3
-SHA512: 5b5dafdf63e03d69e5bbd5edb73406b60bc687d3fcc1dbdabcea747ad658dd25e26236223627cf37f374181c40b7f16166ad1254726547ac4dcb4dcd1fa6cc9c
+Size: 1348
+MD5sum: 57eceb536c0a163bb97e1e6317ce18dd
+SHA1: 69ef083683bdf42c768e4dfb21757693469e53c9
+SHA256: e6cea9a7068976ce31b4af5b52b6384598b8c4e8421fa28cb2068f7787c978be
+SHA512: 3476e66d27ea0c8e2df3a8d3934368e9de89ef0af4af4f09295433f117c50734d4dbecae57de121454cd29959d8cde0f62dccbf7e2d0a5b95b28b72f659b714c
 Description: Desktop via VNC
 
 Package: soundqube-fluida
