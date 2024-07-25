@@ -130,13 +130,13 @@ Package: soundqube-aeolus
 Architecture: arm64
 Version: 1.0.8
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-jack, libclthreads2, libclxclient3
+Depends:  libclthreads2, libclxclient3
 Filename: arm64/soundqube-aeolus_1.0.8-1_arm64.deb
-Size: 40969892
-MD5sum: 08c2a5d03da90b761d7a2cebbec61714
-SHA1: 72d6916832910123d320bdf4688d03e150a861b3
-SHA256: b5d96234cfa157914db82e799e9140c85a2ac223a310ccd06e8ba6159662b906
-SHA512: bae06c67fc1f57f783ca324aaa31fc465d6739c2d1ffa42abfa0b1bf81a589d8c3c1d0f1ee0ac59de06d4219257c47df743474838462a0b480bd2512f73378f3
+Size: 40939712
+MD5sum: 46fdd67eb0c301453938f9a94f0c4e5e
+SHA1: 192c1610102802cb9ea6daf6a28856cc4d797635
+SHA256: a5a12b937d54a23adffadf271559a0d283cd688b5639e2eed428dd4ed1eee107
+SHA512: aace7200d6fd9fdc9fb551ace1ac45b9e0c4ee1879fb7fd7b30044cd46ac0304280702da52f493e270689eeed663d11f5aa5d68a84e4d4e2bccad3d1c1eb08c9
 Description: Pipe organ
 
 Package: soundqube-autoconnect
@@ -503,13 +503,12 @@ Package: soundqube-setbfree
 Architecture: arm64
 Version: 1.3.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.3.9-1_arm64.deb
-Size: 93604
-MD5sum: 00c64994fde4b04f2605b26383f14e86
-SHA1: d4be46b5693a0f21e9987ab059258d96b630e3f0
-SHA256: 4781b0da4cfc8662c392e2bc50ba4120726033f75b31c4a60222e78b8fd14553
-SHA512: 5cd9e54d2614e9fb0f1088c8fb0f684cce0bb851d2b37afb1cb9bd781a69222eff39b365335083fe18b1c5ee3b474d41e0cf887cf52fe6bf794e8509a2fe8ed4
+Size: 93824
+MD5sum: c0653ac7844c5ef3beb907aec549e210
+SHA1: 3fc5f05b5932d91cdf01510e89bcfd79495a58f1
+SHA256: e5ce83289187c0714ece7fa9d77b97d1ed6cc38c5a12abd9babd7cee9188e304
+SHA512: 61adf13bdf6358585081845acf95b74d6b31805c8765df6fd598b12d832dbe4dd9dedffe31aec1a5a985f7e675b3b5750d78e1fab6998959533b16074eefbf8d
 Description: setBfree tonewheel organ
 
 Package: soundqube-system
@@ -732,13 +731,13 @@ Package: soundqube-aeolus
 Architecture: arm64
 Version: 1.0.8
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-jack, libclthreads2, libclxclient3
+Depends:  libclthreads2, libclxclient3
 Filename: arm64/soundqube-aeolus_1.0.8-1_arm64.deb
-Size: 40969892
-MD5sum: 08c2a5d03da90b761d7a2cebbec61714
-SHA1: 72d6916832910123d320bdf4688d03e150a861b3
-SHA256: b5d96234cfa157914db82e799e9140c85a2ac223a310ccd06e8ba6159662b906
-SHA512: bae06c67fc1f57f783ca324aaa31fc465d6739c2d1ffa42abfa0b1bf81a589d8c3c1d0f1ee0ac59de06d4219257c47df743474838462a0b480bd2512f73378f3
+Size: 40939712
+MD5sum: 46fdd67eb0c301453938f9a94f0c4e5e
+SHA1: 192c1610102802cb9ea6daf6a28856cc4d797635
+SHA256: a5a12b937d54a23adffadf271559a0d283cd688b5639e2eed428dd4ed1eee107
+SHA512: aace7200d6fd9fdc9fb551ace1ac45b9e0c4ee1879fb7fd7b30044cd46ac0304280702da52f493e270689eeed663d11f5aa5d68a84e4d4e2bccad3d1c1eb08c9
 Description: Pipe organ
 
 Package: soundqube-autoconnect
@@ -1105,13 +1104,12 @@ Package: soundqube-setbfree
 Architecture: arm64
 Version: 1.3.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-jack
 Filename: arm64/soundqube-setbfree_1.3.9-1_arm64.deb
-Size: 93604
-MD5sum: 00c64994fde4b04f2605b26383f14e86
-SHA1: d4be46b5693a0f21e9987ab059258d96b630e3f0
-SHA256: 4781b0da4cfc8662c392e2bc50ba4120726033f75b31c4a60222e78b8fd14553
-SHA512: 5cd9e54d2614e9fb0f1088c8fb0f684cce0bb851d2b37afb1cb9bd781a69222eff39b365335083fe18b1c5ee3b474d41e0cf887cf52fe6bf794e8509a2fe8ed4
+Size: 93824
+MD5sum: c0653ac7844c5ef3beb907aec549e210
+SHA1: 3fc5f05b5932d91cdf01510e89bcfd79495a58f1
+SHA256: e5ce83289187c0714ece7fa9d77b97d1ed6cc38c5a12abd9babd7cee9188e304
+SHA512: 61adf13bdf6358585081845acf95b74d6b31805c8765df6fd598b12d832dbe4dd9dedffe31aec1a5a985f7e675b3b5750d78e1fab6998959533b16074eefbf8d
 Description: setBfree tonewheel organ
 
 Package: soundqube-system
