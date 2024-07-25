@@ -139,6 +139,19 @@ SHA256: a5a12b937d54a23adffadf271559a0d283cd688b5639e2eed428dd4ed1eee107
 SHA512: aace7200d6fd9fdc9fb551ace1ac45b9e0c4ee1879fb7fd7b30044cd46ac0304280702da52f493e270689eeed663d11f5aa5d68a84e4d4e2bccad3d1c1eb08c9
 Description: Pipe organ
 
+Package: soundqube-aeolus
+Architecture: arm64
+Version: 1.0.9
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends:  libclthreads2, libclxclient3
+Filename: arm64/soundqube-aeolus_1.0.9-1_arm64.deb
+Size: 40941768
+MD5sum: 0f9fb0bdf0eceecec60495539a1e3350
+SHA1: b1616684890601ece00e36a9e2e5dbcd0c52c64a
+SHA256: df7c10d236fa5b0ed365edd624cef282e9b19c29e34efed0dc85a405205cd836
+SHA512: 1fc3b7b21507f4140769a634ab3fae393337af823234cc5d1e1ae96396abc36f821ab8439f27442a1e71332ffbf7fb57e44bcf65c8d1c23c6f0eebea2093c833
+Description: Pipe organ
+
 Package: soundqube-autoconnect
 Architecture: arm64
 Version: 1.0
@@ -410,6 +423,18 @@ Description: setBfree tonewheel organ
 
 Package: soundqube-setbfree
 Architecture: arm64
+Version: 1.3.10
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-setbfree_1.3.10-1_arm64.deb
+Size: 93620
+MD5sum: 9a47295dc5da303a99777b9cd271a604
+SHA1: b4413cac652e522158d07ee0a4eea37ca820e183
+SHA256: d6dfe296d9455ad69b25afa58972424713d3d67bacea75bac3220b3b0fdd6e7b
+SHA512: 7b953f4b0f98e58596146637b0e1612187e09fa2018639d7cda686658fa0b4cdb47a9f4ba6da7b59dc96d72209fb810afe8373b55546248b11e292d250d049d7
+Description: setBfree tonewheel organ
+
+Package: soundqube-setbfree
+Architecture: arm64
 Version: 1.3.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
@@ -597,6 +622,19 @@ MD5sum: 1791f7dcd324438a0b1b04089a73e2a4
 SHA1: fa66a939afd8d56b5709a4831da9fa83ee3b41c6
 SHA256: 543cdf65cde9c638b809db7da63f01c447878833689a606a48fb6f6c4b0d8644
 SHA512: a615546c11fdca61a57564e996fa9becc1819ed18979e64558ec20ee6be03541cc9ef9819d6c2a33cb1cd09d7688259ca90de800b37f8c8383e822067ee1d9ec
+Description: Meta package for installation of all soundqube packages
+
+Package: soundqube
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-kernel, soundqube-system, fluidsynth, fluidweb, soundqube-unison, soundqube-setbfree, soundqube-aeolus, netcat-traditional
+Filename: arm64/soundqube_1.0.3-1_arm64.deb
+Size: 768
+MD5sum: 4674d1adf0189e4f0d772e4b0ee83d6e
+SHA1: 4534731aed20d105154c4b9f738621a7c3b3765f
+SHA256: 2da567bb967a55d7f380e5e856268181a4db675988c76414546594d2eff2c67e
+SHA512: 1779ee8f98d733be52ac264c021f143f154cfdd6ffdd16a2f962373b5daa133f4a974569506efd7ab6d97a503940cbb4eb0efc2881bc250dac0210de669c37d1
 Description: Meta package for installation of all soundqube packages
 
 Package: fluidweb
@@ -740,6 +778,19 @@ SHA256: a5a12b937d54a23adffadf271559a0d283cd688b5639e2eed428dd4ed1eee107
 SHA512: aace7200d6fd9fdc9fb551ace1ac45b9e0c4ee1879fb7fd7b30044cd46ac0304280702da52f493e270689eeed663d11f5aa5d68a84e4d4e2bccad3d1c1eb08c9
 Description: Pipe organ
 
+Package: soundqube-aeolus
+Architecture: arm64
+Version: 1.0.9
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends:  libclthreads2, libclxclient3
+Filename: arm64/soundqube-aeolus_1.0.9-1_arm64.deb
+Size: 40941768
+MD5sum: 0f9fb0bdf0eceecec60495539a1e3350
+SHA1: b1616684890601ece00e36a9e2e5dbcd0c52c64a
+SHA256: df7c10d236fa5b0ed365edd624cef282e9b19c29e34efed0dc85a405205cd836
+SHA512: 1fc3b7b21507f4140769a634ab3fae393337af823234cc5d1e1ae96396abc36f821ab8439f27442a1e71332ffbf7fb57e44bcf65c8d1c23c6f0eebea2093c833
+Description: Pipe organ
+
 Package: soundqube-autoconnect
 Architecture: arm64
 Version: 1.0
@@ -1011,6 +1062,18 @@ Description: setBfree tonewheel organ
 
 Package: soundqube-setbfree
 Architecture: arm64
+Version: 1.3.10
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-setbfree_1.3.10-1_arm64.deb
+Size: 93620
+MD5sum: 9a47295dc5da303a99777b9cd271a604
+SHA1: b4413cac652e522158d07ee0a4eea37ca820e183
+SHA256: d6dfe296d9455ad69b25afa58972424713d3d67bacea75bac3220b3b0fdd6e7b
+SHA512: 7b953f4b0f98e58596146637b0e1612187e09fa2018639d7cda686658fa0b4cdb47a9f4ba6da7b59dc96d72209fb810afe8373b55546248b11e292d250d049d7
+Description: setBfree tonewheel organ
+
+Package: soundqube-setbfree
+Architecture: arm64
 Version: 1.3.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: soundqube-jack
@@ -1198,5 +1261,18 @@ MD5sum: 1791f7dcd324438a0b1b04089a73e2a4
 SHA1: fa66a939afd8d56b5709a4831da9fa83ee3b41c6
 SHA256: 543cdf65cde9c638b809db7da63f01c447878833689a606a48fb6f6c4b0d8644
 SHA512: a615546c11fdca61a57564e996fa9becc1819ed18979e64558ec20ee6be03541cc9ef9819d6c2a33cb1cd09d7688259ca90de800b37f8c8383e822067ee1d9ec
+Description: Meta package for installation of all soundqube packages
+
+Package: soundqube
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-kernel, soundqube-system, fluidsynth, fluidweb, soundqube-unison, soundqube-setbfree, soundqube-aeolus, netcat-traditional
+Filename: arm64/soundqube_1.0.3-1_arm64.deb
+Size: 768
+MD5sum: 4674d1adf0189e4f0d772e4b0ee83d6e
+SHA1: 4534731aed20d105154c4b9f738621a7c3b3765f
+SHA256: 2da567bb967a55d7f380e5e856268181a4db675988c76414546594d2eff2c67e
+SHA512: 1779ee8f98d733be52ac264c021f143f154cfdd6ffdd16a2f962373b5daa133f4a974569506efd7ab6d97a503940cbb4eb0efc2881bc250dac0210de669c37d1
 Description: Meta package for installation of all soundqube packages
 
