@@ -531,10 +531,10 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
 Filename: arm64/soundqube-system_1.0.1-1_arm64.deb
 Size: 1684
-MD5sum: 476e686cb6bb6c19da1a0f2fe854bde7
-SHA1: 6e07712d25416f1917dda7e8f32026b777e6f40b
-SHA256: daa95207ebcda6acd1a2f612f80928f41f4574638ff11db9d89c838ebc58b7ab
-SHA512: 428ebb85bfa3d372368ba8240468a7cf7bc77ad38b60bd6f96d86262878062600da7d3ca6877cabb6813744c3cdcf04747c683bc570163c72bbb5b3eb7744d3b
+MD5sum: 6401ea2333de5b311a832433a229d0d8
+SHA1: 71dd06719405bc0879aa9461e5e068f8d9b37173
+SHA256: aad1f034f9762d2e198592347ccd35b115d2a60188d3a5679c0299a646edc87d
+SHA512: 36512be85de72367836fc4acd261c35bfc25801772e2804b5637f3afb369614dee85d946bcd1cbd90fb90db7dff447921468dd7075ff4660a754719c6c94b39c
 Description: system stuff
 
 Package: soundqube-unison
@@ -1133,10 +1133,10 @@ Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
 Filename: arm64/soundqube-system_1.0.1-1_arm64.deb
 Size: 1684
-MD5sum: 476e686cb6bb6c19da1a0f2fe854bde7
-SHA1: 6e07712d25416f1917dda7e8f32026b777e6f40b
-SHA256: daa95207ebcda6acd1a2f612f80928f41f4574638ff11db9d89c838ebc58b7ab
-SHA512: 428ebb85bfa3d372368ba8240468a7cf7bc77ad38b60bd6f96d86262878062600da7d3ca6877cabb6813744c3cdcf04747c683bc570163c72bbb5b3eb7744d3b
+MD5sum: 6401ea2333de5b311a832433a229d0d8
+SHA1: 71dd06719405bc0879aa9461e5e068f8d9b37173
+SHA256: aad1f034f9762d2e198592347ccd35b115d2a60188d3a5679c0299a646edc87d
+SHA512: 36512be85de72367836fc4acd261c35bfc25801772e2804b5637f3afb369614dee85d946bcd1cbd90fb90db7dff447921468dd7075ff4660a754719c6c94b39c
 Description: system stuff
 
 Package: soundqube-unison
