@@ -524,6 +524,19 @@ SHA256: df5f2b409c75347eabb7cf312b7e5be080bbd30639dd6e5563d43466b82ee245
 SHA512: b47141f59e0ecd9305bcabc7fefe9bc87fa06707fc53e71497d274eeedfe2abd81a0837a0b0aa64fcaf71d121acf7b747d11e96095c8d22821f2d64f035c24b9
 Description: system stuff
 
+Package: soundqube-system
+Architecture: arm64
+Version: 1.0.1
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Filename: arm64/soundqube-system_1.0.1-1_arm64.deb
+Size: 1684
+MD5sum: 476e686cb6bb6c19da1a0f2fe854bde7
+SHA1: 6e07712d25416f1917dda7e8f32026b777e6f40b
+SHA256: daa95207ebcda6acd1a2f612f80928f41f4574638ff11db9d89c838ebc58b7ab
+SHA512: 428ebb85bfa3d372368ba8240468a7cf7bc77ad38b60bd6f96d86262878062600da7d3ca6877cabb6813744c3cdcf04747c683bc570163c72bbb5b3eb7744d3b
+Description: system stuff
+
 Package: soundqube-unison
 Architecture: arm64
 Version: 1.0
@@ -1111,6 +1124,19 @@ MD5sum: f27255652c1029c58c08fb740c9570e6
 SHA1: 0900989eddb4d211913a9ec7fe694b0343ae9acd
 SHA256: df5f2b409c75347eabb7cf312b7e5be080bbd30639dd6e5563d43466b82ee245
 SHA512: b47141f59e0ecd9305bcabc7fefe9bc87fa06707fc53e71497d274eeedfe2abd81a0837a0b0aa64fcaf71d121acf7b747d11e96095c8d22821f2d64f035c24b9
+Description: system stuff
+
+Package: soundqube-system
+Architecture: arm64
+Version: 1.0.1
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Filename: arm64/soundqube-system_1.0.1-1_arm64.deb
+Size: 1684
+MD5sum: 476e686cb6bb6c19da1a0f2fe854bde7
+SHA1: 6e07712d25416f1917dda7e8f32026b777e6f40b
+SHA256: daa95207ebcda6acd1a2f612f80928f41f4574638ff11db9d89c838ebc58b7ab
+SHA512: 428ebb85bfa3d372368ba8240468a7cf7bc77ad38b60bd6f96d86262878062600da7d3ca6877cabb6813744c3cdcf04747c683bc570163c72bbb5b3eb7744d3b
 Description: system stuff
 
 Package: soundqube-unison
