@@ -7,17 +7,19 @@ RUN apt install -y build-essential libasound2-dev libjack-jackd2-dev
 RUN apt install -y libzita-alsa-pcmi-dev libclthreads-dev libclxclient-dev libreadline-dev
 RUN apt install -y git
 
-RUN git clone https://github.com/Organnery/aeolus-organnery.git
-
-WORKDIR aeolus-organnery/source
+RUN git clone https://github.com/Organnery/aeolus.git
+WORKDIR aeolus/source
 ADD Makefile .
 RUN make clean                                                                                                                                                                                         
 RUN make PREFIX=/usr                                                                                                                                                                   
 RUN make install  PREFIX=/usr DESTDIR=/package         
-
+RUN mkdir -p /package/usr/share/aeolus/stops
+RUN cp -r  ../stops-0.4.0/* /package/usr/share/aeolus/stops
+RUN mkdir -p /package/etc
+RUN echo "-J -S /usr/share/aeolus/stops" > /package/etc/aeolus.conf
 WORKDIR /
 
-ENV VERSION 1.0.0
+ENV VERSION 1.0.9
 
 ADD DEBIAN package/DEBIAN
 RUN sed -i s/ARCH/${ARCH}/g package/DEBIAN/control
@@ -31,6 +33,6 @@ RUN mv package.deb soundqube-aeolus_${VERSION}-1_${ARCH}.deb
 
 FROM scratch AS package
 ARG ARCH
-ENV VERSION 1.0.0
+ENV VERSION 1.0.9
 
 COPY --from=base /soundqube-aeolus_${VERSION}-1_${ARCH}.deb /

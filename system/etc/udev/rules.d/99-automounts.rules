@@ -1,0 +1,1 @@
+ACTION=="add",SUBSYSTEM=="block",ENV{DEVLINKS}=="*/dev/disk/by-label/SOUNDQUBE*", ENV{SYSTEMD_WANTS}="media-soundqube.mount"

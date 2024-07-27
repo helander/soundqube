@@ -8,8 +8,10 @@ x11vnc -N -forever &
 
 sleep 5
 
-blackbox &
+#blackbox &
 
-wmdrawer &
+#wmdrawer &
+
+startxfce4 &
 
 sleep infinity

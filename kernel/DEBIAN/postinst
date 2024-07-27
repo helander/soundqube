@@ -2,4 +2,5 @@
  
 if [ "$1" = configure ]; then
    cp -a /usr/share/soundqube-kernel/boot/* /boot/firmware
+   touch /run/reboot-required
 fi

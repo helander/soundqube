@@ -22,7 +22,7 @@ RUN make install ENABLE_ALSA=yes PREFIX=/usr DESTDIR=/package
 
 WORKDIR /
 
-ENV VERSION 1.3.9
+ENV VERSION 1.3.10
 
 ADD DEBIAN package/DEBIAN
 RUN sed -i s/ARCH/${ARCH}/g package/DEBIAN/control
@@ -36,6 +36,6 @@ RUN mv package.deb soundqube-setbfree_${VERSION}-1_${ARCH}.deb
 
 FROM scratch AS package
 ARG ARCH
-ENV VERSION 1.3.9
+ENV VERSION 1.3.10
 
 COPY --from=base /soundqube-setbfree_${VERSION}-1_${ARCH}.deb /

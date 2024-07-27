@@ -4,4 +4,4 @@ Version: VERSION
 Architecture: ARCH
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Description: Desktop via VNC
-Depends: xvfb, x11vnc, xterm, blackbox, menu, wmdrawer
+Depends: xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4

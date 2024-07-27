@@ -1,0 +1,9 @@
+#!/bin/bash
+ 
+if [ "$1" = remove ] ; then
+        systemctl stop media-soundqube.mount
+        systemctl disable media-soundqube.mount
+        systemctl stop getty@tty1.service
+        systemctl disable getty@tty1.service
+fi
+

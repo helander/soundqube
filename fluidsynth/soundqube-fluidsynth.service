@@ -1,12 +1,15 @@
 [Unit]
 Description=Fluidsynth 0
+After=media-soundqube.mount
 After=soundqube-jack.service
 BindsTo=soundqube-jack.service
 
 [Service]
+User=lehswe
+Group=lehswe
 LimitRTPRIO=95
 LimitMEMLOCK=infinity
-ExecStart=/usr/bin/fluidsynth -p "fluid0" --server --no-shell -r48000  -a jack --connect-jack-outputs -m alsa_seq -o synth.default-soundfont="" -f /etc/soundqube/fluidsynth/init
+ExecStart=/usr/bin/pw-jack fluidsynth -p "fluid0" --server --no-shell -r48000  -a jack --connect-jack-outputs -m alsa_seq -o synth.default-soundfont="" -f /etc/soundqube/fluidsynth/init
 Restart=always
 RestartSec=10
 

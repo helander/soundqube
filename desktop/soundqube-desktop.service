@@ -2,6 +2,8 @@
 Description=Desktop
 
 [Service]
+User=lehswe
+Group=lehswe
 Environment=DISPLAY=:56
 ExecStart=/usr/bin/soundqube-desktop.sh
 Restart=always

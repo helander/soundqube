@@ -1,12 +1,15 @@
 [Unit]
-Description=setBfree
+Description=Aeolus Pipe Organ
 After=soundqube-jack.service
 BindsTo=soundqube-jack.service
 
 [Service]
+User=lehswe
+Group=lehswe
 LimitRTPRIO=95
 LimitMEMLOCK=infinity
-ExecStart=/usr/bin/aeolus
+Environment=DISPLAY=:56
+ExecStart=/usr/bin/pw-jack aeolus
 Restart=always
 RestartSec=10
 

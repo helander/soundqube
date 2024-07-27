@@ -1,0 +1,13 @@
+#!/bin/bash
+ 
+if [ "$1" = configure ]; then
+   systemctl daemon-reload
+   systemctl enable media-soundqube.mount
+   systemctl enable getty@tty1.service
+   systemctl stop  getty@tty1.service
+   systemctl start  getty@tty1.service
+   systemctl stop media-soundqube.mount
+   systemctl start media-soundqube.mount
+   udevadm control --reload-rules
+fi
+

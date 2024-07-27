@@ -6,7 +6,7 @@ After=sound.target
 Environment=JACK_NO_AUDIO_RESERVATION=1
 LimitRTPRIO=99
 LimitMEMLOCK=infinity
-ExecStart=/usr/bin/jackd -R -P99 -d alsa -d hw:1 -P -S -p 256 -n 2 -r 48000 -i 0 -o 2
+ExecStart=/usr/bin/soundqube-jackd.sh
 Restart=always
 RestartSec=1
 

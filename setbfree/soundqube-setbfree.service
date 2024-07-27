@@ -4,10 +4,11 @@ After=soundqube-jack.service
 BindsTo=soundqube-jack.service
 
 [Service]
+User=lehswe
+Group=lehswe
 LimitRTPRIO=95
 LimitMEMLOCK=infinity
-#Environment=JACK_PROMISCUOUS_SERVER=jack
-ExecStart=/usr/bin/setBfree -p /usr/share/setBfree/pgm/default.pgm
+ExecStart=/usr/bin/pw-jack setBfree -p /usr/share/setBfree/pgm/default.pgm
 Restart=always
 RestartSec=10
 

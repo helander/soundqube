@@ -1,6 +1,0 @@
-#!/bin/bash
- 
-if [ "$1" = remove ] ; then
-        systemctl stop soundqube-desktop
-        systemctl disable soundqube-desktop
-fi

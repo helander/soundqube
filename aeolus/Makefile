@@ -1,6 +1,6 @@
 # -------------------------------------------------------------------------
 #
-#  Copyright (C) 2003-2019 Fons Adriaensen <fons@linuxaudio.org>
+#  Copyright (C) 2003-2022 Fons Adriaensen <fons@linuxaudio.org>
 #    
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -17,16 +17,16 @@
 #
 # -------------------------------------------------------------------------
 
-#SUFFIX := $(shell uname -m | sed -e 's/^unknown/$//' -e 's/^i.86/$//' -e 's/^x86_64/$/64/')
-PREFIX = /usr
-BINDIR ?= $(PREFIX)/bin
-LIBDIR ?= $(PREFIX)/lib$(SUFFIX)/aeolus
 
-VERSION = 0.9.10
+SUFFIX := $(shell uname -m | sed -e 's/^unknown/$//' -e 's/^i.86/$//' -e 's/^x86_64/$/64/')
+PREFIX ?= /usr/local
+BINDIR ?= $(PREFIX)/bin
+LIBDIR ?= $(PREFIX)/lib$(SUFFIX)
+
+VERSION = 0.10.4
 CPPFLAGS += -MMD -MP -DVERSION=\"$(VERSION)\" -DLIBDIR=\"$(LIBDIR)\"
 CXXFLAGS += -O2 -Wall
 #CXXFLAGS += -march=native
-CXXFLAGS += -O3 -Wall -MMD -MP
 CXXFLAGS += -ffast-math  -fno-finite-math-only -mcpu=cortex-a72 -march=armv8-a+fp+simd
 
 all:	aeolus aeolus_x11.so aeolus_txt.so
@@ -43,10 +43,10 @@ $(AEOLUS_O):
 -include $(AEOLUS_O:%.o=%.d)
 
 
-XIFACE_O =	guiscale.o styles.o mainwin.o midiwin.o audiowin.o instrwin.o editwin.o \
+XIFACE_O =	styles.o mainwin.o midiwin.o audiowin.o instrwin.o editwin.o \
 	midimatrix.o multislider.o functionwin.o xiface.o addsynth.o
 aeolus_x11.so:	CPPFLAGS += -D_REENTRANT
-aeolus_x11.so:	CPPFLAGS += $(shell pkgconf --cflags freetype2)
+aeolus_x11.so:	CPPFLAGS += $(shell pkg-config --cflags freetype2)
 aeolus_x11.so:	CXXFLAGS += -shared -fPIC
 aeolus_x11.so:	LDFLAGS += -shared
 aeolus_x11.so:	LDLIBS += -lclthreads -lclxclient -lpthread -lXft -lX11
@@ -72,12 +72,11 @@ $(TIFACE_O):
 install:	aeolus aeolus_x11.so aeolus_txt.so 
 	install -d $(DESTDIR)$(BINDIR)
 	install -d $(DESTDIR)$(LIBDIR)
-	install -Dm 755 aeolus $(DESTDIR)$(BINDIR)
-	install -Dm 755 aeolus_x11.so $(DESTDIR)$(LIBDIR)/aeolus_x11.so
-	install -Dm 755 aeolus_txt.so $(DESTDIR)$(LIBDIR)/aeolus_txt.so
-	#ldconfig $(PREFIX)/$(LIBDIR)
+	install -m 755 aeolus $(DESTDIR)$(BINDIR)
+	install -m 755 aeolus_x11.so $(DESTDIR)$(LIBDIR)
+	install -m 755 aeolus_txt.so $(DESTDIR)$(LIBDIR)
+	ldconfig $(PREFIX)/$(LIBDIR)
 
 
 clean:
 	/bin/rm -f *~ *.o *.d *.a *.so aeolus
-

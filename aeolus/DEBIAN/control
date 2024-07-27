@@ -4,4 +4,5 @@ Version: VERSION
 Architecture: ARCH
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Description: Pipe organ
-Depends: soundqube-jack
+Depends:  libclthreads2, libclxclient3
+

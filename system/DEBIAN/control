@@ -1,0 +1,8 @@
+
+Package: soundqube-system
+Version: VERSION
+Architecture: ARCH
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Description: system stuff
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+
