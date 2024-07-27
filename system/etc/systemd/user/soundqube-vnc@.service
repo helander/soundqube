@@ -1,0 +1,9 @@
+[Unit]
+Description=VNC server for screen %i
+
+[Service]
+ExecStart=/usr/bin/x11vnc -display :%i -N -forever
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
