@@ -100,13 +100,13 @@ Package: soundqube-system
 Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu
 Filename: arm64/soundqube-system_1.0.2-1_arm64.deb
-Size: 1400
-MD5sum: aa6389404e249a0ce3465a80ad323a61
-SHA1: e437e17e2c00c366c63fd336de4a71aabf5ba5d9
-SHA256: 9c199e47d4bb17538beaea4f796ebe2194c4b7de873cb64754b1de0ed279f976
-SHA512: dd3eac0676a942517a5bc8c5e679d9c3a7d3a47c2181eb7cae3340c66030b95d562fa2e22252604e4d6c989c73cd9de4dcbcb5dd8f503c0a9e1b81cb3abfc0e9
+Size: 1300
+MD5sum: 88ac668ebc8b5d2df05aeb7f02cb9b68
+SHA1: afd66a72102cd6df956a58b21f8832d76506f1a8
+SHA256: 4c7422c500e0398bf25cbba6acb5802f834007f6620eaf82c6c4efece9ca94d2
+SHA512: 7b7ed83594e0873d07054661a360ae48d5b5bd620bbd41e40ce002059434d2339850c56062fa9fb9c835f8dfe7c9fe49881a3bf08b42a642056a3e674fa30d57
 Description: system stuff
 
 Package: soundqube-unison
@@ -248,13 +248,13 @@ Package: soundqube-system
 Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, xterm, dbus-x11, libxfce4ui-utils, thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfce4-terminal, xfconf, xfdesktop4, xfwm4
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu
 Filename: arm64/soundqube-system_1.0.2-1_arm64.deb
-Size: 1400
-MD5sum: aa6389404e249a0ce3465a80ad323a61
-SHA1: e437e17e2c00c366c63fd336de4a71aabf5ba5d9
-SHA256: 9c199e47d4bb17538beaea4f796ebe2194c4b7de873cb64754b1de0ed279f976
-SHA512: dd3eac0676a942517a5bc8c5e679d9c3a7d3a47c2181eb7cae3340c66030b95d562fa2e22252604e4d6c989c73cd9de4dcbcb5dd8f503c0a9e1b81cb3abfc0e9
+Size: 1300
+MD5sum: 88ac668ebc8b5d2df05aeb7f02cb9b68
+SHA1: afd66a72102cd6df956a58b21f8832d76506f1a8
+SHA256: 4c7422c500e0398bf25cbba6acb5802f834007f6620eaf82c6c4efece9ca94d2
+SHA512: 7b7ed83594e0873d07054661a360ae48d5b5bd620bbd41e40ce002059434d2339850c56062fa9fb9c835f8dfe7c9fe49881a3bf08b42a642056a3e674fa30d57
 Description: system stuff
 
 Package: soundqube-unison
