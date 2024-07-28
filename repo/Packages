@@ -149,6 +149,19 @@ Description: setBfree tonewheel organ
 
 Package: soundqube-system
 Architecture: arm64
+Version: 1.0.10
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
+Filename: arm64/soundqube-system_1.0.10-1_arm64.deb
+Size: 2136
+MD5sum: b959ebefc590d603037f4ac58d38c457
+SHA1: dd27cfd7888c22cced9ddcadb195aa5b7052c0a9
+SHA256: c8c2367ffd4e0ab62bfb4d392e0c6ebdf6d07fbcd12bdc331d98d1a41977c6df
+SHA512: 9619842ee231d9d524d32bbe888ee9d27278756c229a242c53aec834abc4a1962597991958729cb907530f09322210eb19f15fcb019ae439197d24347586966a
+Description: system stuff
+
+Package: soundqube-system
+Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu
@@ -423,6 +436,19 @@ SHA1: b4413cac652e522158d07ee0a4eea37ca820e183
 SHA256: d6dfe296d9455ad69b25afa58972424713d3d67bacea75bac3220b3b0fdd6e7b
 SHA512: 7b953f4b0f98e58596146637b0e1612187e09fa2018639d7cda686658fa0b4cdb47a9f4ba6da7b59dc96d72209fb810afe8373b55546248b11e292d250d049d7
 Description: setBfree tonewheel organ
+
+Package: soundqube-system
+Architecture: arm64
+Version: 1.0.10
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
+Filename: arm64/soundqube-system_1.0.10-1_arm64.deb
+Size: 2136
+MD5sum: b959ebefc590d603037f4ac58d38c457
+SHA1: dd27cfd7888c22cced9ddcadb195aa5b7052c0a9
+SHA256: c8c2367ffd4e0ab62bfb4d392e0c6ebdf6d07fbcd12bdc331d98d1a41977c6df
+SHA512: 9619842ee231d9d524d32bbe888ee9d27278756c229a242c53aec834abc4a1962597991958729cb907530f09322210eb19f15fcb019ae439197d24347586966a
+Description: system stuff
 
 Package: soundqube-system
 Architecture: arm64
