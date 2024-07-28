@@ -76,13 +76,13 @@ Package: soundqube-fluidsynth
 Architecture: arm64
 Version: 1.0.5
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-system, fluidsynth, soundqube-jack
+Depends: soundqube-system, fluidsynth
 Filename: arm64/soundqube-fluidsynth_1.0.5-1_arm64.deb
-Size: 1312
-MD5sum: bc34252505bf9ae800f83ef2a56513eb
-SHA1: ce710fc8e6341b274c96c9f21fdfd274e60f13cf
-SHA256: f33162d1cf469ef3e3c94b5551b5a1b25612803e6c849ac4324778c4600131aa
-SHA512: 47d5e6520e8fe580bd23cc298163fd140745a222f0ed6a91a7872838db8efb704e756aa58dded479153fcde7f77e1a956f08371b85a808ef1c2ed0b47101f6f9
+Size: 1296
+MD5sum: 294712283376c989c58b6d6f45d9e309
+SHA1: aecfaeada716b6ed5dad6fc445dca4ec38194e5a
+SHA256: 18639007b29cc2b6973d54c89818b11692e28c224d9c5b11b575d4a4f08da98a
+SHA512: 60b9abbc42f957e0425ae1625b2052c5fb8df603f0921617817a20fadc89618a6da49793e67fecde4a22787984939ab9caa1360aa05f476b5a366136253e5843
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-kernel
@@ -289,13 +289,13 @@ Package: soundqube-fluidsynth
 Architecture: arm64
 Version: 1.0.5
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-system, fluidsynth, soundqube-jack
+Depends: soundqube-system, fluidsynth
 Filename: arm64/soundqube-fluidsynth_1.0.5-1_arm64.deb
-Size: 1312
-MD5sum: bc34252505bf9ae800f83ef2a56513eb
-SHA1: ce710fc8e6341b274c96c9f21fdfd274e60f13cf
-SHA256: f33162d1cf469ef3e3c94b5551b5a1b25612803e6c849ac4324778c4600131aa
-SHA512: 47d5e6520e8fe580bd23cc298163fd140745a222f0ed6a91a7872838db8efb704e756aa58dded479153fcde7f77e1a956f08371b85a808ef1c2ed0b47101f6f9
+Size: 1296
+MD5sum: 294712283376c989c58b6d6f45d9e309
+SHA1: aecfaeada716b6ed5dad6fc445dca4ec38194e5a
+SHA256: 18639007b29cc2b6973d54c89818b11692e28c224d9c5b11b575d4a4f08da98a
+SHA512: 60b9abbc42f957e0425ae1625b2052c5fb8df603f0921617817a20fadc89618a6da49793e67fecde4a22787984939ab9caa1360aa05f476b5a366136253e5843
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-kernel
