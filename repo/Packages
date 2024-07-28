@@ -175,6 +175,19 @@ Description: system stuff
 
 Package: soundqube-system
 Architecture: arm64
+Version: 1.0.12
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
+Filename: arm64/soundqube-system_1.0.12-1_arm64.deb
+Size: 2136
+MD5sum: 7e586fcd801672f246c190775e0be51b
+SHA1: bdd04eceb11cbdd2232deb58baaf015c0e326f65
+SHA256: 4ed53b78d4e956f1caec58e7d692b62425075691e1cc259b51fab64e13cc033f
+SHA512: d28d617b84b8c6b8281e9e9c3df7137c7728dc8b52fdb1a355f6e49f6a014cd5b50248cbc3094bec3bb6a123bf5ec93534a38c2b5c3203dda79474567c15c9d3
+Description: system stuff
+
+Package: soundqube-system
+Architecture: arm64
 Version: 1.0.2
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu
@@ -474,6 +487,19 @@ MD5sum: e2ec55a87cd7caae219529f956121b70
 SHA1: cfa175da0dee31ce0142767cca4045a60a4206e7
 SHA256: 5cebe1a7ae30ce40d8b2f25bd860c0bb8f6fae42957af1015aee6e2fb4639b20
 SHA512: 14b642a9cb913c2f87d837dfa6fe28373cc155749f51f92ad3ba7bd77cfcf07594eb0a74f9e7f824778a038ed33701f4be2eda2fb4baf08b5ea65627c85d2c56
+Description: system stuff
+
+Package: soundqube-system
+Architecture: arm64
+Version: 1.0.12
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
+Filename: arm64/soundqube-system_1.0.12-1_arm64.deb
+Size: 2136
+MD5sum: 7e586fcd801672f246c190775e0be51b
+SHA1: bdd04eceb11cbdd2232deb58baaf015c0e326f65
+SHA256: 4ed53b78d4e956f1caec58e7d692b62425075691e1cc259b51fab64e13cc033f
+SHA512: d28d617b84b8c6b8281e9e9c3df7137c7728dc8b52fdb1a355f6e49f6a014cd5b50248cbc3094bec3bb6a123bf5ec93534a38c2b5c3203dda79474567c15c9d3
 Description: system stuff
 
 Package: soundqube-system
