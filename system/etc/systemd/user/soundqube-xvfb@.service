@@ -1,9 +1,0 @@
-[Unit]
-Description=Virtual Frame Buffer display for screen %i
-
-[Service]
-ExecStart=/usr/bin/Xvfb :%i
-Restart=on-failure
-
-[Install]
-WantedBy=default.target

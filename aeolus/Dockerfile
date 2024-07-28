@@ -19,20 +19,20 @@ RUN mkdir -p /package/etc
 RUN echo "-J -S /usr/share/aeolus/stops" > /package/etc/aeolus.conf
 WORKDIR /
 
-ENV VERSION 1.0.9
+ENV VERSION 1.0.11
 
 ADD DEBIAN package/DEBIAN
 RUN sed -i s/ARCH/${ARCH}/g package/DEBIAN/control
 RUN sed -i s/VERSION/${VERSION}/g package/DEBIAN/control
 
-RUN mkdir -p package/etc/systemd/system
-ADD soundqube-aeolus.service package/etc/systemd/system
+RUN mkdir -p package/etc/systemd/user
+ADD soundqube-aeolus.service package/etc/systemd/user
 RUN dpkg-deb --build --root-owner-group package
 RUN mv package.deb soundqube-aeolus_${VERSION}-1_${ARCH}.deb
 
 
 FROM scratch AS package
 ARG ARCH
-ENV VERSION 1.0.9
+ENV VERSION 1.0.11
 
 COPY --from=base /soundqube-aeolus_${VERSION}-1_${ARCH}.deb /

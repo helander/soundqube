@@ -6,5 +6,15 @@ if [ "$1" = configure ]; then
    systemctl stop media-soundqube.mount
    systemctl start media-soundqube.mount
    udevadm control --reload-rules
+   loginctl enable-linger lehswe
+   if [ ! -f /media/soundqube/soundqube.qpwgraph ]; then
+      cp /etc/soundqube/soundqube.qpwgraph /media/soundqube
+      #chown lehswe:lehswe /media/soundqube/soundqube.qwgraph
+      #chmod a+w  /media/soundqube/soundqube.qwgraph
+   fi
+   #mkdir -p /home/lehswe/.config/systemd/user
+   #cp /etc/systemd/user/soundqube-connect.service /home/lehswe/.config/systemd/user
+   #chown lehswe:lehswe /home/lehswe/.config
+   #chown -R lehswe:lehswe /home/lehswe/.config/systemd
 fi
 

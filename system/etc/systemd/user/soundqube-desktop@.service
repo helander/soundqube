@@ -1,9 +1,0 @@
-[Unit]
-Description=Desktop for screen %i
-
-[Service]
-ExecStart=/usr/bin/blackbox -display :%i
-Restart=on-failure
-
-[Install]
-WantedBy=default.target

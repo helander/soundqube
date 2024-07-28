@@ -22,20 +22,20 @@ RUN make install ENABLE_ALSA=yes PREFIX=/usr DESTDIR=/package
 
 WORKDIR /
 
-ENV VERSION 1.3.10
+ENV VERSION 1.3.11
 
 ADD DEBIAN package/DEBIAN
 RUN sed -i s/ARCH/${ARCH}/g package/DEBIAN/control
 RUN sed -i s/VERSION/${VERSION}/g package/DEBIAN/control
 
-RUN mkdir -p package/etc/systemd/system
-ADD soundqube-setbfree.service package/etc/systemd/system
+RUN mkdir -p package/etc/systemd/user
+ADD soundqube-setbfree.service package/etc/systemd/user
 RUN dpkg-deb --build --root-owner-group package
 RUN mv package.deb soundqube-setbfree_${VERSION}-1_${ARCH}.deb
 
 
 FROM scratch AS package
 ARG ARCH
-ENV VERSION 1.3.10
+ENV VERSION 1.3.11
 
 COPY --from=base /soundqube-setbfree_${VERSION}-1_${ARCH}.deb /

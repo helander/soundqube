@@ -1,0 +1,12 @@
+[Unit]
+Description=VNC server 
+After=soundqube-xvfb.service
+BindsTo=soundqube-xvfb.service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/x11vnc -display :56 -N -forever
+Restart=on-failure
+
+#[Install]
+#WantedBy=default.target

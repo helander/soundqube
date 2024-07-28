@@ -1,0 +1,13 @@
+[Unit]
+Description=Desktop manager 
+After=soundqube-vnc.service
+BindsTo=soundqube-vnc.service
+
+[Service]
+#ExecStartPre=/usr/bin/mkdir -p /home/lehswe/.blackbox/styles      
+ExecStart=/usr/bin/blackbox -display :56
+#ExecStartPost=/bin/sleep 20      
+Restart=on-failure
+
+#[Install]
+#WantedBy=default.target

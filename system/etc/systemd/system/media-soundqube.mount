@@ -4,5 +4,5 @@ Description=Mount /dev/disk/by-label/SOUNDQUBE at /media/soundqube
 [Mount]
 What=/dev/disk/by-label/SOUNDQUBE
 Where=/media/soundqube
-Type=auto
-Options=noauto,nofail
+Type=vfat
+Options=rw,umask=000

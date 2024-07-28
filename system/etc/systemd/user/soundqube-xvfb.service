@@ -1,0 +1,10 @@
+[Unit]
+Description=Virtual Frame Buffer display 
+
+[Service]
+ExecStart=/usr/bin/Xvfb :56
+ExecStartPost=/bin/sleep 3    
+Restart=on-failure
+
+#[Install]
+#WantedBy=default.target

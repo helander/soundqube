@@ -3,5 +3,6 @@
 if [ "$1" = remove ] ; then
         systemctl stop media-soundqube.mount
         systemctl disable media-soundqube.mount
+        #rm -f /home/lehswe/.config/systemd/user/soundqube-connect.service
 fi
 

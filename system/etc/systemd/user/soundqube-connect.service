@@ -1,0 +1,13 @@
+[Unit]
+Description=qpwgraph application
+After=soundqube-desktop.service
+BindsTo=soundqube-desktop.service
+After=sound.target
+
+[Service]
+Environment=DISPLAY=:56
+ExecStart=/usr/bin/qpwgraph -ax /media/soundqube/soundqube.qpwgraph
+Restart=always
+
+[Install]
+WantedBy=default.target

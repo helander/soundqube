@@ -1,11 +1,9 @@
 [Unit]
 Description=Aeolus Pipe Organ
-After=soundqube-jack.service
-BindsTo=soundqube-jack.service
+After=media-soundqube.mount
+After=soundqube-connect.service
 
 [Service]
-User=lehswe
-Group=lehswe
 LimitRTPRIO=95
 LimitMEMLOCK=infinity
 Environment=DISPLAY=:56
@@ -14,6 +12,5 @@ Restart=always
 RestartSec=10
 
 [Install]
-WantedBy=multi-user.target
-
+WantedBy=default.target
 
