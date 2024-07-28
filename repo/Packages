@@ -148,6 +148,19 @@ SHA256: efea314f5437344dcd0c175b8faeb4bc424e08dff7bf730358bd476f01353de0
 SHA512: 847e00761be07f917a01930b292a1f9fa95f6f9f4e45634b147962e4238987c59eaf11c855e578a640602f34b54579de49f45278d008667e4e5a3c6e4791d3aa
 Description: system stuff
 
+Package: soundqube-system
+Architecture: arm64
+Version: 1.0.6
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
+Filename: arm64/soundqube-system_1.0.6-1_arm64.deb
+Size: 1860
+MD5sum: 42e949805d182bab57e530a245815b04
+SHA1: dfa98f833aacd9f0bc01e19f447733947b6a1f4e
+SHA256: b26164f2fdb4be2798ee0dfcccb71d52681dfdbf3b8bd8ae2bd03927e88bec70
+SHA512: dc60b3ad3d7fdb8512b382b49bdd07a06fc257620de77260da4081b748849d9aac7a5621f671e6cd712580eadc17e3859e37001ecf0613e75c2262f01a483753
+Description: system stuff
+
 Package: soundqube-unison
 Architecture: arm64
 Version: 1.0
@@ -333,6 +346,19 @@ MD5sum: 46e08c00eef92ee3b52743b8f46b62db
 SHA1: abf46d7177ed53a09ad692b952811090d6be9b86
 SHA256: efea314f5437344dcd0c175b8faeb4bc424e08dff7bf730358bd476f01353de0
 SHA512: 847e00761be07f917a01930b292a1f9fa95f6f9f4e45634b147962e4238987c59eaf11c855e578a640602f34b54579de49f45278d008667e4e5a3c6e4791d3aa
+Description: system stuff
+
+Package: soundqube-system
+Architecture: arm64
+Version: 1.0.6
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
+Filename: arm64/soundqube-system_1.0.6-1_arm64.deb
+Size: 1860
+MD5sum: 42e949805d182bab57e530a245815b04
+SHA1: dfa98f833aacd9f0bc01e19f447733947b6a1f4e
+SHA256: b26164f2fdb4be2798ee0dfcccb71d52681dfdbf3b8bd8ae2bd03927e88bec70
+SHA512: dc60b3ad3d7fdb8512b382b49bdd07a06fc257620de77260da4081b748849d9aac7a5621f671e6cd712580eadc17e3859e37001ecf0613e75c2262f01a483753
 Description: system stuff
 
 Package: soundqube-unison
