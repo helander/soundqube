@@ -85,6 +85,19 @@ SHA256: 18639007b29cc2b6973d54c89818b11692e28c224d9c5b11b575d4a4f08da98a
 SHA512: 60b9abbc42f957e0425ae1625b2052c5fb8df603f0921617817a20fadc89618a6da49793e67fecde4a22787984939ab9caa1360aa05f476b5a366136253e5843
 Description: Fluidsynth lifecycle control
 
+Package: soundqube-fluidsynth
+Architecture: arm64
+Version: 1.0.6
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-system, fluidsynth
+Filename: arm64/soundqube-fluidsynth_1.0.6-1_arm64.deb
+Size: 1304
+MD5sum: 73f61a0099eb5796083526c77acffb2d
+SHA1: 1b3dbc5bea635255502b29ce4450c5b3cdb9d356
+SHA256: 929992c60c0ed22e65c0aa093b14005a6056c37de06523df17b3db1a7c77dc56
+SHA512: 589e1b6142c866feafaad3314a0f024e69ea4fc3b3778b19233c3e630adb828377f158a511e963a327928f5bda72c689e240b949aa2f3f5844a9975ef1b1102f
+Description: Fluidsynth lifecycle control
+
 Package: soundqube-kernel
 Architecture: arm64
 Version: 1.0
@@ -296,6 +309,19 @@ MD5sum: 294712283376c989c58b6d6f45d9e309
 SHA1: aecfaeada716b6ed5dad6fc445dca4ec38194e5a
 SHA256: 18639007b29cc2b6973d54c89818b11692e28c224d9c5b11b575d4a4f08da98a
 SHA512: 60b9abbc42f957e0425ae1625b2052c5fb8df603f0921617817a20fadc89618a6da49793e67fecde4a22787984939ab9caa1360aa05f476b5a366136253e5843
+Description: Fluidsynth lifecycle control
+
+Package: soundqube-fluidsynth
+Architecture: arm64
+Version: 1.0.6
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: soundqube-system, fluidsynth
+Filename: arm64/soundqube-fluidsynth_1.0.6-1_arm64.deb
+Size: 1304
+MD5sum: 73f61a0099eb5796083526c77acffb2d
+SHA1: 1b3dbc5bea635255502b29ce4450c5b3cdb9d356
+SHA256: 929992c60c0ed22e65c0aa093b14005a6056c37de06523df17b3db1a7c77dc56
+SHA512: 589e1b6142c866feafaad3314a0f024e69ea4fc3b3778b19233c3e630adb828377f158a511e963a327928f5bda72c689e240b949aa2f3f5844a9975ef1b1102f
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-kernel
