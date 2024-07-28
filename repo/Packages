@@ -364,6 +364,18 @@ SHA256: cd7574e0b1898b93ef211db0be88aa38cee22521bca8e38295367f1dabf14c8b
 SHA512: 9de3d94009b422d6c7d8f30def31107fbfd8f5c0995e073baf31165ac8e11eda39e1f99af51deccab272347906526bc7dde2c553787cd8b6bdb9cb402d286f25
 Description: MIDI notes cloning over several channels
 
+Package: soundqube-unison
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-unison_1.0.3-1_arm64.deb
+Size: 7208
+MD5sum: 36c94818ed7a8f469426190bc5a784e5
+SHA1: a8cfa1f1cb0506b866a1890a386edc926453214e
+SHA256: 379a4538b6128cbfebb56f73a58c9f410944d4192d57d500842ec3b0507a1247
+SHA512: 50f0fe66f323bde54c70bcb6ce4094c98724a26f6527bea9c2570659480093422825e9285736aef8301f593cac3e67db4c199ac46729e0f7e771104cf570f63f
+Description: MIDI notes cloning over several channels
+
 Package: soundqube
 Architecture: arm64
 Version: 1.0.3
@@ -741,6 +753,18 @@ MD5sum: 903dce80384e14c00d2a678ecdbd42de
 SHA1: 4a1878ffb6300466fdf6383c1294f210b949d755
 SHA256: cd7574e0b1898b93ef211db0be88aa38cee22521bca8e38295367f1dabf14c8b
 SHA512: 9de3d94009b422d6c7d8f30def31107fbfd8f5c0995e073baf31165ac8e11eda39e1f99af51deccab272347906526bc7dde2c553787cd8b6bdb9cb402d286f25
+Description: MIDI notes cloning over several channels
+
+Package: soundqube-unison
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-unison_1.0.3-1_arm64.deb
+Size: 7208
+MD5sum: 36c94818ed7a8f469426190bc5a784e5
+SHA1: a8cfa1f1cb0506b866a1890a386edc926453214e
+SHA256: 379a4538b6128cbfebb56f73a58c9f410944d4192d57d500842ec3b0507a1247
+SHA512: 50f0fe66f323bde54c70bcb6ce4094c98724a26f6527bea9c2570659480093422825e9285736aef8301f593cac3e67db4c199ac46729e0f7e771104cf570f63f
 Description: MIDI notes cloning over several channels
 
 Package: soundqube
