@@ -1,7 +1,0 @@
-
-Package: soundqube-autoconnect
-Version: VERSION
-Architecture: ARCH
-Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Description: Autoconnect MIDI ports
-

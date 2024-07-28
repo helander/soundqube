@@ -140,13 +140,13 @@ Package: soundqube-fluidsynth
 Architecture: arm64
 Version: 1.0.7
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-system, fluidsynth
+Depends: fluidsynth
 Filename: arm64/soundqube-fluidsynth_1.0.7-1_arm64.deb
-Size: 1284
-MD5sum: 96a9afe429efb030a360097e897f627e
-SHA1: f8018c5aa54addb46213dca67161651166c45257
-SHA256: 3756ffae870d2b85b117d232a9bba2ba3bca1d99d06de93a1226fef42c5540d1
-SHA512: 70e43985aac43850fb196a2334eec299965d10ff9eb652a9461e3d8dea8b5f7d4a8150333f6dc7e99e0e50666a6add7ac9e4d2e31c5751b0dee3800954ccd594
+Size: 1276
+MD5sum: d70bb97dccedeaa950e46ba8faf4040c
+SHA1: 1f7b0dc3ffb856c240cd4be10c1a74ac38936f8a
+SHA256: 0eb7626e1b58837724bbc9152612354ae00e97736f7b8b2f8fc999cc56cf7fee
+SHA512: 2877ead1f299399b41674f121dcfa3952aa18fe2443fb5c45a379f4349328664125eac420b5571e4955ab2231e9e22a83d194c2a259863f801f332c906c511ef
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-kernel
@@ -363,6 +363,18 @@ SHA1: a8cfa1f1cb0506b866a1890a386edc926453214e
 SHA256: 379a4538b6128cbfebb56f73a58c9f410944d4192d57d500842ec3b0507a1247
 SHA512: 50f0fe66f323bde54c70bcb6ce4094c98724a26f6527bea9c2570659480093422825e9285736aef8301f593cac3e67db4c199ac46729e0f7e771104cf570f63f
 Description: MIDI notes cloning over several channels
+
+Package: soundqube-webui
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-webui_1.0.3-1_arm64.deb
+Size: 3031320
+MD5sum: ec4c596c668bf24092983c173b745cba
+SHA1: a849153d9e22519c48378a5a34d5d07e617efa41
+SHA256: 4913ba654573fcd36f219cdff93c884d89affc34ff2081714acb8bfe7b24da97
+SHA512: e72816740c868a59cf2225b0aa2de25e48df7478dc7875301e9b124c2d0d35973a96c9057e0e3fc37e907dd96ebe03aff3ce582c57a8d79fd9eee06827ea56d6
+Description: A web based user interface for Soundqube.
 
 Package: soundqube
 Architecture: arm64
@@ -519,13 +531,13 @@ Package: soundqube-fluidsynth
 Architecture: arm64
 Version: 1.0.7
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Depends: soundqube-system, fluidsynth
+Depends: fluidsynth
 Filename: arm64/soundqube-fluidsynth_1.0.7-1_arm64.deb
-Size: 1284
-MD5sum: 96a9afe429efb030a360097e897f627e
-SHA1: f8018c5aa54addb46213dca67161651166c45257
-SHA256: 3756ffae870d2b85b117d232a9bba2ba3bca1d99d06de93a1226fef42c5540d1
-SHA512: 70e43985aac43850fb196a2334eec299965d10ff9eb652a9461e3d8dea8b5f7d4a8150333f6dc7e99e0e50666a6add7ac9e4d2e31c5751b0dee3800954ccd594
+Size: 1276
+MD5sum: d70bb97dccedeaa950e46ba8faf4040c
+SHA1: 1f7b0dc3ffb856c240cd4be10c1a74ac38936f8a
+SHA256: 0eb7626e1b58837724bbc9152612354ae00e97736f7b8b2f8fc999cc56cf7fee
+SHA512: 2877ead1f299399b41674f121dcfa3952aa18fe2443fb5c45a379f4349328664125eac420b5571e4955ab2231e9e22a83d194c2a259863f801f332c906c511ef
 Description: Fluidsynth lifecycle control
 
 Package: soundqube-kernel
@@ -742,6 +754,18 @@ SHA1: a8cfa1f1cb0506b866a1890a386edc926453214e
 SHA256: 379a4538b6128cbfebb56f73a58c9f410944d4192d57d500842ec3b0507a1247
 SHA512: 50f0fe66f323bde54c70bcb6ce4094c98724a26f6527bea9c2570659480093422825e9285736aef8301f593cac3e67db4c199ac46729e0f7e771104cf570f63f
 Description: MIDI notes cloning over several channels
+
+Package: soundqube-webui
+Architecture: arm64
+Version: 1.0.3
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-webui_1.0.3-1_arm64.deb
+Size: 3031320
+MD5sum: ec4c596c668bf24092983c173b745cba
+SHA1: a849153d9e22519c48378a5a34d5d07e617efa41
+SHA256: 4913ba654573fcd36f219cdff93c884d89affc34ff2081714acb8bfe7b24da97
+SHA512: e72816740c868a59cf2225b0aa2de25e48df7478dc7875301e9b124c2d0d35973a96c9057e0e3fc37e907dd96ebe03aff3ce582c57a8d79fd9eee06827ea56d6
+Description: A web based user interface for Soundqube.
 
 Package: soundqube
 Architecture: arm64
