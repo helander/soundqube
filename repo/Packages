@@ -231,11 +231,11 @@ Version: 1.0.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
 Filename: arm64/soundqube-system_1.0.9-1_arm64.deb
-Size: 2124
-MD5sum: e76490e719c4e77fbd79b29511f1fe78
-SHA1: 2ef4b4f2a967a4a0c987831ace351cf607ccdca5
-SHA256: b2b55393b3cfe823d4569180317be497783b1cfe0f818bbd8e7fe09ca03a8c33
-SHA512: 4e86c117ff9a979d7c8d81974b96350daeaad77e68cf7931c6dcbef8f773129003c9691a55ed2525f2a935117f0f97887d0f1b82622a0a640bcf48130b7e4ebb
+Size: 2132
+MD5sum: d18a29a63865d19f9999048b51f93908
+SHA1: 60dc9713967124a630c9c0cc2a9426c7d8bf60cd
+SHA256: ee0656a91df077c761216b25cbddb1546c88d7140e77cd5f871aaf601f29135b
+SHA512: 8154dc69c74357fd8b21090bb1c50172ed6b82e0238bf0a37b1b4492b2aba2f11227315abaeb8e731973bfe56d22fe4c114e7505739a6bb2bf6b68c01aa8d783
 Description: system stuff
 
 Package: soundqube-unison
@@ -508,11 +508,11 @@ Version: 1.0.9
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Depends: pipewire, wireplumber, pipewire-jack, qpwgraph, xvfb, x11vnc, blackbox, menu, wmctrl
 Filename: arm64/soundqube-system_1.0.9-1_arm64.deb
-Size: 2124
-MD5sum: e76490e719c4e77fbd79b29511f1fe78
-SHA1: 2ef4b4f2a967a4a0c987831ace351cf607ccdca5
-SHA256: b2b55393b3cfe823d4569180317be497783b1cfe0f818bbd8e7fe09ca03a8c33
-SHA512: 4e86c117ff9a979d7c8d81974b96350daeaad77e68cf7931c6dcbef8f773129003c9691a55ed2525f2a935117f0f97887d0f1b82622a0a640bcf48130b7e4ebb
+Size: 2132
+MD5sum: d18a29a63865d19f9999048b51f93908
+SHA1: 60dc9713967124a630c9c0cc2a9426c7d8bf60cd
+SHA256: ee0656a91df077c761216b25cbddb1546c88d7140e77cd5f871aaf601f29135b
+SHA512: 8154dc69c74357fd8b21090bb1c50172ed6b82e0238bf0a37b1b4492b2aba2f11227315abaeb8e731973bfe56d22fe4c114e7505739a6bb2bf6b68c01aa8d783
 Description: system stuff
 
 Package: soundqube-unison
