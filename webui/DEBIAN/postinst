@@ -1,0 +1,8 @@
+#!/bin/bash
+ 
+if [ "$1" = configure ]; then
+   systemctl enable soundqube-webui
+   systemctl daemon-reload
+   systemctl stop soundqube-webui
+   systemctl start soundqube-webui
+fi

@@ -1,7 +1,0 @@
-
-Package: soundqube
-Version: VERSION
-Architecture: ARCH
-Maintainer: Lars-Erik Helander <lehswe@gmail.com>
-Description: Meta package for installation of all soundqube packages
-Depends: soundqube-kernel, soundqube-system, fluidsynth, fluidweb, soundqube-unison, soundqube-setbfree, soundqube-aeolus, netcat-traditional

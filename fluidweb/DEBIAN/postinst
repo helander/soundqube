@@ -1,8 +1,0 @@
-#!/bin/bash
- 
-if [ "$1" = configure ]; then
-   systemctl enable fluidweb
-   systemctl daemon-reload
-   systemctl stop fluidweb
-   systemctl start fluidweb
-fi

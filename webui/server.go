@@ -17,7 +17,7 @@ func commandHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/command/", commandHandler)
-	http.Handle("/", http.FileServer(http.Dir("/opt/lib/fluidweb/www")))
+	http.Handle("/", http.FileServer(http.Dir("/opt/lib/soundqube-webui/www")))
 	http.ListenAndServe(":9999", nil)
 }
 

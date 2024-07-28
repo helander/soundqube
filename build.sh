@@ -2,13 +2,9 @@
 
 docker run --privileged --rm tonistiigi/binfmt --install all
 
-#$(cd autoconnect;../pkgbuild.sh;)
 $(cd aeolus;../pkgbuild.sh;)
-#$(cd desktop;../pkgbuild.sh;)
 $(cd fluidsynth;../pkgbuild.sh;)
-$(cd fluidweb;../pkgbuild.sh;)
-#$(cd jack;../pkgbuild.sh;)
-$(cd main;../pkgbuild.sh;)
+$(cd webui;../pkgbuild.sh;)
 #$(cd kernel;../pkgbuild.sh;)
 $(cd unison;../pkgbuild.sh;)
 $(cd setbfree;../pkgbuild.sh;)
