@@ -1,6 +1,0 @@
-#!/bin/bash
- 
-if [ "$1" = remove ] ; then
-        systemctl stop soundqube-webui
-        systemctl disable soundqube-webui
-fi

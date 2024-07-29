@@ -101,12 +101,21 @@
         <script type="module">
             async function fluidsynthSend(port, command) {
                 const response = await fetch("/command/" + command + "?fsport=" + port);
-                return await response.text();
+                const sResponse = await response.text();
+                return sResponse;
             }
 
             async function getChannelInstrument(chan) {
                 let result = {};
-                const channels = await fluidsynthSend(sFsport, "channels -verbose");
+                let ok = false;
+		let channels;
+		while (! ok) {
+		   const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
+                   channels = await fluidsynthSend(sFsport, "channels -verbose");
+                   //console.log('channels',channels);
+		   ok = channels.length > 0;
+		   if (! ok) await sleep(1000);
+		}
                 const channelrow = channels.split("\n")[chan];
                 const row = channelrow.split(",");
                 result.name = row[4].slice(1);
@@ -120,7 +129,6 @@
 
             async function instruments() {
                 const instrument = await getChannelInstrument(Number(sChannel));
-
                 const instruments = await fluidsynthSend(sFsport, "inst%20" + instrument.sfont);
                 const list = instruments.split("\n");
 
@@ -175,7 +183,7 @@
                     const font = event.target.value.split(" ")[0];
                     //console.log('selected font',font,event.target.value);
                     await fluidsynthSend(sFsport, "select%20" + sChannel + "%20" + font + "%20" + "0" + "%20" + "0");
-                    instruments();
+                    await instruments();
                 });
             }
 

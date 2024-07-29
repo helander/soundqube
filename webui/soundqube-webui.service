@@ -1,12 +1,12 @@
 [Unit]
-Description=fluidweb UI server
-After=sound.target
+Description=Web UI server
+After=network.target
 
 [Service]
-ExecStart=/opt/bin/fluidweb
+ExecStart=/opt/bin/soundqube-webui
 Restart=always
 RestartSec=10
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
 
