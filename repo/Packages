@@ -400,6 +400,18 @@ SHA256: c58303cc508d868033ad959a6c7fa253fd192698636d53eb07be259519a32a3b
 SHA512: 3dd9af3c10126b1a21f5cda1c592d3d57c53fb3152a00ac623da8e596d8277d2f414f1668857b851300747b70d1ac5ebb77584fc7ed56a3d83f7a66d94069314
 Description: A web based user interface for Soundqube.
 
+Package: soundqube-webui
+Architecture: arm64
+Version: 1.0.6
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-webui_1.0.6-1_arm64.deb
+Size: 3031300
+MD5sum: 7e2d0109a464d802d2ba4bb35fcda201
+SHA1: 27a8051215468b8fc00b028f94915dc3a28f6684
+SHA256: 722687aa1c70ae23c54e75ac930e1f6cbd5839c04026600e33433bb3dba6972a
+SHA512: b14106a6f79a216d26cc351197e84fe854b23eccef283613288cb8752aeea1b6f8aef31053ba005760c66b1eb6109986646e01efb72c278c8ffc9dfd439666e3
+Description: A web based user interface for Soundqube.
+
 Package: soundqube
 Architecture: arm64
 Version: 1.0.3
@@ -813,6 +825,18 @@ MD5sum: 5450fdc10f284748ef301739c05cc461
 SHA1: 277fd296142355b32b2d7ed5dd684ce28f763bf6
 SHA256: c58303cc508d868033ad959a6c7fa253fd192698636d53eb07be259519a32a3b
 SHA512: 3dd9af3c10126b1a21f5cda1c592d3d57c53fb3152a00ac623da8e596d8277d2f414f1668857b851300747b70d1ac5ebb77584fc7ed56a3d83f7a66d94069314
+Description: A web based user interface for Soundqube.
+
+Package: soundqube-webui
+Architecture: arm64
+Version: 1.0.6
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-webui_1.0.6-1_arm64.deb
+Size: 3031300
+MD5sum: 7e2d0109a464d802d2ba4bb35fcda201
+SHA1: 27a8051215468b8fc00b028f94915dc3a28f6684
+SHA256: 722687aa1c70ae23c54e75ac930e1f6cbd5839c04026600e33433bb3dba6972a
+SHA512: b14106a6f79a216d26cc351197e84fe854b23eccef283613288cb8752aeea1b6f8aef31053ba005760c66b1eb6109986646e01efb72c278c8ffc9dfd439666e3
 Description: A web based user interface for Soundqube.
 
 Package: soundqube
