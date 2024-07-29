@@ -233,6 +233,18 @@ SHA256: 5511c9d5870f33d00e8792465b90303203dd0d51b0de2157d719fcf4b4ac3518
 SHA512: d4a7b1b1c23e2993ded937dfe498087f4e50aedc822fc60ca1db5db821702525be67514ad948af491cdd46488f2771f89328d130fd41917ab4004d0f262c497b
 Description: setBfree tonewheel organ
 
+Package: soundqube-setbfree
+Architecture: arm64
+Version: 1.3.17
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-setbfree_1.3.17-1_arm64.deb
+Size: 93600
+MD5sum: beac9b82bb00c8d443909f1a86305d7f
+SHA1: 553ed1b957decfa45ee64ea50cbae81571c54403
+SHA256: cf5c336702e27ae9ac84a06b32dc5abad671ea03f8118f339e4d14c0e862d808
+SHA512: a0280092bd57af920c76d68257ad597d691161fc4d9c166a97e4ac15b3ef5b1077efb9b6e8395be7103a22185a0f01aaec6fd754e6d5bdfea97d7c3a18e676dd
+Description: setBfree tonewheel organ
+
 Package: soundqube-system
 Architecture: arm64
 Version: 1.0.10
@@ -718,6 +730,18 @@ MD5sum: e3b98aebb65c4d1e22a074510c0a3956
 SHA1: b718c70ea251b5c52a71d8901a64ec64657337af
 SHA256: 5511c9d5870f33d00e8792465b90303203dd0d51b0de2157d719fcf4b4ac3518
 SHA512: d4a7b1b1c23e2993ded937dfe498087f4e50aedc822fc60ca1db5db821702525be67514ad948af491cdd46488f2771f89328d130fd41917ab4004d0f262c497b
+Description: setBfree tonewheel organ
+
+Package: soundqube-setbfree
+Architecture: arm64
+Version: 1.3.17
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-setbfree_1.3.17-1_arm64.deb
+Size: 93600
+MD5sum: beac9b82bb00c8d443909f1a86305d7f
+SHA1: 553ed1b957decfa45ee64ea50cbae81571c54403
+SHA256: cf5c336702e27ae9ac84a06b32dc5abad671ea03f8118f339e4d14c0e862d808
+SHA512: a0280092bd57af920c76d68257ad597d691161fc4d9c166a97e4ac15b3ef5b1077efb9b6e8395be7103a22185a0f01aaec6fd754e6d5bdfea97d7c3a18e676dd
 Description: setBfree tonewheel organ
 
 Package: soundqube-system
