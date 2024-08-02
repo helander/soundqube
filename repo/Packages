@@ -257,6 +257,19 @@ SHA256: 6778da045242c4fb9c648cffae1d03932cbb36e4d1ea18134de05163037f8c78
 SHA512: 1d861d6f853a7b76bbb1ecbb7d69f02a276944bc83c29d9ed08df4ee33058c62a5444b581598f0f5cc8f41e37ba5d69627a47497a48741be028b953e6847ae97
 Description: setBfree tonewheel organ
 
+Package: soundqube-setbfree
+Architecture: arm64
+Version: 1.3.50
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: libftgl2
+Filename: arm64/soundqube-setbfree_1.3.50-1_arm64.deb
+Size: 93884
+MD5sum: cb068b1511615f7beb8bf05fe1e891b6
+SHA1: bef220be89426b7fdf0604289c15bb047f1ebc4a
+SHA256: 8cb05b9093c4db8936d9cfd5e344fa89a437a765c3a6249a53166e5a8cb95fce
+SHA512: 188642ab85238ef94929592bd1bded40ed5252b3134fc64d9a34911433a496643510891acd33728d57389782e17357da03747e876f81aeecedde5e3ef575034c
+Description: setBfree tonewheel organ
+
 Package: soundqube-system
 Architecture: arm64
 Version: 1.0.10
@@ -435,6 +448,18 @@ SHA1: a8cfa1f1cb0506b866a1890a386edc926453214e
 SHA256: 379a4538b6128cbfebb56f73a58c9f410944d4192d57d500842ec3b0507a1247
 SHA512: 50f0fe66f323bde54c70bcb6ce4094c98724a26f6527bea9c2570659480093422825e9285736aef8301f593cac3e67db4c199ac46729e0f7e771104cf570f63f
 Description: MIDI notes cloning over several channels
+
+Package: soundqube-webui
+Architecture: arm64
+Version: 1.0.10
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-webui_1.0.10-1_arm64.deb
+Size: 3031456
+MD5sum: 830460be4a88db69b580aed45d751327
+SHA1: 7d3e69b54c0b96a1c4f7c6b81f0bf1835d0824e9
+SHA256: c8bfec32ffb7bb72966001983ba7fdc96cfe5a9c92d9444605ed5325af9d5e05
+SHA512: e0c2dd9c75e3b9c1dd540f19f3e49fb270411d2e7259d48f46340188048ebea3d7e0802ab0de94189b5bcb4396d7d22ed287c7f3b00498ba406eef80160eef7d
+Description: A web based user interface for Soundqube.
 
 Package: soundqube-webui
 Architecture: arm64
@@ -779,6 +804,19 @@ SHA256: 6778da045242c4fb9c648cffae1d03932cbb36e4d1ea18134de05163037f8c78
 SHA512: 1d861d6f853a7b76bbb1ecbb7d69f02a276944bc83c29d9ed08df4ee33058c62a5444b581598f0f5cc8f41e37ba5d69627a47497a48741be028b953e6847ae97
 Description: setBfree tonewheel organ
 
+Package: soundqube-setbfree
+Architecture: arm64
+Version: 1.3.50
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Depends: libftgl2
+Filename: arm64/soundqube-setbfree_1.3.50-1_arm64.deb
+Size: 93884
+MD5sum: cb068b1511615f7beb8bf05fe1e891b6
+SHA1: bef220be89426b7fdf0604289c15bb047f1ebc4a
+SHA256: 8cb05b9093c4db8936d9cfd5e344fa89a437a765c3a6249a53166e5a8cb95fce
+SHA512: 188642ab85238ef94929592bd1bded40ed5252b3134fc64d9a34911433a496643510891acd33728d57389782e17357da03747e876f81aeecedde5e3ef575034c
+Description: setBfree tonewheel organ
+
 Package: soundqube-system
 Architecture: arm64
 Version: 1.0.10
@@ -957,6 +995,18 @@ SHA1: a8cfa1f1cb0506b866a1890a386edc926453214e
 SHA256: 379a4538b6128cbfebb56f73a58c9f410944d4192d57d500842ec3b0507a1247
 SHA512: 50f0fe66f323bde54c70bcb6ce4094c98724a26f6527bea9c2570659480093422825e9285736aef8301f593cac3e67db4c199ac46729e0f7e771104cf570f63f
 Description: MIDI notes cloning over several channels
+
+Package: soundqube-webui
+Architecture: arm64
+Version: 1.0.10
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-webui_1.0.10-1_arm64.deb
+Size: 3031456
+MD5sum: 830460be4a88db69b580aed45d751327
+SHA1: 7d3e69b54c0b96a1c4f7c6b81f0bf1835d0824e9
+SHA256: c8bfec32ffb7bb72966001983ba7fdc96cfe5a9c92d9444605ed5325af9d5e05
+SHA512: e0c2dd9c75e3b9c1dd540f19f3e49fb270411d2e7259d48f46340188048ebea3d7e0802ab0de94189b5bcb4396d7d22ed287c7f3b00498ba406eef80160eef7d
+Description: A web based user interface for Soundqube.
 
 Package: soundqube-webui
 Architecture: arm64
