@@ -13,7 +13,7 @@ RUN GOOS=linux GOARCH=${ARCH} go build
 RUN mv soundqube-webui package/opt/bin
 ADD www package/opt/lib/soundqube-webui/www
 
-ENV VERSION 1.0.5
+ENV VERSION 1.0.12
 
 ADD DEBIAN package/DEBIAN
 RUN sed -i s/ARCH/${ARCH}/g package/DEBIAN/control
@@ -26,6 +26,6 @@ RUN mv package.deb soundqube-webui_${VERSION}-1_${ARCH}.deb
 
 FROM scratch AS package
 ARG ARCH
-ENV VERSION 1.0.5
+ENV VERSION 1.0.12
 
 COPY --from=base /soundqube-webui_${VERSION}-1_${ARCH}.deb /

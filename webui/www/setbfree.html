@@ -79,7 +79,7 @@
         <div class="channel-container">
             <div class="volume-container">
                 <div class="vertical-slider">
-                    <input id="slider.swell" type="range" min="0" max="100" >
+                    <input id="slider.swell" type="range" min="0" max="127" >
                     <div class="sliderticks">
                         <span></span> <span></span> <span></span> <span></span> <span></span>
                         <span></span> <span></span> <span></span> <span></span> <span></span>
@@ -96,16 +96,19 @@
         </div>
 
         <script type="module">
-            async function fluidsynthSend(port, command) {
-                          const response = await fetch("/command/" + command + "?fsport=" + port);
-                return await response.text();
+            async function synthSend(port, command) {
+                          const url = "http://"+pageUrl.hostname+":"+sFsport+"/" + command;
+                          const response = await fetch(url);
+                          const sResponse = await response.text();
+                          //console.log('cmd',url,sResponse);
+			  return sResponse;
             }
 
             async function getChannelInstrument() {
                 let result = {};
-                const response = await fluidsynthSend(sFsport, "GET program");
+                const response = await synthSend(sFsport, "program");
                 const list = response.split("\n");
-                const row = list[2].split("|");
+                const row = list[0].split("|");
                 result.name = row[1];
                 result.preset = Number(row[0]);
                 //console.log('channelInstrument',result);
@@ -114,11 +117,11 @@
 
             async function instruments() {
                 const instrument = await getChannelInstrument();
-                const instruments = await fluidsynthSend(sFsport, "GET%20programs");
+                const instruments = await synthSend(sFsport, "programs");
                 const list = instruments.split("\n");
                 const instrumentSelector = document.getElementById("instruments");
                 instrumentSelector.length = 0;
-                for (let i = 2; i < list.length - 1; i++) {
+                for (let i = 0; i < list.length - 1; i++) {
                     const option = document.createElement("option");
                     const row = list[i].split('|');
                     option.text = row[1];
@@ -134,27 +137,27 @@
                     //console.log('INSTRUMENT selected',event.target.value);
                     const preset = event.target.value;
                     //const instrument = await getChannelInstrument(Number(sChannel));
-                    await fluidsynthSend(sFsport, "GET%20" + "program/" + preset);
+                    await synthSend(sFsport, "program/" + preset);
                 });
             }
 
             /* Input parameters */
             var fsport = 2729;
 
-            const url = new URL(window.location.href);
-            if (url.searchParams.get("fsport") != null) {
-                fsport = Number(url.searchParams.get("fsport"));
+            const pageUrl = new URL(window.location.href);
+            if (pageUrl.searchParams.get("fsport") != null) {
+                fsport = Number(pageUrl.searchParams.get("fsport"));
             }
             const sFsport = fsport.toString();
 
             /* Define volume slider for channel */
             const sliderElement = document.getElementById("slider.swell");
-            const response = await fluidsynthSend(sFsport, "GET%20swell");
+            const response = await synthSend(sFsport, "control/swellpedal1");
             const list = response.split("\n");
-            const swell = Number(list[2]);
-            sliderElement.value = Math.round((100.0*swell/0.015)).toString();
+            const swell = Number(list[0].split('|')[1].split('=')[1]);
+            sliderElement.value = swell.toString();
             sliderElement.oninput = async function () {
-                await fluidsynthSend(sFsport, "GET%20swell/" + 0.015*Number(this.value)/100.0);
+                await synthSend(sFsport, "control/swellpedal1/" + this.value);
             };
 
             /* Define instrument selector for channel */
@@ -162,4 +165,5 @@
         </script>
     </body>
 </html>
+
 

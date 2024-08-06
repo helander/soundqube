@@ -732,6 +732,7 @@ main (int argc, char* argv[])
 	char* alternateProgrammeFile = NULL;
 	char* alternateConfigFile    = NULL;
 
+        printf("\nLEHSWE PROGRAM VARIANT");
 	memset (&inst, 0, sizeof (b_instance));
 
 	srand ((unsigned int)time (NULL));

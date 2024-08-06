@@ -207,11 +207,14 @@
                 await fluidsynthSend(sFsport, "cc%20" + sChannel + "%20" + "7" + "%20" + Number(this.value));
             };
 
+            await fluidsynthSend(sFsport, "cc%20" + sChannel + "%20" + "7" + "%20" + Number(sliderElement.value));
+
             /* Define soundfont selector for channel */
             await fonts();
 
             /* Define instrument selector for channel */
             await instruments();
+
         </script>
     </body>
 </html>

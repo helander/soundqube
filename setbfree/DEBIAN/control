@@ -4,3 +4,4 @@ Version: VERSION
 Architecture: ARCH
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Description: setBfree tonewheel organ
+Depends: libftgl2
