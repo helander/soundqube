@@ -36,6 +36,18 @@ SHA256: 70b5f50cbdcc2893af25b1bf230c5ef3ea0f2fd74ce5283841e5e68d2907d95c
 SHA512: 5bfcbb679a77c8fa017368889a2abe07401b953280652cba7301984e2116c25f4acfb24c8bf3607323bc0af003c9a6b02cfd5c01b0f5769d64bf3ac2eb386115
 Description: MIDI notes cloning over several channels (lv2 plugin)
 
+Package: soundqube-lv2unison
+Architecture: arm64
+Version: 1.0.1
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-lv2unison_1.0.1-1_arm64.deb
+Size: 5524
+MD5sum: 695c3f82c701348ec769cf6ade9f126b
+SHA1: 62ebc01c246c518438ba31520a4dff7cdd4cb899
+SHA256: a86203bb497d0b31410ae39f88da0080dcd94f44255b977a8897852ae2acd63d
+SHA512: a990118d71efeac11de26ea00bfc49273a21250bc46db7358fce28f17e6060aa43415e85dcd89fd0f8dda085fc30d424c43ab9ae7d4432262eed2cb1dea1d5b6
+Description: MIDI notes cloning over several channels (lv2 plugin)
+
 Package: soundqube-setbfree
 Architecture: arm64
 Version: 1.3.53
@@ -110,6 +122,18 @@ MD5sum: 8a32f458cc1ed0310aee178660b3b7a1
 SHA1: 34bf6eb1e1352a0772d99fbbdd94f4936b1112f9
 SHA256: 70b5f50cbdcc2893af25b1bf230c5ef3ea0f2fd74ce5283841e5e68d2907d95c
 SHA512: 5bfcbb679a77c8fa017368889a2abe07401b953280652cba7301984e2116c25f4acfb24c8bf3607323bc0af003c9a6b02cfd5c01b0f5769d64bf3ac2eb386115
+Description: MIDI notes cloning over several channels (lv2 plugin)
+
+Package: soundqube-lv2unison
+Architecture: arm64
+Version: 1.0.1
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-lv2unison_1.0.1-1_arm64.deb
+Size: 5524
+MD5sum: 695c3f82c701348ec769cf6ade9f126b
+SHA1: 62ebc01c246c518438ba31520a4dff7cdd4cb899
+SHA256: a86203bb497d0b31410ae39f88da0080dcd94f44255b977a8897852ae2acd63d
+SHA512: a990118d71efeac11de26ea00bfc49273a21250bc46db7358fce28f17e6060aa43415e85dcd89fd0f8dda085fc30d424c43ab9ae7d4432262eed2cb1dea1d5b6
 Description: MIDI notes cloning over several channels (lv2 plugin)
 
 Package: soundqube-setbfree
