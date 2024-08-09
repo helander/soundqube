@@ -24,16 +24,16 @@ SHA256: 0eb7626e1b58837724bbc9152612354ae00e97736f7b8b2f8fc999cc56cf7fee
 SHA512: 2877ead1f299399b41674f121dcfa3952aa18fe2443fb5c45a379f4349328664125eac420b5571e4955ab2231e9e22a83d194c2a259863f801f332c906c511ef
 Description: Fluidsynth lifecycle control
 
-Package: lv2unison
+Package: soundqube-lv2unison
 Architecture: arm64
 Version: 1.0.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-lv2unison_1.0.0-1_arm64.deb
-Size: 5520
-MD5sum: 376d4dddf122eaf6ee643d3133ab411c
-SHA1: 622282b34b7df7c4a62c4860d6247bd98c6398a4
-SHA256: edee815e4676dadcb242139c589af0efb04388b16db3fa10853ec4f72b7c4e54
-SHA512: 32f450a7ad97664883f610a88cbce5a06ec8f9d55bcfabfe5726838b4cd73a8d346944bbc141747d57c363cbaea42378122017f607814ac4b8e537101a671894
+Size: 5532
+MD5sum: 8a32f458cc1ed0310aee178660b3b7a1
+SHA1: 34bf6eb1e1352a0772d99fbbdd94f4936b1112f9
+SHA256: 70b5f50cbdcc2893af25b1bf230c5ef3ea0f2fd74ce5283841e5e68d2907d95c
+SHA512: 5bfcbb679a77c8fa017368889a2abe07401b953280652cba7301984e2116c25f4acfb24c8bf3607323bc0af003c9a6b02cfd5c01b0f5769d64bf3ac2eb386115
 Description: MIDI notes cloning over several channels (lv2 plugin)
 
 Package: soundqube-setbfree
@@ -100,16 +100,16 @@ SHA256: 0eb7626e1b58837724bbc9152612354ae00e97736f7b8b2f8fc999cc56cf7fee
 SHA512: 2877ead1f299399b41674f121dcfa3952aa18fe2443fb5c45a379f4349328664125eac420b5571e4955ab2231e9e22a83d194c2a259863f801f332c906c511ef
 Description: Fluidsynth lifecycle control
 
-Package: lv2unison
+Package: soundqube-lv2unison
 Architecture: arm64
 Version: 1.0.0
 Maintainer: Lars-Erik Helander <lehswe@gmail.com>
 Filename: arm64/soundqube-lv2unison_1.0.0-1_arm64.deb
-Size: 5520
-MD5sum: 376d4dddf122eaf6ee643d3133ab411c
-SHA1: 622282b34b7df7c4a62c4860d6247bd98c6398a4
-SHA256: edee815e4676dadcb242139c589af0efb04388b16db3fa10853ec4f72b7c4e54
-SHA512: 32f450a7ad97664883f610a88cbce5a06ec8f9d55bcfabfe5726838b4cd73a8d346944bbc141747d57c363cbaea42378122017f607814ac4b8e537101a671894
+Size: 5532
+MD5sum: 8a32f458cc1ed0310aee178660b3b7a1
+SHA1: 34bf6eb1e1352a0772d99fbbdd94f4936b1112f9
+SHA256: 70b5f50cbdcc2893af25b1bf230c5ef3ea0f2fd74ce5283841e5e68d2907d95c
+SHA512: 5bfcbb679a77c8fa017368889a2abe07401b953280652cba7301984e2116c25f4acfb24c8bf3607323bc0af003c9a6b02cfd5c01b0f5769d64bf3ac2eb386115
 Description: MIDI notes cloning over several channels (lv2 plugin)
 
 Package: soundqube-setbfree
