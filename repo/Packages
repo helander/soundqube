@@ -60,6 +60,18 @@ SHA256: 02045d8ec94771c284b1d652df3e45243c51332a9bff0e83fc544deb653f1dd5
 SHA512: 9c0b39bad77a0a7eb949e3b537a2e979a61e5240c2691fa1f69a28db3c7585b9b4faf5b2a71a75adadea7b9d758a1c530eb6a72b9cb7299326f541d932a9be79
 Description: Testing lv2 ui (lv2 plugin)
 
+Package: soundqube-lv2ui
+Architecture: arm64
+Version: 1.0.2
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-lv2ui_1.0.2-1_arm64.deb
+Size: 8720
+MD5sum: b8081d2d8f55c4a5f8bea009ef39d372
+SHA1: 16828185cbc8f8ded8183f683bf2d23c5e713c16
+SHA256: e85bf042b51efc83e8913022826e9da1d703ed34f193871e1645feed72cb7c58
+SHA512: b3aa246d27ebb2113e194b40559adb128ce118c17d6440dc192f00839051f950936f92245f5a338fa623c3db8ffaf6c4a68db41304ce21744c9dd14a8bc04d07
+Description: Testing lv2 ui (lv2 plugin)
+
 Package: soundqube-lv2unison
 Architecture: arm64
 Version: 1.0.0
@@ -182,6 +194,18 @@ MD5sum: 8ee1fdf5e5f0e125b8236a3beea6b61f
 SHA1: c293435b7735d5bdb22b38a0c0efaf86d1b01c4d
 SHA256: 02045d8ec94771c284b1d652df3e45243c51332a9bff0e83fc544deb653f1dd5
 SHA512: 9c0b39bad77a0a7eb949e3b537a2e979a61e5240c2691fa1f69a28db3c7585b9b4faf5b2a71a75adadea7b9d758a1c530eb6a72b9cb7299326f541d932a9be79
+Description: Testing lv2 ui (lv2 plugin)
+
+Package: soundqube-lv2ui
+Architecture: arm64
+Version: 1.0.2
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-lv2ui_1.0.2-1_arm64.deb
+Size: 8720
+MD5sum: b8081d2d8f55c4a5f8bea009ef39d372
+SHA1: 16828185cbc8f8ded8183f683bf2d23c5e713c16
+SHA256: e85bf042b51efc83e8913022826e9da1d703ed34f193871e1645feed72cb7c58
+SHA512: b3aa246d27ebb2113e194b40559adb128ce118c17d6440dc192f00839051f950936f92245f5a338fa623c3db8ffaf6c4a68db41304ce21744c9dd14a8bc04d07
 Description: Testing lv2 ui (lv2 plugin)
 
 Package: soundqube-lv2unison
