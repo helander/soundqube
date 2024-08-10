@@ -36,6 +36,18 @@ SHA256: ec35aa4c8572abb92be687a4531a7c7b85792a0438db24cc7d3047c7a3b0f836
 SHA512: e1c5189014f305d2a64407aa19b2ae4f011b4d64a6d00a678240791dd8285ce6ca7cc3436d69b0a7695ea28643384a006c478823a2cbbe0aab1acf121916d258
 Description: Jalv with http server
 
+Package: soundqube-lv2ui
+Architecture: arm64
+Version: 1.0.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-lv2ui_1.0.0-1_arm64.deb
+Size: 8704
+MD5sum: c03e20ac21cb889f7618a039b675fcb6
+SHA1: 18610367d6da0cb8184daa66345a3bf3f5b6df1b
+SHA256: 8148e1dd1ad44f2ae462e73c8997693b56d98feb82c312a396d279309c784063
+SHA512: e5d78ab5409297ee4619ed6cdabc7a7c5bf316fb5ff3555bcae7e8abfb5801595dfd4c35fa5434c773fc465ba684cf357f70865edad4e32743b9e2830c3b5107
+Description: Testing lv2 ui (lv2 plugin)
+
 Package: soundqube-lv2unison
 Architecture: arm64
 Version: 1.0.0
@@ -135,6 +147,18 @@ SHA1: 21ca4945d88270ae861649a1e48f3896587be580
 SHA256: ec35aa4c8572abb92be687a4531a7c7b85792a0438db24cc7d3047c7a3b0f836
 SHA512: e1c5189014f305d2a64407aa19b2ae4f011b4d64a6d00a678240791dd8285ce6ca7cc3436d69b0a7695ea28643384a006c478823a2cbbe0aab1acf121916d258
 Description: Jalv with http server
+
+Package: soundqube-lv2ui
+Architecture: arm64
+Version: 1.0.0
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-lv2ui_1.0.0-1_arm64.deb
+Size: 8704
+MD5sum: c03e20ac21cb889f7618a039b675fcb6
+SHA1: 18610367d6da0cb8184daa66345a3bf3f5b6df1b
+SHA256: 8148e1dd1ad44f2ae462e73c8997693b56d98feb82c312a396d279309c784063
+SHA512: e5d78ab5409297ee4619ed6cdabc7a7c5bf316fb5ff3555bcae7e8abfb5801595dfd4c35fa5434c773fc465ba684cf357f70865edad4e32743b9e2830c3b5107
+Description: Testing lv2 ui (lv2 plugin)
 
 Package: soundqube-lv2unison
 Architecture: arm64
