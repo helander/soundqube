@@ -205,6 +205,19 @@ SHA512: b377ed072acc49e0390d4b88f6b6388bf1dcc4ac6d27ed43166501981081af005c384c27
 Description: Fluidsynth for pipewire
 #Depends:
 
+Package: soundqube-pwfluidsynth
+Architecture: arm64
+Version: 1.0.1
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Filename: arm64/soundqube-pwfluidsynth_1.0.1-1_arm64.deb
+Size: 619792
+MD5sum: 7e3a46ad20e486f8e57ec44efa0b6355
+SHA1: c53cb4aa6fe28c66679deb13fcb17c03a1bf2005
+SHA256: f547dd2b36b9ab1e569d406df832e13efcd90c0514295dbd0c81990cf57f5786
+SHA512: 76006228fbab2447664e035da8bdc9e7809e52d29145f5f83b19aa0fd158fa10c410482293623d68a8fea7672935a5ff0065d9c3151a41545969176f784c284e
+Description: Fluidsynth for pipewire
+#Depends:
+
 Package: soundqube-setbfree
 Architecture: arm64
 Version: 1.3.53
