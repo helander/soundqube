@@ -25,7 +25,5 @@ RUN dpkg-deb --build --root-owner-group package
 RUN mv package.deb soundqube-webui_${VERSION}-1_${ARCH}.deb
 
 FROM scratch AS package
-ARG ARCH
-ENV VERSION 1.0.12
 
-COPY --from=base /soundqube-webui_${VERSION}-1_${ARCH}.deb /
+COPY --from=base /*.deb /

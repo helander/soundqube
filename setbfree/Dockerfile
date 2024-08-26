@@ -49,7 +49,5 @@ RUN mv package.deb soundqube-setbfree_${VERSION}-1_${ARCH}.deb
 
 
 FROM scratch AS package
-ARG ARCH
-ENV VERSION 1.3.53
 
-COPY --from=base /soundqube-setbfree_${VERSION}-1_${ARCH}.deb /
+COPY --from=base /*.deb /

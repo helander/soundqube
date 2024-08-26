@@ -32,7 +32,5 @@ RUN mv package.deb soundqube-aeolus_${VERSION}-1_${ARCH}.deb
 
 
 FROM scratch AS package
-ARG ARCH
-ENV VERSION 1.0.11
 
-COPY --from=base /soundqube-aeolus_${VERSION}-1_${ARCH}.deb /
+COPY --from=base /*.deb /

@@ -14,7 +14,5 @@ RUN mv package.deb soundqube-system_${VERSION}-1_${ARCH}.deb
 
 
 FROM scratch AS package
-ARG ARCH
-ENV VERSION 1.0.13
 
-COPY --from=base /soundqube-system_${VERSION}-1_${ARCH}.deb /
+COPY --from=base /*.deb /
