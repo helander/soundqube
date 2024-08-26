@@ -1,0 +1,17 @@
+[Unit]
+Description=setBfree
+After=media-soundqube.mount
+After=soundqube-connect.service
+
+[Service]
+LimitRTPRIO=95
+LimitMEMLOCK=infinity
+ExecStart=/usr/bin/pw-jack -p 128 setBfree -p /media/soundqube/setbfree.pgm
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
+
+
+

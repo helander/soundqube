@@ -1,0 +1,59 @@
+services:
+
+  desktop:
+    build: desktop
+    restart: unless-stopped
+    healthcheck:
+      test: test -f /ready
+    ports:
+      - 5957:5957
+    volumes:
+      - /run/user/1000/pipewire-0:/tmp/pipewire-0
+      - /media/soundqube:/media/soundqube
+    environment:
+      - XDG_RUNTIME_DIR=/tmp
+
+#  xeyes:
+#    build: xeyes
+#    depends_on:
+#      desktop:
+#        condition: service_healthy
+#    environment:
+#      - DISPLAY=desktop:57
+
+
+  fluidsynth:
+    build: fluidsynth
+    restart: unless-stopped
+    ports:
+      - 9800:9800
+    volumes:
+      - /run/user/1000/pipewire-0:/tmp/pipewire-0
+      - /media/soundqube:/media/soundqube
+    environment:
+      - XDG_RUNTIME_DIR=/tmp
+
+  lv2test:
+    build: lv2test
+    restart: unless-stopped
+    depends_on:
+      desktop:
+        condition: service_healthy
+    volumes:
+      - /run/user/1000/pipewire-0:/tmp/pipewire-0
+    environment:
+      - DISPLAY=desktop:57
+      - XDG_RUNTIME_DIR=/tmp
+
+
+  ingen:
+    build: ingen
+    restart: unless-stopped
+    depends_on:
+      desktop:
+        condition: service_healthy
+    volumes:
+      - /run/user/1000/pipewire-0:/tmp/pipewire-0
+    environment:
+      - DISPLAY=desktop:57
+      - XDG_RUNTIME_DIR=/tmp
