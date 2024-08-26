@@ -1,0 +1,6 @@
+
+Package: soundqube-halv
+Version: VERSION
+Architecture: ARCH
+Maintainer: Lars-Erik Helander <lehswe@gmail.com>
+Description: jalv with http control interface
