@@ -41,5 +41,9 @@ become unlimited.
 
 To enable cross building using docker build --platform=...
 
-do this:
+The docker buildx plugin needs to be installed
+        apt install docker-buildx-plugin
+	docker buildx install
+
+And do this:
 * docker run --privileged --rm tonistiigi/binfmt --install all
