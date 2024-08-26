@@ -1,10 +1,11 @@
-FROM debian AS base
+FROM debian:bookworm AS base
 ARG ARCH
 
 RUN apt update -y
 
 RUN apt install -y build-essential git
 RUN apt install -y meson
+RUN touch x
 RUN git clone https://github.com/helander/jalv-http.git
 
 RUN apt install -y libjack-jackd2-dev

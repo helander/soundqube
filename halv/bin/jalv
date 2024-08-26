@@ -2,4 +2,4 @@
 
 COMPONENT_PATH=/opt/soundqube/halv
 binfile=$(basename $0)
-LD_LIBRARY_PATH=${COMPONENT_PATH}/lib/aarch64-linux-gnu ${COMPONENT_PATH}/bin/${binfile} $*
+LV2_PATH=/usr/lib/lv2 LD_LIBRARY_PATH=${COMPONENT_PATH}/lib/aarch64-linux-gnu:${LD_LIBRARY_PATH} ${COMPONENT_PATH}/bin/${binfile} $*
