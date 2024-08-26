@@ -1,9 +1,9 @@
 #!/bin/sh
 Xvfb $DISPLAY -listen tcp &
 sleep 5
-x11vnc -N -forever &
+x11vnc  -forever  &
 sleep 5
-qpwgraph -ax /media/soundqube/soundqube.qpwgraph &
 xhost +
 touch /ready
-blackbox
+blackbox 
+#startxfce4

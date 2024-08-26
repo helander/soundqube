@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:trixie
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y

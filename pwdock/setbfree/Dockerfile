@@ -1,4 +1,4 @@
-FROM debian 
+FROM debian:trixie 
 
 RUN apt update -y
 # For container run-time environment
